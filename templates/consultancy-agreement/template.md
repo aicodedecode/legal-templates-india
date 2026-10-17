@@ -25,102 +25,135 @@ review_status: draft
 related: [statement-of-work, ip-assignment-agreement, master-services-agreement, mutual-nda, data-processing-agreement, advisor-agreement, employment-agreement]
 fields:
   - key: effective_date
+    type: date
     label: "Effective date"
     example: "1 November 2026"
   - key: company_name
+    type: text
     label: "Company's full legal name"
     example: "Acme Technologies Private Limited"
   - key: company_cin
+    type: text
     label: "Company's Corporate Identity Number (CIN)"
     example: "U62099KA2024PTC123456"
   - key: company_address
+    type: textarea
     label: "Company's registered office address"
     example: "No. 12, 4th Cross, Indiranagar, Bengaluru 560038, Karnataka"
   - key: counterparty_name
+    type: text
     label: "Counterparty's full legal name"
     example: "Beta Analytics LLP"
   - key: counterparty_description
+    type: textarea
     label: "Counterparty's constitution and registration details"
     example: "a limited liability partnership registered under the Limited Liability Partnership Act, 2008 with LLPIN AAB-1234"
   - key: counterparty_address
+    type: textarea
     label: "Counterparty's registered office or principal place of business"
     example: "Unit 5, Andheri East, Mumbai 400069, Maharashtra"
   - key: counterparty_pan
+    type: text
     label: "Consultant's Permanent Account Number (PAN)"
     example: "AAAFB1234C"
   - key: company_business
+    type: text
     label: "Short description of the Company's business"
     example: "developing and operating a cloud-based accounting platform for small businesses"
   - key: arbitration_seat
+    type: text
     label: "Seat (legal place) of arbitration and city whose courts have jurisdiction"
     example: "Bengaluru"
   - key: company_email
+    type: email
     label: "Company's email address for notices"
     example: "legal@acme.example"
   - key: payment_days
+    type: text
     label: "Days within which invoices are paid"
     example: "thirty (30)"
   - key: expense_preapproval_limit
+    type: money
     label: "Expense amount above which prior written approval is needed"
     example: "₹ 10,000"
   - key: late_payment_interest
+    type: text
     label: "Annual simple interest rate on late payments (non-MSE consultants)"
     example: "twelve per cent (12%)"
   - key: confidentiality_period
+    type: text
     label: "Period for which confidentiality obligations survive"
     example: "three (3) years"
   - key: non_solicit_months
+    type: text
     label: "Post-term non-solicitation period in months"
     example: "twelve (12)"
   - key: liability_cap_amount
+    type: money
     label: "Liability cap"
     example: "the total Fees paid and payable under this Agreement"
   - key: consultancy_term
+    type: text
     label: "Term of the consultancy"
     example: "twelve (12) months"
   - key: termination_notice_days
+    type: text
     label: "Notice period for the Company's termination for convenience"
     example: "thirty (30)"
   - key: arbitration_venue
+    type: text
     label: "Venue for arbitration hearings (may differ from the seat)"
     example: "Bengaluru"
   - key: stamp_duty_payer
+    type: text
     label: "Party that bears stamp duty"
     example: "the Company"
   - key: company_signatory_name
+    type: text
     label: "Name of the Company's authorised signatory"
     example: "Asha Rao"
   - key: company_signatory_title
+    type: text
     label: "Title of the Company's authorised signatory"
     example: "Director"
   - key: counterparty_email
+    type: email
     label: "Counterparty's email address for notices"
     example: "contracts@beta.example"
   - key: counterparty_signatory_name
+    type: text
     label: "Name of the counterparty's authorised signatory"
     example: "Rohan Mehta"
   - key: counterparty_signatory_title
+    type: text
     label: "Title of the counterparty's authorised signatory"
     example: "Designated Partner"
   - key: services_description
+    type: textarea
     label: "Description of the Services"
     example: "Design and development of the Company's Android and iOS mobile applications in accordance with the product requirements document dated 1 October 2026"
   - key: deliverables_description
+    type: textarea
     label: "Deliverables, specifications and format"
     example: "Source code in the Company's Git repository; build and deployment documentation; test reports"
   - key: milestones
+    type: textarea
     label: "Timelines and critical milestones"
     example: "Milestone 1 (beta build): 15 December 2026 (critical milestone); Milestone 2 (production release): 31 January 2027"
   - key: restricted_competitors
+    type: textarea
     label: "Competitors the Consultant may not serve during the Term"
     example: "Epsilon Ledger Private Limited; Zeta Books Private Limited"
   - key: fee_details
+    type: textarea
     label: "Fee structure and amounts"
     example: "₹ 6,00,000 in aggregate, payable in two equal instalments on Acceptance of Milestone 1 and Milestone 2, exclusive of GST"
   - key: key_personnel
+    type: text
     label: "Key Personnel and their roles"
     example: "Rohan Mehta, lead developer, minimum 30 hours per week"
   - key: consultant_background_ip
+    type: textarea
     label: "Consultant's Background IP that may be incorporated"
     example: "Consultant's proprietary UI component library (version 2.3), licensed under Clause 7.7"
 ---

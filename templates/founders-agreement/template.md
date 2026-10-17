@@ -23,132 +23,175 @@ review_status: draft
 related: [shareholders-agreement, ip-assignment-agreement, esop-plan, board-resolutions, mutual-nda, term-sheet]
 fields:
   - key: effective_date
+    type: date
     label: Date of execution of this Agreement
     example: 1 November 2026
   - key: execution_place
+    type: text
     label: City where the Agreement is executed
     example: Bengaluru
   - key: company_name
+    type: text
     label: Company's full legal name
     example: Acme Technologies Private Limited
   - key: company_cin
+    type: text
     label: Company's Corporate Identity Number (CIN)
     example: U62099KA2026PTC123456
   - key: company_address
+    type: textarea
     label: Company's registered office address
     example: 12, 4th Cross, Indiranagar, Bengaluru 560038, Karnataka
   - key: founder_1_name
+    type: text
     label: First founder's full name
     example: Asha Rao
   - key: founder_1_address
+    type: textarea
     label: First founder's residential address
     example: 45, MG Road, Bengaluru 560001, Karnataka
   - key: founder_2_name
+    type: text
     label: Second founder's full name
     example: Vikram Singh
   - key: founder_2_address
+    type: textarea
     label: Second founder's residential address
     example: 7, Park Street, Kolkata 700016, West Bengal
   - key: business_description
+    type: textarea
     label: Short description of the Company's business
     example: a software-as-a-service platform for logistics planning
   - key: share_face_value
+    type: money
     label: Face value per equity share
     example: ₹ 10
   - key: vesting_commencement_date
+    type: date
     label: Date from which founder vesting is counted
     example: 1 July 2026
   - key: aoa_amendment_days
+    type: number
     label: Days within which the Articles must be amended
     example: "30"
   - key: minimum_hours_per_week
+    type: number
     label: Minimum hours per week each founder will devote
     example: "40"
   - key: vesting_period_months
+    type: number
     label: Total vesting period in months
     example: "48"
   - key: cliff_months
+    type: number
     label: Cliff period in months
     example: "12"
   - key: call_option_period_days
+    type: number
     label: Days within which the call option may be exercised after a Leaving Date
     example: "90"
   - key: completion_days
+    type: number
     label: Days within which a transfer must complete after a Call Notice
     example: "30"
   - key: acceleration_percentage
+    type: number
     label: Percentage of Unvested Shares that accelerate on a Change of Control
     example: "50"
   - key: non_solicit_months
+    type: number
     label: Post-exit non-solicitation period in months
     example: "12"
   - key: deadlock_cooling_days
+    type: number
     label: Days of negotiation before a deadlock escalates
     example: "15"
   - key: lock_in_months
+    type: number
     label: Founder lock-in period in months
     example: "36"
   - key: rofr_offer_period_days
+    type: number
     label: Days the other founders have to accept a ROFR offer
     example: "30"
   - key: drag_threshold_percentage
+    type: number
     label: Shareholding percentage needed to trigger drag-along
     example: "75"
   - key: founder_salary_approval
+    type: text
     label: Body that approves founder remuneration
     example: the Board, with the consent of all Founders then in office
   - key: arbitration_seat
+    type: text
     label: Seat of arbitration
     example: Bengaluru
   - key: arbitration_venue
+    type: text
     label: Venue of arbitration hearings
     example: Bengaluru
   - key: company_email
+    type: email
     label: Company's email address for notices
     example: legal@example.in
   - key: founder_1_email
+    type: email
     label: First founder's email address for notices
     example: asha@example.in
   - key: founder_2_email
+    type: email
     label: Second founder's email address for notices
     example: vikram@example.in
   - key: stamp_duty_payer
+    type: text
     label: Party bearing stamp duty
     example: the Company
   - key: company_signatory_name
+    type: text
     label: Name of the Company's authorised signatory
     example: Meera Iyer
   - key: company_signatory_title
+    type: text
     label: Title of the Company's authorised signatory
     example: Director
   - key: founder_1_role
+    type: text
     label: First founder's title and role
     example: Chief Executive Officer – strategy, fundraising, sales and hiring
   - key: founder_2_role
+    type: text
     label: Second founder's title and role
     example: Chief Technology Officer – product, engineering and security
   - key: founder_1_shares
+    type: text
     label: Number of equity shares held by the first founder
     example: "6,000"
   - key: founder_1_percentage
+    type: text
     label: First founder's percentage shareholding
     example: "60%"
   - key: founder_2_shares
+    type: text
     label: Number of equity shares held by the second founder
     example: "4,000"
   - key: founder_2_percentage
+    type: text
     label: Second founder's percentage shareholding
     example: "40%"
   - key: total_shares
+    type: text
     label: Total issued equity shares of the Company
     example: "10,000"
   - key: reserved_matter_spend_threshold
+    type: money
     label: Spending threshold above which founder consent is required
     example: ₹ 10,00,000
   - key: founder_1_excluded_ip
+    type: textarea
     label: First founder's prior or excluded IP (or "None")
     example: None
   - key: founder_2_excluded_ip
+    type: textarea
     label: Second founder's prior or excluded IP (or "None")
     example: An open-source routing library published before the Vesting Commencement Date under the MIT licence
 ---

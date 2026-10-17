@@ -41,10 +41,23 @@ fields:                              # every {{placeholder}} used in the body, i
     label: Company's full legal name
     example: Acme Technologies Private Limited
   - key: effective_date
+    type: date
     label: Effective date
     example: 1 November 2026
 ---
 ```
+
+Each field must have `key` and `label`, and may also have:
+
+| Attribute | Values | Used by |
+|---|---|---|
+| `type` | `text` (default), `textarea`, `date`, `number`, `money`, `email`, `url`, `select` | Web form input type; AI agents' validation |
+| `required` | `true` (default) or `false` | Web form and agents: whether the document is incomplete without it |
+| `options` | list of strings (required for `select`) | Choices offered in the form |
+| `help` | one sentence | Hint shown under the form input |
+| `example` | string | Placeholder text in the form and sample values for agents |
+
+Write dates in the body as they should appear in the signed document (for example "1 November 2026"). The web form converts a picked date to that format.
 
 ## 3. Placeholders
 

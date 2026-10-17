@@ -23,144 +23,191 @@ review_status: draft
 related: [term-sheet, isafe-note, board-resolutions, esop-plan, founders-agreement, ip-assignment-agreement, employment-agreement]
 fields:
   - key: effective_date
+    type: date
     label: Date of execution of this Agreement
     example: "15 December 2026"
   - key: company_name
+    type: text
     label: Company's full legal name
     example: Acme Technologies Private Limited
   - key: company_cin
+    type: text
     label: Company's Corporate Identity Number
     example: U72900KA2023PTC000000
   - key: company_address
+    type: textarea
     label: Company's registered office address
     example: "4th Floor, 12 Residency Road, Bengaluru 560025, Karnataka"
   - key: founder_1_name
+    type: text
     label: Full name of Founder 1
     example: Founder A
   - key: founder_1_details
+    type: textarea
     label: Description of Founder 1 (parentage, age, PAN/identity, residential address)
     example: son of Parent A, aged 32 years, holding PAN AAAAA0000A, residing at 10 Park Street, Bengaluru 560001
   - key: founder_2_name
+    type: text
     label: Full name of Founder 2
     example: Founder B
   - key: founder_2_details
+    type: textarea
     label: Description of Founder 2 (parentage, age, PAN/identity, residential address)
     example: daughter of Parent B, aged 30 years, holding PAN BBBBB0000B, residing at 5 Hill Road, Bengaluru 560002
   - key: lead_investor_name
+    type: text
     label: Lead investor's full legal name
     example: Example Ventures Fund I
   - key: lead_investor_details
+    type: textarea
     label: Description of the lead investor (constitution, registration, address)
     example: a scheme of Example Trust, a Category I AIF registered with SEBI, acting through its investment manager, with its office at 1 Marine Drive, Mumbai 400020
   - key: business_description
+    type: textarea
     label: Short description of the Company's business
     example: developing and providing software-as-a-service solutions for logistics companies
   - key: ssa_date
+    type: date
     label: Date of the share subscription agreement
     example: "15 December 2026"
   - key: ccps_series_name
+    type: text
     label: Name of the CCPS series
     example: Series A CCPS
   - key: ccps_face_value
+    type: money
     label: Face value per CCPS
     example: ₹ 10
   - key: equity_face_value
+    type: money
     label: Face value per Equity Share
     example: ₹ 1
   - key: exit_years
+    type: number
     label: Exit Period in years from Closing
     example: "6"
   - key: investor_rights_threshold
+    type: money
     label: Minimum fully diluted shareholding for the lead investor's / an investor's special rights
     example: "5%"
   - key: founder_lockin_months
+    type: number
     label: Founder lock-in period in months
     example: "48"
   - key: board_size
+    type: number
     label: Maximum number of directors
     example: "5"
   - key: founder_director_count
+    type: number
     label: Number of directors nominated by the Founders
     example: "2"
   - key: founder_rights_threshold
+    type: money
     label: Minimum aggregate Founder shareholding to keep Founder board rights
     example: "20%"
   - key: investor_director_count
+    type: number
     label: Number of directors nominated by the lead investor
     example: "1"
   - key: mis_days
+    type: number
     label: Days after month end for monthly MIS
     example: "21"
   - key: quarterly_days
+    type: number
     label: Days after quarter end for quarterly financials
     example: "45"
   - key: audited_days
+    type: number
     label: Days after financial year end for audited financial statements
     example: "180"
   - key: budget_days
+    type: number
     label: Days before the financial year for the draft Business Plan
     example: "30"
   - key: drag_years
+    type: number
     label: Years from Closing after which the drag-along becomes exercisable
     example: "7"
   - key: drag_valuation_floor
+    type: money
     label: Minimum implied equity value for a drag without Founder consent
     example: INR 500,00,00,000 (INR 500 crore)
   - key: non_solicit_months
+    type: number
     label: Post-employment non-solicitation period in months
     example: "12"
   - key: founder_vesting_percentage
+    type: text
     label: Percentage of Founder Securities subject to reverse vesting
     example: "50%"
   - key: founder_vesting_months
+    type: number
     label: Reverse vesting period in months
     example: "36"
   - key: esop_pool_percentage
+    type: number
     label: ESOP Pool as a percentage of fully diluted capital at Closing
     example: "10"
   - key: arbitral_institution
+    type: text
     label: Arbitral institution (only if Option B is chosen)
     example: Mumbai Centre for International Arbitration
   - key: arbitration_seat
+    type: text
     label: Seat of arbitration
     example: Bengaluru
   - key: arbitration_venue
+    type: text
     label: Venue of arbitration hearings
     example: Bengaluru
   - key: stamp_duty_payer
+    type: text
     label: Party bearing stamp duty on this Agreement
     example: the Company
   - key: company_signatory_name
+    type: text
     label: Name of the person signing for the Company
     example: Founder A
   - key: company_signatory_title
+    type: text
     label: Designation of the Company signatory
     example: Director
   - key: investor_signatory_name
+    type: text
     label: Name of the person signing for the lead investor
     example: Partner A
   - key: investor_signatory_title
+    type: text
     label: Designation of the lead investor's signatory
     example: Authorised Signatory
   - key: other_investors_details
+    type: textarea
     label: Name, description, address and email of each other Investor
     example: Angel Investor A, an individual resident in India holding PAN CCCCC0000C, of 22 Lake View Road, Pune 411001 (angel@example.in)
   - key: debt_threshold
+    type: money
     label: Annual borrowing/encumbrance threshold
     example: INR 1,00,00,000 (INR 1 crore)
   - key: capex_threshold
+    type: money
     label: Unbudgeted capital expenditure threshold
     example: INR 50,00,000 (INR 50 lakh)
   - key: litigation_threshold
+    type: money
     label: Litigation value threshold
     example: INR 25,00,000 (INR 25 lakh)
   - key: contract_threshold
+    type: money
     label: Contract value threshold outside the ordinary course
     example: INR 1,00,00,000 (INR 1 crore)
   - key: company_email
+    type: email
     label: Company's email for notices
     example: legal@example.in
   - key: investor_email
+    type: email
     label: Lead investor's email for notices
     example: notices@example.in
 ---

@@ -25,60 +25,79 @@ review_status: draft
 related: [privacy-policy, cookie-notice, saas-subscription-agreement, ai-acceptable-use-policy]
 fields:
   - key: brand_name
+    type: text
     label: Brand, website or app name used publicly
     example: Acme
   - key: effective_date
+    type: date
     label: Date this version of the terms takes effect
     example: 1 November 2026
   - key: company_name
+    type: text
     label: Company's full legal name
     example: Acme Technologies Private Limited
   - key: company_cin
+    type: text
     label: Corporate Identity Number (CIN)
     example: U72900KA2024PTC123456
   - key: company_address
+    type: textarea
     label: Registered office address
     example: 4th Floor, 12 MG Road, Bengaluru, Karnataka 560001
   - key: website_url
+    type: url
     label: Website address(es) covered
     example: www.acme.example
   - key: app_name
+    type: text
     label: Name of the mobile application(s) covered
     example: Acme for Android and iOS
   - key: service_description
+    type: textarea
     label: One-line description of what the platform does
     example: an online marketplace connecting home-cooks with customers
   - key: subscription_terms_location
+    type: text
     label: Where pricing and plan details are displayed
     example: the Pricing page on our website
   - key: refund_policy_location
+    type: text
     label: Where the refund and cancellation policy is published
     example: the Refunds page linked in the website footer
   - key: liability_cap_amount
+    type: money
     label: Aggregate liability cap for free users (in INR)
     example: ₹ 10,000
   - key: notice_period_days
+    type: number
     label: Days of advance notice given for material changes to these terms
     example: 15
   - key: grievance_officer_name
+    type: text
     label: Name of the Grievance Officer
     example: Priya Sharma (illustrative)
   - key: grievance_officer_email
+    type: email
     label: Email address of the Grievance Officer
     example: grievance@acme.example
   - key: grievance_officer_address
+    type: textarea
     label: Postal address of the Grievance Officer
     example: 4th Floor, 12 MG Road, Bengaluru, Karnataka 560001
   - key: grievance_officer_phone
+    type: text
     label: Telephone number of the Grievance Officer
     example: +91 80 4000 0000
   - key: governing_city
+    type: text
     label: City whose courts have jurisdiction
     example: Bengaluru
   - key: arbitration_seat
+    type: text
     label: Seat of arbitration
     example: Bengaluru
   - key: company_email
+    type: email
     label: General contact email
     example: hello@acme.example
 ---

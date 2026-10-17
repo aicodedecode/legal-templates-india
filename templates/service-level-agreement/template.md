@@ -20,78 +20,103 @@ review_status: draft
 related: [saas-subscription-agreement, master-services-agreement, statement-of-work, data-processing-agreement]
 fields:
   - key: company_name
+    type: text
     label: Provider's full legal name
     example: Acme Cloud Software Private Limited
   - key: counterparty_name
+    type: text
     label: Customer's full legal name
     example: Bharat Logistics Limited
   - key: principal_agreement_title
+    type: text
     label: Title of the agreement to which this SLA is a schedule
     example: Software-as-a-Service Subscription Agreement
   - key: principal_agreement_date
+    type: date
     label: Date of the principal agreement
     example: 1 November 2026
   - key: effective_date
+    type: date
     label: Date this SLA takes effect
     example: 1 November 2026
   - key: covered_services
+    type: textarea
     label: Services covered by this SLA
     example: The production instance of the Provider's logistics management platform, including its web application and public APIs
   - key: availability_commitment
+    type: text
     label: Monthly availability commitment (percentage)
     example: "99.9"
   - key: maintenance_window
+    type: text
     label: Standard scheduled maintenance window (IST)
     example: Sundays, 1:00 a.m. to 5:00 a.m. IST
   - key: maintenance_cap_hours
+    type: number
     label: Maximum scheduled maintenance hours per calendar month
     example: "8"
   - key: maintenance_notice_hours
+    type: number
     label: Hours of advance notice for scheduled maintenance outside the standard window
     example: "72"
   - key: tier_1_floor
+    type: money
     label: Lower bound of credit tier 1 (percentage availability)
     example: "99.5"
   - key: tier_2_floor
+    type: money
     label: Lower bound of credit tier 2 (percentage availability)
     example: "99.0"
   - key: tier_3_floor
+    type: money
     label: Lower bound of credit tier 3 (percentage availability)
     example: "97.0"
   - key: credit_cap_percent
+    type: number
     label: Maximum total service credits in a month as a percentage of the Monthly Fees
     example: "30"
   - key: business_hours
+    type: text
     label: Support business hours
     example: 9:00 a.m. to 7:00 p.m. IST, Monday to Saturday, excluding national holidays
   - key: support_email
+    type: email
     label: Support email address
     example: support@acmecloud.example
   - key: support_phone
+    type: text
     label: Support phone number for Severity 1 incidents
     example: "+91 80 4000 0000"
   - key: rpo_hours
+    type: number
     label: Recovery point objective (hours)
     example: "4"
   - key: rto_hours
+    type: number
     label: Recovery time objective (hours)
     example: "8"
   - key: claim_days
+    type: number
     label: Days after month-end within which credits must be claimed
     example: "30"
   - key: report_days
+    type: number
     label: Business days after month-end for delivery of the monthly service report
     example: "10"
   - key: company_signatory_name
+    type: text
     label: Name of Provider's authorised signatory
     example: Kavya Rao
   - key: company_signatory_title
+    type: text
     label: Designation of Provider's authorised signatory
     example: Chief Executive Officer
   - key: counterparty_signatory_name
+    type: text
     label: Name of Customer's authorised signatory
     example: Vikram Shah
   - key: counterparty_signatory_title
+    type: text
     label: Designation of Customer's authorised signatory
     example: Chief Information Officer
 ---

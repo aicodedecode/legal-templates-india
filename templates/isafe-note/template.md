@@ -24,93 +24,123 @@ review_status: draft
 related: [term-sheet, shareholders-agreement, board-resolutions, founders-agreement, esop-plan]
 fields:
   - key: effective_date
+    type: date
     label: Date of execution of this Agreement
     example: 1 November 2026
   - key: company_name
+    type: text
     label: Company's full legal name
     example: Acme Technologies Private Limited
   - key: company_cin
+    type: text
     label: Company's Corporate Identity Number
     example: U72900KA2023PTC000000
   - key: company_address
+    type: textarea
     label: Company's registered office address
     example: 4th Floor, 12 Residency Road, Bengaluru 560025, Karnataka
   - key: investor_name
+    type: text
     label: Investor's full legal name
     example: Angel Investor A
   - key: investor_description
+    type: textarea
     label: Description of the Investor (status and identity details)
     example: an individual resident in India holding PAN AAAAA0000A
   - key: investor_address
+    type: textarea
     label: Investor's address
     example: 22 Lake View Road, Pune 411001, Maharashtra
   - key: ccps_number
+    type: text
     label: Number of iSAFE CCPS to be issued
     example: "5,000"
   - key: ccps_face_value
+    type: money
     label: Face value per CCPS
     example: ₹ 10
   - key: issue_price
+    type: money
     label: Issue price per CCPS (face value plus premium)
     example: ₹ 1,000
   - key: equity_face_value
+    type: money
     label: Face value per Equity Share
     example: ₹ 1
   - key: investment_amount
+    type: money
     label: Subscription Amount (issue price × number of CCPS)
     example: INR 50,00,000 (INR 50 lakh)
   - key: company_bank_details
+    type: textarea
     label: Separate private placement bank account (bank, branch, account number, IFSC)
     example: Example Bank, MG Road branch, A/c 000000000000, IFSC EXMP0000000
   - key: long_stop_date
+    type: date
     label: Long-Stop Date for Closing
     example: 15 January 2027
   - key: information_threshold
+    type: money
     label: Minimum Subscription Amount for information rights
     example: INR 25,00,000
   - key: stamp_duty_payer
+    type: text
     label: Party bearing stamp duty on this Agreement and on the issue of the CCPS
     example: the Company
   - key: company_email
+    type: email
     label: Company's email for notices
     example: legal@example.in
   - key: investor_email
+    type: email
     label: Investor's email for notices
     example: investor@example.in
   - key: arbitral_institution
+    type: text
     label: Arbitral institution (only if Option B is chosen)
     example: Mumbai Centre for International Arbitration
   - key: arbitration_seat
+    type: text
     label: Seat of arbitration
     example: Bengaluru
   - key: arbitration_venue
+    type: text
     label: Venue of arbitration hearings
     example: Bengaluru
   - key: company_signatory_name
+    type: text
     label: Name of the person signing for the Company
     example: Founder A
   - key: investor_signatory_name
+    type: text
     label: Name of the person signing for the Investor
     example: Angel Investor A
   - key: company_signatory_title
+    type: text
     label: Designation of the Company signatory
     example: Director
   - key: investor_signatory_title
+    type: text
     label: Capacity of the Investor's signatory
     example: Self
   - key: ccps_dividend_rate
+    type: text
     label: Preferential non-cumulative dividend rate per annum
     example: "0.0001%"
   - key: qualified_financing_amount
+    type: money
     label: Minimum new money for a Qualified Financing
     example: INR 5,00,00,000 (INR 5 crore)
   - key: valuation_cap
+    type: money
     label: Post-money valuation cap
     example: INR 25,00,00,000 (INR 25 crore)
   - key: discount_rate
+    type: text
     label: Discount to the Qualified Financing Price
     example: "20%"
   - key: conversion_long_stop_years
+    type: number
     label: Outer limit for mandatory conversion (years from allotment)
     example: "19"
 ---

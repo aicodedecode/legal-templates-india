@@ -23,90 +23,119 @@ review_status: draft
 related: [master-services-agreement, saas-subscription-agreement, vendor-agreement, service-level-agreement, privacy-policy]
 fields:
   - key: effective_date
+    type: date
     label: Date on which this Agreement takes effect
     example: 1 November 2026
   - key: company_name
+    type: text
     label: Data Fiduciary's full legal name
     example: Acme Technologies Private Limited
   - key: company_cin
+    type: text
     label: Data Fiduciary's CIN or LLPIN
     example: U72900KA2024PTC123456
   - key: company_address
+    type: textarea
     label: Data Fiduciary's registered office address
     example: 4th Floor, 12 MG Road, Bengaluru, Karnataka 560001
   - key: counterparty_name
+    type: text
     label: Data Processor's full legal name
     example: Cloudline Services Private Limited
   - key: counterparty_cin
+    type: text
     label: Data Processor's CIN or LLPIN (or foreign registration number)
     example: U74999MH2019PTC654321
   - key: counterparty_address
+    type: textarea
     label: Data Processor's registered office address
     example: 7th Floor, Tower B, Lower Parel, Mumbai, Maharashtra 400013
   - key: principal_agreement_name
+    type: text
     label: Title of the underlying services agreement
     example: Master Services Agreement
   - key: principal_agreement_date
+    type: date
     label: Date of the underlying services agreement
     example: 15 October 2026
   - key: breach_notice_hours
+    type: number
     label: Hours within which the Processor must notify the Fiduciary of a Personal Data Breach
     example: "12"
   - key: cert_in_notice_hours
+    type: number
     label: Hours within which the Processor must notify the Fiduciary of a Cyber Security Incident
     example: "2"
   - key: rights_assistance_days
+    type: number
     label: Business days within which the Processor must assist with a Data Principal request
     example: "5"
   - key: subprocessor_notice_days
+    type: number
     label: Days' prior notice of a new Sub-processor
     example: "30"
   - key: audit_notice_days
+    type: number
     label: Business days' notice before an audit
     example: "15"
   - key: deletion_days
+    type: number
     label: Days after termination within which data must be returned and erased
     example: "30"
   - key: liability_cap_amount
+    type: money
     label: General liability cap (or reference to the Principal Agreement cap)
     example: the total fees paid or payable under the Principal Agreement in the 12 months preceding the event giving rise to the claim
   - key: super_cap_multiple
+    type: text
     label: Multiple of annual fees for the data-protection super-cap
     example: three (3)
   - key: insurance_amount
+    type: money
     label: Minimum cyber and professional indemnity insurance cover
     example: ₹ 5,00,00,000 (INR 5 crore)
   - key: company_email
+    type: email
     label: Data Fiduciary's email for notices
     example: legal@acme.example
   - key: counterparty_email
+    type: email
     label: Data Processor's email for notices
     example: legal@cloudline.example
   - key: arbitration_seat
+    type: text
     label: Seat of arbitration
     example: Bengaluru
   - key: arbitration_venue
+    type: text
     label: Venue of hearings (if different from the seat)
     example: Bengaluru, or by video conference
   - key: stamp_duty_payer
+    type: text
     label: Party bearing stamp duty
     example: the Data Fiduciary
   - key: company_signatory_name
+    type: text
     label: Name of Data Fiduciary's authorised signatory
     example: Ananya Rao (illustrative)
   - key: company_signatory_title
+    type: text
     label: Title of Data Fiduciary's authorised signatory
     example: Director
   - key: counterparty_signatory_name
+    type: text
     label: Name of Data Processor's authorised signatory
     example: Vikram Mehta (illustrative)
   - key: counterparty_signatory_title
+    type: text
     label: Title of Data Processor's authorised signatory
     example: Chief Executive Officer
   - key: services_description
+    type: textarea
     label: Short description of the services involving processing
     example: cloud hosting, managed database and customer-support ticketing services
   - key: processing_locations
+    type: textarea
     label: Countries and facilities where Personal Data will be processed or stored
     example: India (Mumbai and Hyderabad data centres); support access from Singapore
 ---

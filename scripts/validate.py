@@ -28,6 +28,7 @@ ENUMS = {
     "review_status": {"draft", "community-reviewed", "advocate-reviewed"},
 }
 AUDIENCES = {"startup", "sme", "enterprise", "investor"}
+FIELD_TYPES = {"text", "textarea", "date", "number", "money", "email", "url", "select"}
 README_SECTIONS = [
     "## Overview", "## When to use it", "## When not to use it", "## Key provisions",
     "## India-specific notes", "## Customisation checklist", "## Related templates",
@@ -89,6 +90,12 @@ def check(slug, all_slugs):
             errors.append(f"fields[{i}] must have 'key' and 'label'")
             continue
         declared.append(field["key"])
+        if "type" in field and field["type"] not in FIELD_TYPES:
+            errors.append(f"field '{field['key']}' type must be one of {sorted(FIELD_TYPES)}")
+        if "required" in field and not isinstance(field["required"], bool):
+            errors.append(f"field '{field['key']}' required must be true or false")
+        if field.get("type") == "select" and not field.get("options"):
+            errors.append(f"field '{field['key']}' is a select but has no options")
     dupes = {k for k in declared if declared.count(k) > 1}
     if dupes:
         errors.append(f"duplicate field keys: {sorted(dupes)}")

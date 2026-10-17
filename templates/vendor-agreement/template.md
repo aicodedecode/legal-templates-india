@@ -27,102 +27,135 @@ review_status: draft
 related: [master-services-agreement, data-processing-agreement, mutual-nda, service-level-agreement, statement-of-work]
 fields:
   - key: effective_date
+    type: date
     label: Effective date of this Agreement
     example: 1 November 2026
   - key: company_name
+    type: text
     label: Customer's (buyer's) full legal name
     example: Acme Retail Private Limited
   - key: company_cin
+    type: text
     label: Customer's Corporate Identity Number (CIN) or LLPIN
     example: U52100DL2019PTC345678
   - key: company_address
+    type: textarea
     label: Customer's registered office address
     example: Plot 14, Okhla Industrial Area Phase II, New Delhi 110020
   - key: counterparty_name
+    type: text
     label: Supplier's full legal name
     example: Shree Packaging Industries Private Limited
   - key: counterparty_address
+    type: textarea
     label: Supplier's registered office or principal place of business
     example: Plot 22, MIDC Bhosari, Pune 411026, Maharashtra
   - key: counterparty_gstin
+    type: text
     label: Supplier's GSTIN
     example: 27AAACS1234F1Z5
   - key: po_acceptance_days
+    type: number
     label: Business days within which Supplier must accept or reject a Purchase Order
     example: "2"
   - key: delay_ld_percent
+    type: number
     label: Liquidated damages for late delivery, per week (percentage of value of delayed item)
     example: "0.5"
   - key: delay_ld_cap_percent
+    type: number
     label: Maximum liquidated damages for delay (percentage of value of the relevant Purchase Order)
     example: "10"
   - key: inspection_days
+    type: number
     label: Days after delivery within which Customer may inspect and reject Goods
     example: "15"
   - key: warranty_months
+    type: number
     label: Warranty period for Goods (months from acceptance)
     example: "12"
   - key: payment_days
+    type: number
     label: Days from receipt of valid invoice (or acceptance, if later) within which Customer pays
     example: "45"
   - key: audit_notice_days
+    type: number
     label: Business days' notice for an audit
     example: "10"
   - key: confidentiality_years
+    type: number
     label: Years for which confidentiality survives termination
     example: "5"
   - key: breach_notice_hours
+    type: number
     label: Hours within which Supplier notifies Customer of a personal data breach
     example: "24"
   - key: supplier_cap
+    type: text
     label: Supplier's general liability cap
     example: "the greater of (a) ₹ 1,00,00,000 (INR 1 crore) and (b) two (2) times the total Charges paid and payable in the twelve (12) months preceding the claim"
   - key: super_cap_multiple
+    type: text
     label: Multiple of annual Charges for the Supplier's super-cap on data, confidentiality and IP
     example: three (3)
   - key: insurance_amount
+    type: money
     label: Minimum public/product liability insurance cover
     example: "₹ 5,00,00,000 (INR 5 crore)"
   - key: initial_term_years
+    type: number
     label: Initial term in years
     example: "3"
   - key: convenience_notice_days
+    type: number
     label: Days' notice for Customer's termination for convenience
     example: "30"
   - key: cure_period_days
+    type: number
     label: Days allowed to cure a material breach
     example: "30"
   - key: escalation_days
+    type: number
     label: Days for senior-executive negotiation before arbitration
     example: "30"
   - key: arbitration_seat
+    type: text
     label: Seat of arbitration (city)
     example: New Delhi
   - key: arbitration_venue
+    type: text
     label: Venue for hearings
     example: New Delhi
   - key: governing_city
+    type: text
     label: City whose courts have jurisdiction for non-arbitrable matters
     example: New Delhi
   - key: company_email
+    type: email
     label: Customer's email address for notices
     example: procurement.legal@acmeretail.example
   - key: counterparty_email
+    type: email
     label: Supplier's email address for notices
     example: contracts@shreepackaging.example
   - key: stamp_duty_payer
+    type: text
     label: Party bearing stamp duty
     example: the Supplier
   - key: company_signatory_name
+    type: text
     label: Name of Customer's authorised signatory
     example: Meera Kapoor
   - key: company_signatory_title
+    type: text
     label: Designation of Customer's authorised signatory
     example: Head of Procurement
   - key: counterparty_signatory_name
+    type: text
     label: Name of Supplier's authorised signatory
     example: Sunil Joshi
   - key: counterparty_signatory_title
+    type: text
     label: Designation of Supplier's authorised signatory
     example: Managing Director
 ---

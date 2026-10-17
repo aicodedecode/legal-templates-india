@@ -25,108 +25,143 @@ review_status: draft
 related: [vendor-agreement, mutual-nda, data-processing-agreement, terms-of-use]
 fields:
   - key: effective_date
+    type: date
     label: Effective date of this Agreement
     example: 1 November 2026
   - key: company_name
+    type: text
     label: Supplier's full legal name
     example: Acme Home Appliances Private Limited
   - key: company_cin
+    type: text
     label: Supplier's Corporate Identity Number (CIN) or LLPIN
     example: U29300MH2018PTC309876
   - key: company_address
+    type: textarea
     label: Supplier's registered office address
     example: Unit 5, Andheri Industrial Estate, Andheri East, Mumbai 400093, Maharashtra
   - key: counterparty_name
+    type: text
     label: Distributor's full legal name
     example: Dakshin Trade Links Private Limited
   - key: counterparty_address
+    type: textarea
     label: Distributor's registered office or principal place of business
     example: 45 Anna Salai, Teynampet, Chennai 600018, Tamil Nadu
   - key: counterparty_gstin
+    type: text
     label: Distributor's GSTIN
     example: 33AABCD1234E1Z7
   - key: territory
+    type: text
     label: Territory
     example: The States of Tamil Nadu and Kerala and the Union Territory of Puducherry
   - key: target_shortfall_percent
+    type: number
     label: Percentage of Minimum Purchase Target below which Supplier's remedies apply
     example: "80"
   - key: order_acceptance_days
+    type: number
     label: Business days for Supplier to accept or reject an order
     example: "3"
   - key: delivery_terms
+    type: textarea
     label: Default delivery terms
     example: Delivered to the Distributor's warehouse in Chennai, freight paid by the Supplier (FOR destination)
   - key: inspection_days
+    type: number
     label: Days after delivery for Distributor to notify shortages or visible defects
     example: "7"
   - key: credit_limit
+    type: money
     label: Maximum outstanding credit allowed to Distributor
     example: "₹ 50,00,000 (INR 50 lakh)"
   - key: payment_days
+    type: number
     label: Days from invoice date within which Distributor pays
     example: "30"
   - key: late_interest_rate
+    type: text
     label: Simple interest rate per annum on overdue amounts (percentage)
     example: "15"
   - key: security_amount
+    type: money
     label: Amount of bank guarantee or security deposit
     example: "₹ 25,00,000 (INR 25 lakh)"
   - key: warranty_months
+    type: number
     label: Supplier's warranty period to end customers (months)
     example: "12"
   - key: report_days
+    type: number
     label: Business days after month-end for monthly sales and inventory report
     example: "7"
   - key: confidentiality_years
+    type: number
     label: Years for which confidentiality survives termination
     example: "3"
   - key: initial_term_years
+    type: number
     label: Initial term in years
     example: "3"
   - key: renewal_notice_days
+    type: number
     label: Days' notice of non-renewal
     example: "90"
   - key: convenience_notice_days
+    type: number
     label: Days' notice for termination for convenience
     example: "180"
   - key: cure_period_days
+    type: number
     label: Days allowed to cure a material breach
     example: "30"
   - key: sell_off_days
+    type: number
     label: Days after termination during which Distributor may sell remaining stock
     example: "90"
   - key: escalation_days
+    type: number
     label: Days for senior-executive negotiation before arbitration
     example: "30"
   - key: arbitration_seat
+    type: text
     label: Seat of arbitration (city)
     example: Mumbai
   - key: arbitration_venue
+    type: text
     label: Venue for hearings
     example: Mumbai
   - key: governing_city
+    type: text
     label: City whose courts have jurisdiction for non-arbitrable matters
     example: Mumbai
   - key: company_email
+    type: email
     label: Supplier's email for notices
     example: legal@acmehome.example
   - key: counterparty_email
+    type: email
     label: Distributor's email for notices
     example: md@dakshintrade.example
   - key: stamp_duty_payer
+    type: text
     label: Party bearing stamp duty
     example: the Distributor
   - key: company_signatory_name
+    type: text
     label: Name of Supplier's authorised signatory
     example: Rajesh Nair
   - key: company_signatory_title
+    type: text
     label: Designation of Supplier's authorised signatory
     example: Chief Commercial Officer
   - key: counterparty_signatory_name
+    type: text
     label: Name of Distributor's authorised signatory
     example: Lakshmi Subramanian
   - key: counterparty_signatory_title
+    type: text
     label: Designation of Distributor's authorised signatory
     example: Managing Director
 ---

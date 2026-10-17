@@ -23,102 +23,135 @@ review_status: draft
 related: [employment-agreement, esop-plan, employee-handbook, posh-policy, ip-assignment-agreement]
 fields:
   - key: company_name
+    type: text
     label: Company's full legal name
     example: Acme Technologies Private Limited
   - key: company_cin
+    type: text
     label: Company's Corporate Identity Number (CIN)
     example: U62099KA2026PTC123456
   - key: company_address
+    type: textarea
     label: Company's registered office address
     example: 12, 4th Cross, Indiranagar, Bengaluru 560038, Karnataka
   - key: offer_date
+    type: date
     label: Date of the offer letter
     example: 1 November 2026
   - key: candidate_name
+    type: text
     label: Candidate's full name
     example: Priya Nair
   - key: candidate_address
+    type: textarea
     label: Candidate's address
     example: 22, Lake View Road, Kochi 682016, Kerala
   - key: job_title
+    type: text
     label: Job title
     example: Senior Software Engineer
   - key: department
+    type: text
     label: Department or team
     example: Engineering
   - key: reporting_manager
+    type: text
     label: Title of the reporting manager
     example: Head of Engineering
   - key: work_location
+    type: text
     label: Principal place of work
     example: Bengaluru (hybrid, three days a week in office)
   - key: joining_date
+    type: date
     label: Proposed joining date
     example: 1 December 2026
   - key: annual_ctc
+    type: money
     label: Total annual cost to company (CTC)
     example: ₹ 24,00,000
   - key: basic_monthly
+    type: money
     label: Monthly basic pay
     example: ₹ 1,00,000
   - key: basic_annual
+    type: money
     label: Annual basic pay
     example: ₹ 12,00,000
   - key: hra_monthly
+    type: money
     label: Monthly house rent allowance
     example: ₹ 40,000
   - key: hra_annual
+    type: money
     label: Annual house rent allowance
     example: ₹ 4,80,000
   - key: special_allowance_monthly
+    type: money
     label: Monthly special allowance
     example: ₹ 29,200
   - key: special_allowance_annual
+    type: money
     label: Annual special allowance
     example: ₹ 3,50,400
   - key: fixed_gross_monthly
+    type: money
     label: Monthly gross fixed pay (A)
     example: ₹ 1,69,200
   - key: fixed_gross_annual
+    type: money
     label: Annual gross fixed pay (A)
     example: ₹ 20,30,400
   - key: employer_pf_monthly
+    type: money
     label: Monthly employer provident fund contribution
     example: ₹ 1,800
   - key: employer_pf_annual
+    type: money
     label: Annual employer provident fund contribution
     example: ₹ 21,600
   - key: gratuity_annual
+    type: money
     label: Annual gratuity provision
     example: ₹ 57,720
   - key: insurance_annual
+    type: money
     label: Annual group health insurance premium
     example: ₹ 20,000
   - key: variable_pay_annual
+    type: money
     label: Annual target variable pay
     example: ₹ 2,70,280
   - key: probation_months
+    type: number
     label: Probation period in months
     example: "6"
   - key: probation_notice_days
+    type: number
     label: Notice period during probation (days)
     example: "15"
   - key: notice_period_days
+    type: number
     label: Notice period after confirmation (days)
     example: "60"
   - key: esop_indicative_options
+    type: text
     label: Indicative number of options to be recommended
     example: "2,000"
   - key: company_email
+    type: email
     label: Company HR email for acceptance and queries
     example: people@example.in
   - key: acceptance_deadline
+    type: text
     label: Date by which the offer must be accepted
     example: 10 November 2026
   - key: company_signatory_name
+    type: text
     label: Name of the Company's authorised signatory
     example: Meera Iyer
   - key: company_signatory_title
+    type: text
     label: Title of the Company's authorised signatory
     example: Head of People
 ---

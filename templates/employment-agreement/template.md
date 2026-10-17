@@ -28,153 +28,203 @@ review_status: draft
 related: [offer-letter, employee-handbook, posh-policy, esop-plan, ip-assignment-agreement, mutual-nda]
 fields:
   - key: effective_date
+    type: date
     label: Date of execution of this Agreement
     example: 25 November 2026
   - key: execution_place
+    type: text
     label: City where the Agreement is executed
     example: Bengaluru
   - key: company_name
+    type: text
     label: Company's full legal name
     example: Acme Technologies Private Limited
   - key: company_cin
+    type: text
     label: Company's Corporate Identity Number (CIN)
     example: U62099KA2026PTC123456
   - key: company_address
+    type: textarea
     label: Company's registered office address
     example: 12, 4th Cross, Indiranagar, Bengaluru 560038, Karnataka
   - key: employee_name
+    type: text
     label: Employee's full name
     example: Priya Nair
   - key: employee_address
+    type: textarea
     label: Employee's residential address
     example: 22, Lake View Road, Kochi 682016, Kerala
   - key: offer_date
+    type: date
     label: Date of the offer letter
     example: 1 November 2026
   - key: shops_establishments_act
+    type: text
     label: Applicable State Shops and Establishments Act
     example: Karnataka Shops and Commercial Establishments Act, 1961
   - key: joining_date
+    type: date
     label: Date of joining
     example: 1 December 2026
   - key: job_title
+    type: text
     label: Job title
     example: Senior Software Engineer
   - key: reporting_manager
+    type: text
     label: Title of the reporting manager
     example: Head of Engineering
   - key: work_location
+    type: text
     label: Principal place of work
     example: Bengaluru (hybrid, three days a week in office)
   - key: working_hours_per_day
+    type: number
     label: Normal working hours per day
     example: "9"
   - key: working_days
+    type: text
     label: Normal working days
     example: Monday to Friday
   - key: annual_ctc
+    type: money
     label: Total annual cost to company (CTC)
     example: ₹ 24,00,000
   - key: salary_payment_day
+    type: text
     label: Day of the month by which salary is paid
     example: the last working day of the month
   - key: earned_leave_days
+    type: number
     label: Annual earned or privilege leave (days)
     example: "18"
   - key: casual_leave_days
+    type: number
     label: Annual casual leave (days)
     example: "8"
   - key: sick_leave_days
+    type: number
     label: Annual sick leave (days)
     example: "8"
   - key: leave_carry_forward_cap
+    type: text
     label: Maximum earned leave that may be carried forward (days)
     example: "45"
   - key: probation_months
+    type: number
     label: Probation period in months
     example: "6"
   - key: probation_notice_days
+    type: number
     label: Notice period during probation (days)
     example: "15"
   - key: non_solicit_months
+    type: number
     label: Post-employment non-solicitation period (months)
     example: "12"
   - key: notice_period_days
+    type: number
     label: Notice period after confirmation (days)
     example: "60"
   - key: retirement_age
+    type: text
     label: Retirement age
     example: "60"
   - key: training_bond_amount
+    type: money
     label: Maximum training cost recoverable (if applicable)
     example: ₹ 2,00,000
   - key: company_email
+    type: email
     label: Company's email address for notices
     example: people@example.in
   - key: employee_email
+    type: email
     label: Employee's personal email address for notices
     example: priya.personal@example.com
   - key: arbitration_seat
+    type: text
     label: Seat of arbitration
     example: Bengaluru
   - key: arbitration_venue
+    type: text
     label: Venue of arbitration hearings
     example: Bengaluru
   - key: governing_city
+    type: text
     label: City whose courts have jurisdiction (courts option)
     example: Bengaluru
   - key: stamp_duty_payer
+    type: text
     label: Party bearing stamp duty
     example: the Company
   - key: company_signatory_name
+    type: text
     label: Name of the Company's authorised signatory
     example: Meera Iyer
   - key: company_signatory_title
+    type: text
     label: Title of the Company's authorised signatory
     example: Head of People
   - key: basic_monthly
+    type: money
     label: Monthly basic pay
     example: ₹ 1,00,000
   - key: basic_annual
+    type: money
     label: Annual basic pay
     example: ₹ 12,00,000
   - key: hra_monthly
+    type: money
     label: Monthly house rent allowance
     example: ₹ 40,000
   - key: hra_annual
+    type: money
     label: Annual house rent allowance
     example: ₹ 4,80,000
   - key: special_allowance_monthly
+    type: money
     label: Monthly special allowance
     example: ₹ 29,200
   - key: special_allowance_annual
+    type: money
     label: Annual special allowance
     example: ₹ 3,50,400
   - key: fixed_gross_monthly
+    type: money
     label: Monthly gross fixed pay (A)
     example: ₹ 1,69,200
   - key: fixed_gross_annual
+    type: money
     label: Annual gross fixed pay (A)
     example: ₹ 20,30,400
   - key: employer_pf_monthly
+    type: money
     label: Monthly employer provident fund contribution
     example: ₹ 1,800
   - key: employer_pf_annual
+    type: money
     label: Annual employer provident fund contribution
     example: ₹ 21,600
   - key: gratuity_annual
+    type: money
     label: Annual gratuity provision
     example: ₹ 57,720
   - key: insurance_annual
+    type: money
     label: Annual group health insurance premium
     example: ₹ 20,000
   - key: variable_pay_annual
+    type: money
     label: Annual target variable pay
     example: ₹ 2,70,280
   - key: role_description
+    type: textarea
     label: Key responsibilities of the role
     example: Design, build and maintain backend services; review code; mentor two junior engineers; participate in on-call rotation
   - key: employee_excluded_ip
+    type: textarea
     label: Employee's prior inventions or excluded IP (or "None")
     example: None
 ---

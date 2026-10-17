@@ -25,63 +25,83 @@ review_status: draft
 related: [founders-agreement, employment-agreement, consultancy-agreement, advisor-agreement, shareholders-agreement, term-sheet]
 fields:
   - key: effective_date
+    type: date
     label: "Effective date"
     example: "1 November 2026"
   - key: assignor_name
+    type: text
     label: "Assignor's full name"
     example: "Vikram Nair"
   - key: assignor_address
+    type: textarea
     label: "Assignor's residential address"
     example: "House No. 21, Sector 15, Gurugram 122001, Haryana"
   - key: company_name
+    type: text
     label: "Company's full legal name"
     example: "Acme Technologies Private Limited"
   - key: company_cin
+    type: text
     label: "Company's Corporate Identity Number (CIN)"
     example: "U62099KA2024PTC123456"
   - key: company_address
+    type: textarea
     label: "Company's registered office address"
     example: "No. 12, 4th Cross, Indiranagar, Bengaluru 560038, Karnataka"
   - key: company_business
+    type: text
     label: "Short description of the Company's business"
     example: "developing and operating a cloud-based accounting platform for small businesses"
   - key: assignor_relationship
+    type: text
     label: "Assignor's relationship with the Company"
     example: "a co-founder, director and shareholder"
   - key: engagement_start_date
+    type: date
     label: "Date the Assignor's involvement with the Business began"
     example: "1 March 2024"
   - key: arbitration_seat
+    type: text
     label: "Seat (legal place) of arbitration and city whose courts have jurisdiction"
     example: "Bengaluru"
   - key: assignment_consideration
+    type: money
     label: "Consideration for the assignment"
     example: "a sum of ₹ 1,000 (Rupees one thousand only), paid on the Effective Date"
   - key: assignor_liability_cap
+    type: text
     label: "Cap on the Assignor's indemnity liability"
     example: "₹ 5,00,000 (Rupees five lakh only)"
   - key: arbitration_venue
+    type: text
     label: "Venue for arbitration hearings (may differ from the seat)"
     example: "Bengaluru"
   - key: stamp_duty_payer
+    type: text
     label: "Party that bears stamp duty"
     example: "the Company"
   - key: assignor_email
+    type: email
     label: "Assignor's email address for notices"
     example: "vikram@assignor.example"
   - key: company_email
+    type: email
     label: "Company's email address for notices"
     example: "legal@acme.example"
   - key: company_signatory_name
+    type: text
     label: "Name of the Company's authorised signatory"
     example: "Asha Rao"
   - key: company_signatory_title
+    type: text
     label: "Title of the Company's authorised signatory"
     example: "Director"
   - key: assigned_ip_description
+    type: textarea
     label: "Description of the known Assigned IP"
     example: "The source code of the Company's invoicing application developed between March 2024 and the date of incorporation, held in the repository named 'invoicer-core'"
   - key: excluded_inventions
+    type: textarea
     label: "Assignor's Excluded Inventions"
     example: "None"
 ---

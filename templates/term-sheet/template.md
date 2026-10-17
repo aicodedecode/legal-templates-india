@@ -22,135 +22,179 @@ review_status: draft
 related: [shareholders-agreement, isafe-note, board-resolutions, esop-plan, founders-agreement, mutual-nda]
 fields:
   - key: round_name
+    type: text
     label: Name of the financing round
     example: Series A
   - key: company_name
+    type: text
     label: Company's full legal name
     example: Acme Technologies Private Limited
   - key: effective_date
+    type: date
     label: Date of this term sheet
     example: 1 November 2026
   - key: company_cin
+    type: text
     label: Company's Corporate Identity Number
     example: U72900KA2023PTC000000
   - key: company_address
+    type: textarea
     label: Company's registered office address
     example: 4th Floor, 12 Residency Road, Bengaluru 560025, Karnataka
   - key: ccps_series_name
+    type: text
     label: Name of the CCPS series
     example: Series A CCPS
   - key: ccps_face_value
+    type: money
     label: Face value per CCPS
     example: ₹ 10
   - key: equity_face_value
+    type: money
     label: Face value per Equity Share
     example: ₹ 1
   - key: founder_names
+    type: textarea
     label: Full names of the founders
     example: Founder A and Founder B
   - key: lead_investor_name
+    type: text
     label: Lead investor's full legal name
     example: Example Ventures Fund I
   - key: other_investor_names
+    type: textarea
     label: Other investors participating in the round (or "None")
     example: Angel Investor A and Angel Investor B
   - key: round_size
+    type: money
     label: Aggregate Subscription Amount for the round
     example: INR 40,00,00,000 (INR 40 crore)
   - key: lead_investor_commitment
+    type: money
     label: Amount committed by the lead investor
     example: INR 30,00,00,000 (INR 30 crore)
   - key: pre_money_valuation
+    type: money
     label: Pre-money valuation on a Fully Diluted Basis
     example: INR 160,00,00,000 (INR 160 crore)
   - key: esop_pool_percentage
+    type: number
     label: Ungranted ESOP Pool as a percentage of post-Closing fully diluted capital
     example: "10"
   - key: ccps_dividend_rate
+    type: text
     label: Preferential non-cumulative dividend rate on the CCPS (per annum)
     example: "0.001%"
   - key: conversion_long_stop_years
+    type: number
     label: Outer limit for mandatory conversion of the CCPS (years from allotment)
     example: "19"
   - key: board_size
+    type: number
     label: Maximum number of directors after Closing
     example: "5"
   - key: founder_director_count
+    type: number
     label: Number of directors nominated by the founders
     example: "2"
   - key: investor_director_count
+    type: number
     label: Number of directors nominated by the lead investor
     example: "1"
   - key: investor_rights_threshold
+    type: money
     label: Minimum fully diluted shareholding for an investor to keep its special rights
     example: "5%"
   - key: mis_days
+    type: number
     label: Days after month end for monthly MIS
     example: "21"
   - key: quarterly_days
+    type: number
     label: Days after quarter end for quarterly unaudited financials
     example: "45"
   - key: audited_days
+    type: number
     label: Days after financial year end for audited financial statements
     example: "180"
   - key: budget_days
+    type: number
     label: Days before start of the financial year for the annual budget
     example: "30"
   - key: founder_lockin_months
+    type: number
     label: Founder lock-in period in months
     example: "48"
   - key: founder_vesting_percentage
+    type: text
     label: Percentage of each founder's Securities subject to reverse vesting
     example: "50%"
   - key: founder_vesting_months
+    type: number
     label: Reverse vesting period in months
     example: "36"
   - key: exit_years
+    type: number
     label: Exit Period in years from Closing
     example: "6"
   - key: drag_years
+    type: number
     label: Years from Closing after which the drag-along becomes exercisable
     example: "7"
   - key: drag_valuation_floor
+    type: money
     label: Minimum implied equity value for a drag sale without founder consent
     example: INR 500,00,00,000 (INR 500 crore)
   - key: long_stop_date
+    type: date
     label: Long-Stop Date for Closing
     example: 31 January 2027
   - key: investor_costs_cap
+    type: money
     label: Cap on the lead investor's costs reimbursed by the Company
     example: INR 15,00,000
   - key: exclusivity_days
+    type: number
     label: Exclusivity Period in days
     example: "60"
   - key: arbitral_institution
+    type: text
     label: Arbitral institution (only if Option B is chosen)
     example: Mumbai Centre for International Arbitration
   - key: arbitration_seat
+    type: text
     label: Seat of arbitration
     example: Bengaluru
   - key: arbitration_venue
+    type: text
     label: Venue of arbitration hearings
     example: Bengaluru
   - key: company_signatory_name
+    type: text
     label: Name of the person signing for the Company
     example: Founder A
   - key: investor_signatory_name
+    type: text
     label: Name of the person signing for the lead investor
     example: Partner A
   - key: company_signatory_title
+    type: text
     label: Designation of the Company signatory
     example: Director
   - key: investor_signatory_title
+    type: text
     label: Designation of the lead investor's signatory
     example: Authorised Signatory
   - key: company_email
+    type: email
     label: Company's email for notices
     example: legal@example.in
   - key: investor_email
+    type: email
     label: Lead investor's email for notices
     example: notices@example.in
   - key: debt_threshold
+    type: money
     label: Annual borrowing/encumbrance threshold requiring investor consent
     example: INR 1,00,00,000 (INR 1 crore)
 ---

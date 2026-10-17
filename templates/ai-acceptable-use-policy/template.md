@@ -22,30 +22,39 @@ review_status: draft
 related: [employee-handbook, employment-agreement, consultancy-agreement, data-processing-agreement, privacy-policy, terms-of-use, vendor-agreement]
 fields:
   - key: company_name
+    type: text
     label: Company's full legal name
     example: Acme Technologies Private Limited
   - key: effective_date
+    type: date
     label: Date the policy takes effect
     example: 1 November 2026
   - key: policy_owner_title
+    type: text
     label: Title of the person who owns this policy
     example: Chief Technology Officer
   - key: ai_committee_name
+    type: text
     label: Name of the cross-functional body that approves AI tools and use cases
     example: AI Governance Committee
   - key: approved_tools_location
+    type: text
     label: Where the AI Tools Register is published internally
     example: the "AI Tools Register" page on the company intranet
   - key: ai_incident_email
+    type: email
     label: Email address for reporting AI incidents
     example: ai-incidents@acme.example
   - key: dpo_email
+    type: email
     label: Email address of the DPO / privacy contact
     example: privacy@acme.example
   - key: training_frequency
+    type: text
     label: How often AI training must be completed
     example: annually, and within 30 days of joining
   - key: policy_review_months
+    type: number
     label: Interval in months between policy reviews
     example: "6"
 ---

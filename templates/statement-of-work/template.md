@@ -22,111 +22,147 @@ review_status: draft
 related: [master-services-agreement, service-level-agreement, data-processing-agreement, saas-subscription-agreement]
 fields:
   - key: sow_number
+    type: text
     label: Statement of Work reference number
     example: SOW-2026-003
   - key: effective_date
+    type: date
     label: Date this SOW is signed / takes effect
     example: 1 December 2026
   - key: company_name
+    type: text
     label: Provider's full legal name
     example: Acme Technologies Private Limited
   - key: counterparty_name
+    type: text
     label: Customer's full legal name
     example: Bharat Retail Solutions Limited
   - key: msa_date
+    type: date
     label: Date of the Master Services Agreement
     example: 1 November 2026
   - key: project_name
+    type: text
     label: Project name
     example: Omnichannel Order Management Platform – Phase 1
   - key: project_start_date
+    type: date
     label: Project start date
     example: 8 December 2026
   - key: project_end_date
+    type: date
     label: Target completion date
     example: 31 May 2027
   - key: project_background
+    type: textarea
     label: Short description of the Customer's business need
     example: The Customer wishes to replace its legacy order management system with a cloud-native platform integrated with its e-commerce storefront and ERP.
   - key: project_objectives
+    type: textarea
     label: Measurable project objectives
     example: Go-live of order capture, inventory sync and returns modules for 120 stores by 31 May 2027.
   - key: in_scope_services
+    type: textarea
     label: Description of in-scope Services
     example: Requirements validation, solution design, development of three modules, integration with the Customer's ERP via documented APIs, testing support, deployment and 30 days of hypercare.
   - key: out_of_scope_items
+    type: textarea
     label: Items expressly out of scope
     example: Data cleansing of legacy records; hardware procurement; changes to the ERP itself; end-user training beyond two train-the-trainer sessions.
   - key: deliverable_1
+    type: text
     label: Deliverable 1 – name and description
     example: Solution Design Document
   - key: deliverable_1_date
+    type: date
     label: Deliverable 1 – due date
     example: 15 January 2027
   - key: deliverable_2
+    type: text
     label: Deliverable 2 – name and description
     example: Order Capture and Inventory Sync modules (source code and configuration)
   - key: deliverable_2_date
+    type: date
     label: Deliverable 2 – due date
     example: 31 March 2027
   - key: deliverable_3
+    type: text
     label: Deliverable 3 – name and description
     example: Returns module, deployment runbook and production go-live
   - key: deliverable_3_date
+    type: date
     label: Deliverable 3 – due date
     example: 15 May 2027
   - key: pricing_model
+    type: text
     label: Pricing model
     example: Fixed price
   - key: total_fees
+    type: money
     label: Total Fees for this SOW (excluding GST)
     example: "₹ 85,00,000 (INR 85 lakh)"
   - key: milestone_1_amount
+    type: money
     label: Milestone 1 payment amount
     example: "₹ 17,00,000"
   - key: milestone_2_amount
+    type: money
     label: Milestone 2 payment amount
     example: "₹ 34,00,000"
   - key: milestone_3_amount
+    type: money
     label: Milestone 3 payment amount
     example: "₹ 25,50,000"
   - key: milestone_4_amount
+    type: money
     label: Milestone 4 (hypercare completion) payment amount
     example: "₹ 8,50,000"
   - key: rate_card
+    type: textarea
     label: Time-and-materials rates for change requests and additional work
     example: "Architect ₹ 12,000 per day; Senior Developer ₹ 8,000 per day; QA Engineer ₹ 6,000 per day"
   - key: acceptance_period_days
+    type: number
     label: Business days for acceptance testing of each Deliverable
     example: "10"
   - key: hypercare_days
+    type: number
     label: Days of post-go-live hypercare support
     example: "30"
   - key: work_location
+    type: text
     label: Location(s) from which Services will be performed
     example: Provider's offices in Bengaluru, with on-site presence at the Customer's Mumbai office as required
   - key: company_project_manager
+    type: text
     label: Provider's project manager (name and email)
     example: Neha Kulkarni, neha.k@acmetech.example
   - key: counterparty_project_manager
+    type: text
     label: Customer's project manager (name and email)
     example: Arjun Iyer, arjun.iyer@bharatretail.example
   - key: personal_data_description
+    type: textarea
     label: Categories of personal data and Data Principals to be processed (or "None")
     example: Names, phone numbers, email and delivery addresses of the Customer's retail customers; names and work emails of Customer employees
   - key: stamp_duty_payer
+    type: text
     label: Party bearing stamp duty on this SOW (if separately chargeable)
     example: the Customer
   - key: company_signatory_name
+    type: text
     label: Name of Provider's authorised signatory
     example: Asha Menon
   - key: company_signatory_title
+    type: text
     label: Designation of Provider's authorised signatory
     example: Director
   - key: counterparty_signatory_name
+    type: text
     label: Name of Customer's authorised signatory
     example: Rohan Desai
   - key: counterparty_signatory_title
+    type: text
     label: Designation of Customer's authorised signatory
     example: Chief Technology Officer
 ---

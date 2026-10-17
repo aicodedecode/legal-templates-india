@@ -20,36 +20,47 @@ review_status: draft
 related: [privacy-policy, terms-of-use]
 fields:
   - key: brand_name
+    type: text
     label: Brand, website or app name used publicly
     example: Acme
   - key: effective_date
+    type: date
     label: Date this version of the notice takes effect
     example: 1 November 2026
   - key: company_name
+    type: text
     label: Company's full legal name
     example: Acme Technologies Private Limited
   - key: website_url
+    type: url
     label: Website address(es) covered
     example: www.acme.example
   - key: app_name
+    type: text
     label: Name of the mobile application(s) covered
     example: Acme for Android and iOS
   - key: cookie_settings_location
+    type: text
     label: Where users can open cookie settings
     example: the "Cookie settings" link in the footer of every page, or Settings > Privacy in the app
   - key: consent_record_period
+    type: text
     label: How long consent records are retained
     example: the life of your account plus 3 years
   - key: consent_refresh_months
+    type: number
     label: Interval (in months) after which consent is sought again
     example: 12
   - key: dpo_email
+    type: email
     label: Email address of the DPO / contact person
     example: privacy@acme.example
   - key: grievance_officer_name
+    type: text
     label: Name of the Grievance Officer
     example: Priya Sharma (illustrative)
   - key: grievance_officer_email
+    type: email
     label: Email address of the Grievance Officer
     example: grievance@acme.example
 ---

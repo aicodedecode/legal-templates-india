@@ -28,75 +28,99 @@ review_status: draft
 related: [posh-policy, ai-acceptable-use-policy, employment-agreement, offer-letter, privacy-policy]
 fields:
   - key: company_name
+    type: text
     label: Company's full legal name
     example: Acme Technologies Private Limited
   - key: effective_date
+    type: date
     label: Date from which the Handbook is effective
     example: 1 December 2026
   - key: handbook_owner
+    type: text
     label: Function responsible for the Handbook
     example: People and Culture team
   - key: company_email
+    type: email
     label: HR email address for queries
     example: people@example.in
   - key: compliance_officer_email
+    type: email
     label: Email of the ethics and compliance officer
     example: ethics@example.in
   - key: shops_establishments_act
+    type: text
     label: Applicable State Shops and Establishments Act
     example: Karnataka Shops and Commercial Establishments Act, 1961
   - key: working_hours_per_day
+    type: number
     label: Normal working hours per day
     example: "9"
   - key: working_days
+    type: text
     label: Normal working days
     example: Monday to Friday
   - key: core_hours
+    type: text
     label: Core collaboration hours
     example: 11:00 a.m. to 4:00 p.m. IST
   - key: earned_leave_days
+    type: number
     label: Annual earned or privilege leave (days)
     example: "18"
   - key: leave_carry_forward_cap
+    type: text
     label: Maximum earned leave that may be carried forward (days)
     example: "45"
   - key: casual_leave_days
+    type: number
     label: Annual casual leave (days)
     example: "8"
   - key: sick_leave_days
+    type: number
     label: Annual sick leave (days)
     example: "8"
   - key: holidays_count
+    type: number
     label: Number of paid public and festival holidays per year
     example: "12"
   - key: paternity_leave_days
+    type: number
     label: Paternity leave (days)
     example: "10"
   - key: bereavement_leave_days
+    type: number
     label: Bereavement leave (days)
     example: "5"
   - key: remote_days_per_week
+    type: number
     label: Maximum remote working days per week (hybrid)
     example: "2"
   - key: grievance_officer_email
+    type: email
     label: Email of the data protection grievance officer
     example: privacy@example.in
   - key: grievance_officer_name
+    type: text
     label: Name or title of the data protection grievance officer
     example: Data Protection Officer
   - key: gift_value_limit
+    type: money
     label: Maximum value of a permissible gift
     example: ₹ 2,500
   - key: ic_email
+    type: email
     label: Email of the Internal Committee under the POSH Act
     example: ic@example.in
   - key: whistleblower_email
+    type: email
     label: Email or channel for whistleblower reports
     example: speakup@example.in
   - key: audit_committee_chair_email
+    type: email
     label: Email of the Audit Committee chair or designated director
     example: auditchair@example.in
   - key: notice_period_days
+    type: number
     label: Standard notice period after confirmation (days)
     example: "60"
 ---

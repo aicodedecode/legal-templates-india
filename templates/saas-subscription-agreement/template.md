@@ -24,105 +24,139 @@ review_status: draft
 related: [service-level-agreement, data-processing-agreement, master-services-agreement, statement-of-work, ai-acceptable-use-policy, mutual-nda, terms-of-use]
 fields:
   - key: effective_date
+    type: date
     label: Effective date of this Agreement
     example: 1 November 2026
   - key: company_name
+    type: text
     label: Provider's full legal name
     example: Acme Cloud Software Private Limited
   - key: company_cin
+    type: text
     label: Provider's Corporate Identity Number (CIN) or LLPIN
     example: U72900KA2021PTC145678
   - key: company_address
+    type: textarea
     label: Provider's registered office address
     example: 3rd Floor, 21 Koramangala Industrial Layout, Bengaluru 560095, Karnataka
   - key: counterparty_name
+    type: text
     label: Customer's full legal name
     example: Bharat Logistics Limited
   - key: counterparty_cin
+    type: text
     label: Customer's Corporate Identity Number (CIN) or LLPIN
     example: L63000MH2008PLC187654
   - key: counterparty_address
+    type: textarea
     label: Customer's registered office address
     example: 5th Floor, One Business Bay, Andheri East, Mumbai 400069, Maharashtra
   - key: hosting_location
+    type: text
     label: Primary hosting location of Customer Data
     example: India (Mumbai and Hyderabad cloud regions)
   - key: breach_notice_hours
+    type: number
     label: Hours within which Provider notifies Customer of a personal data breach
     example: "24"
   - key: security_incident_hours
+    type: number
     label: Hours within which Provider notifies Customer of a Security Incident affecting Customer Data (other than a personal data breach)
     example: "48"
   - key: payment_days
+    type: number
     label: Days from invoice date within which Customer must pay
     example: "30"
   - key: dispute_notice_days
+    type: number
     label: Days from receipt of invoice within which Customer may dispute it
     example: "15"
   - key: late_interest_rate
+    type: text
     label: Simple interest rate per annum on overdue amounts (percentage)
     example: "12"
   - key: renewal_notice_days
+    type: number
     label: Days before end of a Subscription Term by which non-renewal notice must be given
     example: "60"
   - key: price_notice_days
+    type: number
     label: Days' notice of a price increase on renewal
     example: "90"
   - key: price_increase_cap_percent
+    type: number
     label: Maximum percentage increase in Subscription Fees on any renewal
     example: "7"
   - key: suspension_notice_days
+    type: number
     label: Days' notice before suspension for non-payment
     example: "15"
   - key: warranty_cure_days
+    type: number
     label: Days for Provider to cure a breach of the functionality warranty
     example: "30"
   - key: super_cap_multiple
+    type: text
     label: Multiple of Annual Contract Value for the super-cap (market range 2x to 5x)
     example: two (2)
   - key: cure_period_days
+    type: number
     label: Days allowed to cure a material breach
     example: "30"
   - key: data_export_days
+    type: number
     label: Days after termination during which Customer may export its data
     example: "30"
   - key: deletion_days
+    type: number
     label: Days after the export window within which Provider deletes Customer Data
     example: "60"
   - key: confidentiality_years
+    type: number
     label: Years for which confidentiality survives termination
     example: "5"
   - key: escalation_days
+    type: number
     label: Days for senior-executive negotiation before arbitration may begin
     example: "30"
   - key: arbitration_seat
+    type: text
     label: Seat of arbitration (city)
     example: Bengaluru
   - key: arbitration_venue
+    type: text
     label: Venue for hearings
     example: Bengaluru
   - key: governing_city
+    type: text
     label: City whose courts have jurisdiction for non-arbitrable matters
     example: Bengaluru
   - key: company_email
+    type: email
     label: Provider's email address for legal notices
     example: legal@acmecloud.example
   - key: counterparty_email
+    type: email
     label: Customer's email address for legal notices
     example: legal@bharatlogistics.example
   - key: stamp_duty_payer
+    type: text
     label: Party bearing stamp duty on this Agreement
     example: the Customer
   - key: company_signatory_name
+    type: text
     label: Name of Provider's authorised signatory
     example: Kavya Rao
   - key: company_signatory_title
+    type: text
     label: Designation of Provider's authorised signatory
     example: Chief Executive Officer
   - key: counterparty_signatory_name
+    type: text
     label: Name of Customer's authorised signatory
     example: Vikram Shah
   - key: counterparty_signatory_title
+    type: text
     label: Designation of Customer's authorised signatory
     example: Chief Information Officer
 ---

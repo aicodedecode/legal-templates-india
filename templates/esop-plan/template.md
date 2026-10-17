@@ -25,93 +25,123 @@ review_status: draft
 related: [board-resolutions, shareholders-agreement, offer-letter, employment-agreement, founders-agreement, term-sheet]
 fields:
   - key: company_name
+    type: text
     label: Company's full legal name
     example: Acme Technologies Private Limited
   - key: plan_year
+    type: text
     label: Year in the name of the Plan
     example: "2026"
   - key: company_cin
+    type: text
     label: Company's Corporate Identity Number (CIN)
     example: U62099KA2026PTC123456
   - key: company_address
+    type: textarea
     label: Company's registered office address
     example: 12, 4th Cross, Indiranagar, Bengaluru 560038, Karnataka
   - key: board_approval_date
+    type: date
     label: Date of Board meeting approving the Plan
     example: 15 November 2026
   - key: shareholder_approval_date
+    type: date
     label: Date of general meeting approving the Plan
     example: 10 December 2026
   - key: effective_date
+    type: date
     label: Date from which the Plan is effective
     example: 10 December 2026
   - key: plan_term_years
+    type: number
     label: Term of the Plan in years
     example: "10"
   - key: administrator_name
+    type: text
     label: Body administering the Plan
     example: Nomination and Remuneration Committee of the Board
   - key: share_face_value
+    type: money
     label: Face value per equity share
     example: ₹ 10
   - key: pool_size
+    type: text
     label: Maximum number of Options under the Plan
     example: "1,500"
   - key: pool_percentage
+    type: text
     label: Pool as a percentage of fully diluted share capital at adoption
     example: "10%"
   - key: max_options_per_employee
+    type: number
     label: Maximum Options grantable to any one Employee in a year
     example: "500"
   - key: grant_acceptance_days
+    type: number
     label: Days within which a grant must be accepted
     example: "30"
   - key: vesting_period_months
+    type: number
     label: Default total vesting period in months
     example: "48"
   - key: cliff_months
+    type: number
     label: Default cliff period in months (not less than 12)
     example: "12"
   - key: exercise_period_years
+    type: number
     label: Exercise period in years from the date of vesting
     example: "10"
   - key: esop_lock_in_months
+    type: number
     label: Lock-in period for Shares issued on exercise (months, or 0)
     example: "0"
   - key: leaver_exercise_days
+    type: number
     label: Days a good leaver has to exercise vested Options
     example: "180"
   - key: arbitration_seat
+    type: text
     label: Seat of arbitration
     example: Bengaluru
   - key: arbitration_venue
+    type: text
     label: Venue of arbitration hearings
     example: Bengaluru
   - key: company_email
+    type: email
     label: Company's email address for Plan communications
     example: esop@example.in
   - key: grant_date
+    type: date
     label: Date of grant in the Grant Letter
     example: 1 January 2027
   - key: grantee_name
+    type: text
     label: Name of the Grantee
     example: Priya Nair
   - key: grantee_address
+    type: textarea
     label: Address of the Grantee
     example: 22, Lake View Road, Kochi 682016, Kerala
   - key: options_granted
+    type: text
     label: Number of Options granted
     example: "200"
   - key: exercise_price
+    type: money
     label: Exercise price per Option
     example: ₹ 10
   - key: vesting_commencement_date
+    type: date
     label: Vesting commencement date for the grant
     example: 1 December 2026
   - key: company_signatory_name
+    type: text
     label: Name of the Company's authorised signatory
     example: Meera Iyer
   - key: company_signatory_title
+    type: text
     label: Title of the Company's authorised signatory
     example: Director
 ---

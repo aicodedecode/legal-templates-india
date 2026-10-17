@@ -25,114 +25,151 @@ review_status: draft
 related: [statement-of-work, service-level-agreement, data-processing-agreement, mutual-nda, saas-subscription-agreement, consultancy-agreement, ip-assignment-agreement]
 fields:
   - key: effective_date
+    type: date
     label: Effective date of this Agreement
     example: 1 November 2026
   - key: company_name
+    type: text
     label: Provider's full legal name
     example: Acme Technologies Private Limited
   - key: company_cin
+    type: text
     label: Provider's Corporate Identity Number (CIN) or LLPIN
     example: U72900KA2020PTC123456
   - key: company_address
+    type: textarea
     label: Provider's registered office address
     example: 4th Floor, 12 Residency Road, Bengaluru 560025, Karnataka
   - key: counterparty_name
+    type: text
     label: Customer's full legal name
     example: Bharat Retail Solutions Limited
   - key: counterparty_cin
+    type: text
     label: Customer's Corporate Identity Number (CIN) or LLPIN
     example: L52100MH2005PLC654321
   - key: counterparty_address
+    type: textarea
     label: Customer's registered office address
     example: 7th Floor, Tower B, Lower Parel, Mumbai 400013, Maharashtra
   - key: change_response_days
+    type: number
     label: Business days for Provider to respond to a Change Request
     example: "5"
   - key: acceptance_period_days
+    type: number
     label: Business days for Customer to test and accept a Deliverable
     example: "10"
   - key: expense_preapproval_threshold
+    type: money
     label: Single expense amount above which Customer's prior written approval is needed
     example: "₹ 25,000"
   - key: payment_days
+    type: number
     label: Days from receipt of a valid invoice within which Customer must pay
     example: "30"
   - key: dispute_notice_days
+    type: number
     label: Days from receipt of invoice within which Customer may dispute it
     example: "15"
   - key: late_interest_rate
+    type: text
     label: Simple interest rate per annum on overdue amounts (percentage)
     example: "12"
   - key: suspension_notice_days
+    type: number
     label: Days' notice before Provider may suspend Services for non-payment
     example: "15"
   - key: personnel_replacement_days
+    type: number
     label: Business days within which Provider replaces removed personnel
     example: "15"
   - key: confidentiality_years
+    type: number
     label: Years for which confidentiality survives termination
     example: "3"
   - key: breach_notice_hours
+    type: number
     label: Hours within which Provider notifies Customer of a personal data breach
     example: "24"
   - key: warranty_period_days
+    type: number
     label: Warranty period in days following acceptance of a Deliverable
     example: "90"
   - key: super_cap_multiple
+    type: text
     label: Multiple of Annual Contract Value for the super-cap (market range 2x to 5x)
     example: three (3)
   - key: pi_insurance_amount
+    type: money
     label: Minimum professional indemnity / errors and omissions cover
     example: "₹ 5,00,00,000 (INR 5 crore)"
   - key: cyber_insurance_amount
+    type: money
     label: Minimum cyber liability cover
     example: "₹ 5,00,00,000 (INR 5 crore)"
   - key: cgl_insurance_amount
+    type: money
     label: Minimum commercial general / public liability cover
     example: "₹ 2,00,00,000 (INR 2 crore)"
   - key: initial_term_years
+    type: number
     label: Initial term of this Agreement in years
     example: "3"
   - key: convenience_notice_days
+    type: number
     label: Days' notice for termination of an SOW for convenience by Customer
     example: "60"
   - key: cure_period_days
+    type: number
     label: Days allowed to cure a material breach
     example: "30"
   - key: non_solicit_months
+    type: number
     label: Months after termination for which non-solicitation applies
     example: "12"
   - key: escalation_days
+    type: number
     label: Days for escalation discussions before arbitration may begin
     example: "30"
   - key: arbitration_seat
+    type: text
     label: Seat of arbitration (city)
     example: Bengaluru
   - key: arbitration_venue
+    type: text
     label: Venue for hearings (may differ from seat; usually same city)
     example: Bengaluru
   - key: governing_city
+    type: text
     label: City whose courts have jurisdiction for non-arbitrable matters and interim relief
     example: Bengaluru
   - key: company_email
+    type: email
     label: Provider's email address for notices
     example: legal@acmetech.example
   - key: counterparty_email
+    type: email
     label: Customer's email address for notices
     example: contracts@bharatretail.example
   - key: stamp_duty_payer
+    type: text
     label: Party bearing stamp duty on this Agreement
     example: the Provider
   - key: company_signatory_name
+    type: text
     label: Name of Provider's authorised signatory
     example: Asha Menon
   - key: company_signatory_title
+    type: text
     label: Designation of Provider's authorised signatory
     example: Director
   - key: counterparty_signatory_name
+    type: text
     label: Name of Customer's authorised signatory
     example: Rohan Desai
   - key: counterparty_signatory_title
+    type: text
     label: Designation of Customer's authorised signatory
     example: Chief Technology Officer
 ---

@@ -22,81 +22,107 @@ review_status: draft
 related: [cookie-notice, terms-of-use, data-processing-agreement]
 fields:
   - key: company_name
+    type: text
     label: Company's full legal name
     example: Acme Technologies Private Limited
   - key: brand_name
+    type: text
     label: Brand, website or app name used publicly
     example: Acme
   - key: company_cin
+    type: text
     label: Corporate Identity Number (CIN)
     example: U72900KA2024PTC123456
   - key: company_address
+    type: textarea
     label: Registered office address
     example: 4th Floor, 12 MG Road, Bengaluru, Karnataka 560001
   - key: website_url
+    type: url
     label: Website address(es) covered by this notice
     example: www.acme.example
   - key: app_name
+    type: text
     label: Name of the mobile application(s) covered
     example: Acme for Android and iOS
   - key: effective_date
+    type: date
     label: Date this version of the notice takes effect
     example: 1 November 2026
   - key: notice_version
+    type: text
     label: Version number of this notice
     example: 2.0
   - key: privacy_centre_location
+    type: text
     label: Where in the product users can manage consents and exercise rights
     example: Settings > Privacy Centre in the app, or the Privacy Centre link in the website footer
   - key: consent_manager_name
+    type: text
     label: Name of any registered Consent Manager the company integrates with (or "not applicable")
     example: not applicable
   - key: payment_aggregator_name
+    type: text
     label: Payment aggregator or gateway used
     example: a payment aggregator authorised by the Reserve Bank of India
   - key: transfer_countries
+    type: textarea
     label: Countries or regions to which personal data may be transferred
     example: Singapore, the United States of America and the European Union
   - key: account_retention_period
+    type: text
     label: How long account data is kept after account closure or inactivity
     example: 3 years after your last interaction with us
   - key: transaction_retention_period
+    type: text
     label: How long transaction and invoice records are kept
     example: 8 years from the end of the financial year to which they relate
   - key: support_retention_period
+    type: text
     label: How long support tickets and call recordings are kept
     example: 2 years from closure of the ticket
   - key: marketing_retention_period
+    type: text
     label: How long marketing preferences and data are kept
     example: until you withdraw consent, and in any case no longer than 2 years after your last interaction
   - key: log_retention_period
+    type: text
     label: How long security and traffic logs are kept
     example: at least 1 year (and 180 days within India for logs covered by the CERT-In Directions)
   - key: dpo_name
+    type: text
     label: Name or designation of the Data Protection Officer / person who can answer questions
     example: Data Protection Officer
   - key: dpo_email
+    type: email
     label: Email address of the DPO / contact person
     example: privacy@acme.example
   - key: dpo_phone
+    type: text
     label: Telephone number of the DPO / contact person
     example: +91 80 4000 0000
   - key: grievance_officer_name
+    type: text
     label: Name of the Grievance Officer
     example: Priya Sharma (illustrative)
   - key: grievance_officer_email
+    type: email
     label: Email address of the Grievance Officer
     example: grievance@acme.example
   - key: grievance_officer_address
+    type: textarea
     label: Postal address of the Grievance Officer
     example: 4th Floor, 12 MG Road, Bengaluru, Karnataka 560001
   - key: grievance_response_days
+    type: number
     label: Number of days within which the company commits to resolve privacy grievances
     example: 30
   - key: rights_response_days
+    type: number
     label: Number of days within which the company commits to respond to rights requests
     example: 30
   - key: company_email
+    type: email
     label: General contact email
     example: hello@acme.example
 ---

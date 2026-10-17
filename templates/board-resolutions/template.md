@@ -21,177 +21,235 @@ review_status: draft
 related: [term-sheet, isafe-note, shareholders-agreement, esop-plan, founders-agreement]
 fields:
   - key: company_name
+    type: text
     label: "Company's full legal name"
     example: "Acme Technologies Private Limited"
   - key: company_cin
+    type: text
     label: "Company's Corporate Identity Number"
     example: "U72900KA2023PTC000000"
   - key: meeting_date
+    type: date
     label: "Date of the Board meeting"
     example: "20 November 2026"
   - key: meeting_time
+    type: text
     label: "Time of the Board meeting"
     example: "11.00 a.m."
   - key: meeting_venue
+    type: text
     label: "Place of the meeting (or 'through video-conferencing, deemed venue: registered office')"
     example: "the registered office of the Company"
   - key: company_address
+    type: textarea
     label: "Company's registered office address"
     example: "4th Floor, 12 Residency Road, Bengaluru 560025, Karnataka"
   - key: directors_present
+    type: text
     label: "Number and names of directors present"
     example: "3 (Founder A, Founder B and Director C)"
   - key: chairperson_name
+    type: text
     label: "Name of the director who chaired the meeting"
     example: "Founder A"
   - key: certifying_director_name
+    type: text
     label: "Name of the director or company secretary certifying the copy"
     example: "Founder A"
   - key: certifying_director_din
+    type: text
     label: "DIN of the certifying director"
     example: "00000001"
   - key: certification_place
+    type: text
     label: "Place of certification"
     example: "Bengaluru"
   - key: certification_date
+    type: date
     label: "Date of certification"
     example: "21 November 2026"
   - key: bank_account_type
+    type: text
     label: "Type of bank account"
     example: "current account"
   - key: bank_name
+    type: text
     label: "Name of the bank"
     example: "Example Bank Limited"
   - key: bank_branch
+    type: text
     label: "Branch of the bank"
     example: "MG Road branch, Bengaluru"
   - key: bank_signatories
+    type: text
     label: "Names and designations of the bank authorised signatories"
     example: "Founder A (Director), Founder B (Director) and Person C (Chief Financial Officer)"
   - key: bank_single_limit
+    type: money
     label: "Limit for single-signatory transactions"
     example: "INR 5,00,000"
   - key: authorised_person_name
+    type: text
     label: "Name of the person authorised to sign and file"
     example: "Founder A"
   - key: authorised_person_designation
+    type: text
     label: "Designation of the authorised person"
     example: "Director"
   - key: new_director_name
+    type: text
     label: "Name of the director being appointed"
     example: "Director D"
   - key: new_director_din
+    type: text
     label: "DIN of the director being appointed"
     example: "00000004"
   - key: new_director_category
+    type: text
     label: "Category of directorship"
     example: "Non-Executive Nominee Director"
   - key: appointment_date
+    type: date
     label: "Effective date of appointment"
     example: "20 November 2026"
   - key: shareholder_resolution_date
+    type: date
     label: "Date of the shareholders' special resolution"
     example: "10 November 2026"
   - key: offer_letter_date
+    type: date
     label: "Date of issue of the PAS-4 offer letters"
     example: "11 November 2026"
   - key: subscription_amount
+    type: money
     label: "Total consideration / application money"
     example: "INR 40,00,00,000 (INR 40 crore)"
   - key: securities_description
+    type: textarea
     label: "Description of the securities"
     example: "Series A compulsorily convertible preference shares of face value ₹ 10 each"
   - key: allottee_name
+    type: text
     label: "Name of the allottee"
     example: "Example Ventures Fund I"
   - key: allottee_residential_status
+    type: text
     label: "Residential status of the allottee under FEMA"
     example: "Resident outside India"
   - key: securities_number
+    type: text
     label: "Number of securities"
     example: "4,00,000"
   - key: issue_price
+    type: money
     label: "Issue price per security including premium"
     example: "₹ 1,000"
   - key: esop_plan_name
+    type: text
     label: "Name of the ESOP plan"
     example: "Acme Employee Stock Option Plan 2026"
   - key: esop_pool_size
+    type: text
     label: "Number of equity shares in the option pool"
     example: "1,50,000"
   - key: egm_date
+    type: date
     label: "Date of the general meeting"
     example: "10 November 2026"
   - key: grantee_name
+    type: text
     label: "Name of the option grantee"
     example: "Employee E"
   - key: grantee_designation
+    type: text
     label: "Designation of the grantee"
     example: "Head of Engineering"
   - key: options_number
+    type: text
     label: "Number of options granted"
     example: "5,000"
   - key: exercise_price
+    type: money
     label: "Exercise price per option"
     example: "₹ 10"
   - key: vesting_schedule
+    type: textarea
     label: "Vesting schedule"
     example: "25% after 12 months, then monthly over 36 months"
   - key: valuation_report_date
+    type: date
     label: "Date of the registered valuer's report"
     example: "1 November 2026"
   - key: valuer_name
+    type: text
     label: "Name and registration number of the registered valuer"
     example: "Valuer V (IBBI Registration No. IBBI/RV/00/0000/00000)"
   - key: contract_signatory_names
+    type: textarea
     label: "Names and designations of persons authorised to sign contracts"
     example: "Founder A (Chief Executive Officer) and Founder B (Chief Technology Officer)"
   - key: contract_value_limit
+    type: money
     label: "Maximum contract value for delegated authority"
     example: "INR 50,00,000 (INR 50 lakh)"
   - key: new_registered_office_address
+    type: textarea
     label: "New registered office address"
     example: "7th Floor, 45 Brigade Road, Bengaluru 560025, Karnataka"
   - key: office_change_date
+    type: date
     label: "Effective date of the change of registered office"
     example: "1 December 2026"
   - key: financial_year_end
+    type: text
     label: "Financial year end date"
     example: "31 March 2026"
   - key: fs_signatory_names
+    type: textarea
     label: "Persons signing the financial statements under section 134(1)"
     example: "Founder A (Director) and Founder B (Director)"
   - key: agm_date
+    type: date
     label: "Date and time of the annual general meeting"
     example: "30 September 2026 at 11.00 a.m."
   - key: agm_venue
+    type: text
     label: "Venue of the annual general meeting"
     example: "the registered office of the Company"
   - key: auditor_firm_name
+    type: text
     label: "Name of the audit firm"
     example: "Example & Associates"
   - key: auditor_frn
+    type: text
     label: "Firm registration number of the auditor"
     example: "000000S"
   - key: incorporation_date
+    type: date
     label: "Date of incorporation of the Company"
     example: "1 April 2026"
   - key: circulation_resolution_date
+    type: date
     label: "Date on which the circular resolution was passed"
     example: "25 November 2026"
   - key: circulation_date
+    type: date
     label: "Date of circulation of the draft resolution"
     example: "20 November 2026"
   - key: total_directors
+    type: number
     label: "Total number of directors"
     example: "3"
   - key: circulation_response_date
+    type: date
     label: "Last date for directors to respond"
     example: "27 November 2026"
   - key: assenting_directors
+    type: text
     label: "Number of directors who assented"
     example: "3"
   - key: circular_resolution_text
+    type: textarea
     label: "Operative text of the resolution passed by circulation"
     example: "the consent of the Board be and is hereby accorded to open a current account in the name of the Company with Example Bank Limited"
 ---

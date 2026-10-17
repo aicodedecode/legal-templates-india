@@ -23,84 +23,111 @@ review_status: draft
 related: [esop-plan, board-resolutions, ip-assignment-agreement, consultancy-agreement, mutual-nda, shareholders-agreement]
 fields:
   - key: effective_date
+    type: date
     label: "Effective date"
     example: "1 November 2026"
   - key: company_name
+    type: text
     label: "Company's full legal name"
     example: "Acme Technologies Private Limited"
   - key: company_cin
+    type: text
     label: "Company's Corporate Identity Number (CIN)"
     example: "U62099KA2024PTC123456"
   - key: company_address
+    type: textarea
     label: "Company's registered office address"
     example: "No. 12, 4th Cross, Indiranagar, Bengaluru 560038, Karnataka"
   - key: advisor_name
+    type: text
     label: "Advisor's full name"
     example: "Meera Iyer"
   - key: advisor_address
+    type: textarea
     label: "Advisor's residential address"
     example: "Flat 4B, Sea View Apartments, Kochi 682020, Kerala"
   - key: company_business
+    type: text
     label: "Short description of the Company's business"
     example: "developing and operating a cloud-based accounting platform for small businesses"
   - key: advisor_expertise
+    type: textarea
     label: "Advisor's areas of expertise"
     example: "B2B SaaS go-to-market strategy and enterprise sales in South-East Asia"
   - key: advisor_reporting_to
+    type: text
     label: "Person the Advisor reports to"
     example: "the Chief Executive Officer"
   - key: advisor_hours_per_month
+    type: text
     label: "Expected advisory hours per month"
     example: "eight (8)"
   - key: expense_preapproval_limit
+    type: money
     label: "Expense amount above which prior written approval is needed"
     example: "₹ 10,000"
   - key: advisor_equity_amount
+    type: money
     label: "Number of options, shares or phantom units"
     example: "5,000"
   - key: advisor_cash_fee
+    type: money
     label: "Monthly cash fee, if any (exclusive of GST)"
     example: "₹ 50,000"
   - key: confidentiality_period
+    type: text
     label: "Period for which confidentiality obligations survive"
     example: "three (3) years"
   - key: advisor_term
+    type: text
     label: "Term of the advisory engagement"
     example: "two (2) years"
   - key: arbitration_seat
+    type: text
     label: "Seat (legal place) of arbitration and city whose courts have jurisdiction"
     example: "Bengaluru"
   - key: arbitration_venue
+    type: text
     label: "Venue for arbitration hearings (may differ from the seat)"
     example: "Bengaluru"
   - key: stamp_duty_payer
+    type: text
     label: "Party that bears stamp duty"
     example: "the Company"
   - key: company_email
+    type: email
     label: "Company's email address for notices"
     example: "legal@acme.example"
   - key: company_signatory_name
+    type: text
     label: "Name of the Company's authorised signatory"
     example: "Asha Rao"
   - key: company_signatory_title
+    type: text
     label: "Title of the Company's authorised signatory"
     example: "Director"
   - key: advisor_email
+    type: email
     label: "Advisor's email address for notices"
     example: "meera@advisor.example"
   - key: advisor_services
+    type: textarea
     label: "Specific advisory responsibilities"
     example: "advising on pricing and packaging; reviewing the sales playbook quarterly; making up to five customer introductions per quarter"
   - key: advisor_vesting_period
+    type: text
     label: "Vesting period"
     example: "twenty-four (24) months from the Effective Date"
   - key: phantom_base_price
+    type: money
     label: "Base price per phantom unit"
     example: "₹ 250"
   - key: phantom_expiry_period
+    type: text
     label: "Period after which phantom units lapse if no Liquidity Event occurs"
     example: "ten (10) years"
   - key: advisor_disclosed_interests
+    type: textarea
     label: "Advisor's existing roles and interests"
     example: "Independent director, Gamma Logistics Limited; angel investor in Delta Foods Private Limited (less than 2%)"
 ---

@@ -7,6 +7,14 @@ Each template has machine-readable metadata (category, governing statutes, stamp
 > [!IMPORTANT]
 > **These templates are not legal advice.** They are starting points drafted to Indian law as of the `last_updated` date on each template. Most are marked **Draft**, which means no practising advocate has reviewed them yet. Laws change: the DPDP Rules, 2025 are being phased in, the Labour Codes and the Income-tax Act, 2025 are new, and stamp duty differs from state to state. Before you rely on a document, have it reviewed by an advocate qualified in the relevant area.
 
+## Who is this for
+
+| You are… | Use | Guide |
+|---|---|---|
+| **Founder, HR or ops lead (no legal training)** | The **[web form](https://dharmabot-ai.github.io/legal-templates-india/)**: answer questions, download a Word document. Nothing leaves your browser. | [Non-lawyers](docs/USAGE.md#non-lawyers-the-web-form) |
+| **Lawyer or legal team** | **[Word downloads](https://github.com/dharmabot-ai/legal-templates-india/releases)**: clean and annotated .docx files, drafting notes and `[verify]` worklists | [Lawyers](docs/USAGE.md#lawyers) |
+| **Developer or AI agent** | The **[MCP server](mcp-server/)**, **[Claude skill](.claude/skills/indian-legal-templates/SKILL.md)**, [`llms.txt`](llms.txt), [`catalog.json`](catalog.json) and [`AGENTS.md`](AGENTS.md) | [AI agents](docs/USAGE.md#ai-agents) |
+
 ## Templates
 
 <!-- catalog:start -->
@@ -112,12 +120,19 @@ legal-templates-india/
   templates/<id>/
     template.md          # Front matter + full template text
     README.md            # When to use it, key provisions, India-specific notes, checklist
-  catalog.json           # Generated index of every template's metadata
+  catalog.json           # Generated index of every template's metadata and fields
+  llms.txt               # Generated index for LLMs, with raw URLs
+  AGENTS.md              # Rules for AI agents drafting with or editing the templates
+  site/                  # Browser form (deployed to GitHub Pages)
+  mcp-server/            # MCP server: list, read and fill templates from any MCP client
+  .claude/skills/        # Claude skill for drafting from the library
+  docs/USAGE.md          # Guides for non-lawyers, lawyers and AI agents
   examples/acme.yaml     # Sample values file
   scripts/
     validate.py          # Checks every template against the drafting standard
-    build_catalog.py     # Regenerates catalog.json and the table above
+    build_catalog.py     # Regenerates catalog.json, llms.txt and the table above
     fill.py              # Fills placeholders and exports .md / .docx / .pdf
+    build_docx.py        # Builds clean and annotated Word files for releases
   CONTRIBUTING.md        # Schema, drafting standard, review process
   LICENSE                # CC0 1.0 Universal
 ```

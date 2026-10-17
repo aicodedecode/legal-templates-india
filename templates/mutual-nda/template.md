@@ -22,60 +22,79 @@ review_status: draft
 related: [one-way-nda, consultancy-agreement, master-services-agreement, data-processing-agreement, term-sheet]
 fields:
   - key: effective_date
+    type: date
     label: "Effective date"
     example: "1 November 2026"
   - key: company_name
+    type: text
     label: "Company's full legal name"
     example: "Acme Technologies Private Limited"
   - key: company_cin
+    type: text
     label: "Company's Corporate Identity Number (CIN)"
     example: "U62099KA2024PTC123456"
   - key: company_address
+    type: textarea
     label: "Company's registered office address"
     example: "No. 12, 4th Cross, Indiranagar, Bengaluru 560038, Karnataka"
   - key: counterparty_name
+    type: text
     label: "Counterparty's full legal name"
     example: "Beta Analytics LLP"
   - key: counterparty_description
+    type: textarea
     label: "Counterparty's constitution and registration details"
     example: "a limited liability partnership registered under the Limited Liability Partnership Act, 2008 with LLPIN AAB-1234"
   - key: counterparty_address
+    type: textarea
     label: "Counterparty's registered office or principal place of business"
     example: "Unit 5, Andheri East, Mumbai 400069, Maharashtra"
   - key: purpose
+    type: textarea
     label: "Purpose for which Confidential Information is shared"
     example: "evaluating a potential integration of the parties' software products and negotiating a commercial agreement for it"
   - key: arbitration_seat
+    type: text
     label: "Seat (legal place) of arbitration and city whose courts have jurisdiction"
     example: "Bengaluru"
   - key: disclosure_period
+    type: text
     label: "Period during which disclosures are covered"
     example: "two (2) years"
   - key: confidentiality_period
+    type: text
     label: "Period for which confidentiality obligations survive"
     example: "three (3) years"
   - key: arbitration_venue
+    type: text
     label: "Venue for arbitration hearings (may differ from the seat)"
     example: "Bengaluru"
   - key: stamp_duty_payer
+    type: text
     label: "Party that bears stamp duty"
     example: "the Company"
   - key: company_email
+    type: email
     label: "Company's email address for notices"
     example: "legal@acme.example"
   - key: company_signatory_name
+    type: text
     label: "Name of the Company's authorised signatory"
     example: "Asha Rao"
   - key: company_signatory_title
+    type: text
     label: "Title of the Company's authorised signatory"
     example: "Director"
   - key: counterparty_email
+    type: email
     label: "Counterparty's email address for notices"
     example: "contracts@beta.example"
   - key: counterparty_signatory_name
+    type: text
     label: "Name of the counterparty's authorised signatory"
     example: "Rohan Mehta"
   - key: counterparty_signatory_title
+    type: text
     label: "Title of the counterparty's authorised signatory"
     example: "Designated Partner"
 ---

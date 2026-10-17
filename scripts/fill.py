@@ -6,8 +6,9 @@ Usage:
     python3 scripts/fill.py mutual-nda --values examples/acme.yaml --out nda.docx
     python3 scripts/fill.py --list-fields mutual-nda
 
-Front matter and drafting notes are removed from the output. Placeholders with
-no value are left in place and listed as warnings (use --strict to fail instead).
+Front matter and drafting notes are removed from the output (--keep-notes keeps
+the notes). Placeholders with no value are left in place and listed as warnings
+(use --strict to fail instead, or --label-placeholders to show them as [Label]).
 Writing .docx or .pdf requires pandoc (https://pandoc.org) on PATH.
 """
 
@@ -30,7 +31,12 @@ def load_values(path):
     return {k: str(v) for k, v in (data or {}).items()}
 
 
-def render(body, values):
+def render(body, values, keep_notes=False, labels=None):
+    """Fill placeholders in a template body.
+
+    Returns (text, missing keys). Unfilled placeholders stay as {{key}}, or become
+    [Label] when a key -> label mapping is passed as `labels`.
+    """
     missing = set()
 
     def sub(match):
@@ -38,10 +44,10 @@ def render(body, values):
         if key in values:
             return values[key]
         missing.add(key)
-        return match.group(0)
+        return f"[{labels[key]}]" if labels and key in labels else match.group(0)
 
-    text = PLACEHOLDER_RE.sub(sub, DRAFTING_NOTE_RE.sub("", body))
-    return text.lstrip(), sorted(missing)
+    text = body if keep_notes else DRAFTING_NOTE_RE.sub("", body)
+    return PLACEHOLDER_RE.sub(sub, text).lstrip(), sorted(missing)
 
 
 def export(markdown, out):
@@ -63,6 +69,9 @@ def main():
     parser.add_argument("--values", help="YAML or JSON file mapping field keys to values")
     parser.add_argument("--out", help="output path (.md, .docx or .pdf); defaults to stdout")
     parser.add_argument("--strict", action="store_true", help="fail if any placeholder is unfilled")
+    parser.add_argument("--keep-notes", action="store_true", help="keep drafting notes in the output")
+    parser.add_argument("--label-placeholders", action="store_true",
+                        help="show unfilled placeholders as [Field label] instead of {{key}}")
     parser.add_argument("--list-fields", action="store_true", help="print the template's fields and exit")
     args = parser.parse_args()
 
@@ -73,7 +82,8 @@ def main():
         return 0
 
     values = load_values(args.values) if args.values else {}
-    text, missing = render(body, values)
+    labels = {f["key"]: f["label"] for f in meta["fields"]} if args.label_placeholders else None
+    text, missing = render(body, values, keep_notes=args.keep_notes, labels=labels)
     if missing:
         print(f"warning: {len(missing)} unfilled field(s): {', '.join(missing)}", file=sys.stderr)
         if args.strict:

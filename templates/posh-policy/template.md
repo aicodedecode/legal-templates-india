@@ -21,36 +21,47 @@ review_status: draft
 related: [employee-handbook, employment-agreement, offer-letter, ai-acceptable-use-policy]
 fields:
   - key: company_name
+    type: text
     label: "Company's full legal name"
     example: "Acme Technologies Private Limited"
   - key: approving_authority
+    type: text
     label: "Body or person approving the Policy"
     example: "the Board of Directors"
   - key: effective_date
+    type: date
     label: "Date of approval and effect of the Policy"
     example: "1 November 2026"
   - key: appellate_authority
+    type: text
     label: "Appellate / internal review authority under the service rules"
     example: "the Chief Executive Officer (or, where the CEO is involved, the Chairperson of the Board)"
   - key: ic_locations
+    type: textarea
     label: "Offices or administrative units covered by the Internal Committee"
     example: "all offices of the Company in India, including remote employees"
   - key: ic_email
+    type: email
     label: "Dedicated confidential email address of the Internal Committee"
     example: "ic@example.in"
   - key: local_committee_details
+    type: textarea
     label: "District Officer / Local Committee contact details for the registered office district"
     example: "District Officer, Bengaluru Urban District, [address and phone]"
   - key: policy_owner
+    type: text
     label: "Role responsible for maintaining the Policy"
     example: "the Head of People"
   - key: ic_order_date
+    type: date
     label: "Date of the order constituting the Internal Committee"
     example: "1 November 2026"
   - key: ic_presiding_officer
+    type: text
     label: "Name of the Presiding Officer"
     example: "Employee P"
   - key: ic_external_member
+    type: text
     label: "Name and organisation of the external member"
     example: "Person X, Example Foundation"
 ---
