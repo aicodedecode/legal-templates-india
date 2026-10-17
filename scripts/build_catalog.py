@@ -46,7 +46,8 @@ def build_entries():
 
 def render_catalog(entries):
     catalog = {
-        "name": "legal-templates-india",
+        "name": "100x Legal Templates",
+        "repository": f"https://github.com/{REPO}",
         "license": "CC0-1.0",
         "jurisdiction": "IN",
         "categories": CATEGORIES,
@@ -72,7 +73,7 @@ def render_table(entries):
 
 def render_llms(entries):
     lines = [
-        "# Legal Templates — India",
+        "# 100x Legal Templates",
         "",
         "> Open-source (CC0) Indian-law legal templates for startups and enterprises, in Markdown with "
         "YAML front matter. Not legal advice: every template is an AI-assisted draft pending advocate "

@@ -1,4 +1,19 @@
-# Legal Templates — India
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/logo-dark.svg">
+    <img src="docs/assets/logo-light.svg" width="88" height="88" alt="100x Legal Templates logo">
+  </picture>
+</p>
+
+<h1 align="center">100x Legal Templates</h1>
+
+<p align="center">
+  <b>Open-source Indian-law templates for startups and enterprises</b><br>
+  <a href="https://dharmabot-ai.github.io/legal-templates-india/">Web form</a> ·
+  <a href="https://github.com/dharmabot-ai/legal-templates-india/releases">Word downloads</a> ·
+  <a href="docs/USAGE.md">How to use</a> ·
+  <a href="mcp-server/">MCP server</a>
+</p>
 
 An open-source database of Indian-law legal templates for startups and enterprises: contracts, policies, notices and corporate documents, written in structured Markdown that people and LLMs can both read, and released under [CC0 1.0](LICENSE). You can use, modify and distribute them for any purpose, without attribution.
 
@@ -144,3 +159,9 @@ Contributions are welcome, especially reviews from practising advocates, new tem
 ## License
 
 [CC0 1.0 Universal](LICENSE). The authors have waived all copyright and related rights to the extent the law allows.
+
+---
+
+*Published for general information and educational purposes only. It does not constitute legal advice or create an advocate–client relationship. Law stated as on 16 October 2026.*
+
+Technology by Dharmabot AI.

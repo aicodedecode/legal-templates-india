@@ -1,9 +1,10 @@
-/* Legal Templates India — browser form. Everything runs locally; answers are kept in localStorage. */
+/* 100x Legal Templates — browser form. Everything runs locally; answers are kept in localStorage. */
 (() => {
   "use strict";
 
   const REPO_URL = "https://github.com/dharmabot-ai/legal-templates-india";
-  const NOTICE = "AI-assisted draft from the open-source legal-templates-india library (CC0). Not legal advice: " +
+  const BRAND = "100x Legal Templates";
+  const NOTICE = `AI-assisted draft from ${BRAND} (open source, CC0). Not legal advice: ` +
     "have an advocate qualified in India review it, and stamp it under the applicable State Stamp Act, before signing. " +
     "Delete this notice before use.";
   const NOTE_RE = /^> \*\*Drafting note:\*\*.*$\n?/gm;
@@ -102,7 +103,7 @@
   function renderHome() {
     state.meta = null;
     document.body.classList.remove("has-doc");
-    document.title = "Legal Templates India";
+    document.title = BRAND;
     const q = $("#search").value.trim().toLowerCase();
     let cards = "";
     for (const [cat, label] of Object.entries(state.catalog.categories)) {
@@ -114,13 +115,14 @@
     }
     view.innerHTML = `
       <div class="home">
+        <p class="eyebrow">${state.catalog.count} templates <i>·</i> Indian law <i>·</i> Open source</p>
         <h1>Draft Indian legal documents in your browser</h1>
-        <p class="lede">${state.catalog.count} free templates drafted to Indian law — contracts, policies and corporate
-        documents for startups and enterprises. Pick one, answer the questions, and download a Word file.</p>
+        <p class="lede">Free templates drafted to Indian law: contracts, policies and corporate documents for startups and
+        enterprises. Pick one, answer the questions, and download a Word file.</p>
         <div class="steps">
-          <div class="step"><b>1. Pick a template</b><p>Check “When to use it” on GitHub if you are unsure.</p></div>
-          <div class="step"><b>2. Answer the questions</b><p>The preview fills in as you type. Blanks stay highlighted.</p></div>
-          <div class="step"><b>3. Download and review</b><p>Get a .docx, have an advocate review it, then stamp and sign.</p></div>
+          <div class="step"><span class="n">01<i>.</i></span><b>Pick a template</b><p>Check “When to use it” on GitHub if you are unsure.</p></div>
+          <div class="step"><span class="n">02<i>.</i></span><b>Answer the questions</b><p>The preview fills in as you type. Blanks stay highlighted.</p></div>
+          <div class="step"><span class="n">03<i>.</i></span><b>Download and review</b><p>Get a .docx, have an advocate review it, then stamp and sign.</p></div>
         </div>
         <div class="cards">${cards || '<p class="empty">No templates match your search.</p>'}</div>
       </div>`;
@@ -147,7 +149,7 @@
     state.body = state.cache[id];
     state.values = store.get(answersKey(id), {});
     document.body.classList.add("has-doc");
-    document.title = `${meta.title} · Legal Templates India`;
+    document.title = `${meta.title} · ${BRAND}`;
     renderTemplate();
     renderSidebar($("#search").value);
     window.scrollTo(0, 0);
@@ -300,7 +302,7 @@
     let last = 0;
     for (const m of decoded.matchAll(BLANK_RE)) {
       if (m.index > last) out.push(new docx.TextRun({ text: decoded.slice(last, m.index), ...fmt }));
-      out.push(new docx.TextRun({ text: `[${m[1]}]`, highlight: "yellow", ...fmt }));
+      out.push(new docx.TextRun({ text: `[${m[1]}]`, highlight: "cyan", ...fmt }));
       last = m.index + m[0].length;
     }
     if (last < decoded.length) out.push(new docx.TextRun({ text: decoded.slice(last), ...fmt }));
@@ -407,9 +409,9 @@
       spacing: { after: 240 },
     });
     return new docx.Document({
-      creator: "legal-templates-india",
+      creator: BRAND,
       title,
-      description: "AI-assisted draft from the open-source legal-templates-india library (CC0). Not legal advice.",
+      description: `AI-assisted draft from ${BRAND} (open source, CC0). Not legal advice.`,
       styles: {
         default: {
           document: { run: { font: FONT, size: 23 }, paragraph: { spacing: { after: 120, line: 276 } } },

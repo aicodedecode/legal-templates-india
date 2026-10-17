@@ -1,5 +1,6 @@
 {
-  "name": "legal-templates-india",
+  "name": "100x Legal Templates",
+  "repository": "https://github.com/dharmabot-ai/legal-templates-india",
   "license": "CC0-1.0",
   "jurisdiction": "IN",
   "categories": {

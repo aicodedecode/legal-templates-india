@@ -1,4 +1,4 @@
-# Using the library
+# Using 100x Legal Templates
 
 There are three ways in, depending on who you are. Whichever route you take, the result is a **starting draft, not legal advice**. Most templates are still marked *Draft*, which means no practising advocate has reviewed them. Have an advocate qualified in India review the final document, and pay stamp duty under your State's Stamp Act before anyone signs.
 

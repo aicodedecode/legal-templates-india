@@ -1,11 +1,11 @@
 ---
 name: indian-legal-templates
-description: Draft Indian-law contracts, policies and corporate documents (NDAs, consultancy, employment, ESOP, founders' agreement, MSA, SaaS, SOW, SLA, vendor, distribution, privacy policy, terms of use, DPA, AI policy, term sheet, iSAFE, SHA, board resolutions, POSH, handbook) from the open-source legal-templates-india library. Use when a user asks for one of these documents for an Indian company or under Indian law.
+description: Draft Indian-law contracts, policies and corporate documents (NDAs, consultancy, employment, ESOP, founders' agreement, MSA, SaaS, SOW, SLA, vendor, distribution, privacy policy, terms of use, DPA, AI policy, term sheet, iSAFE, SHA, board resolutions, POSH, handbook) from the open-source 100x Legal Templates library (legal-templates-india). Use when a user asks for one of these documents for an Indian company or under Indian law.
 ---
 
 # Indian legal templates
 
-Fill templates from the `legal-templates-india` library with the user's facts. The templates are AI-assisted drafts pending advocate review, so your output is a starting draft and you must say so.
+Fill templates from the 100x Legal Templates library (repo `legal-templates-india`) with the user's facts. The templates are AI-assisted drafts pending advocate review, so your output is a starting draft and you must say so.
 
 ## Where the files are
 

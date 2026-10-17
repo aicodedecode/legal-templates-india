@@ -29,7 +29,7 @@ from fill import render
 
 DIST = ROOT / "dist"
 REFERENCE = DIST / "reference.docx"
-NOTICE = ("AI-assisted draft from the open-source legal-templates-india library (CC0). "
+NOTICE = ("AI-assisted draft from 100x Legal Templates (open source, CC0). "
           "Not legal advice: have an advocate qualified in India review it, and stamp it under "
           "the applicable State Stamp Act, before signing. Delete this notice before use.")
 BODY_FONT = "Times New Roman"
@@ -90,8 +90,21 @@ def build_reference():
 
 def to_docx(markdown, out, title):
     subprocess.run(["pandoc", "-f", "markdown", "-o", str(out), f"--reference-doc={REFERENCE}",
-                    "--metadata", f"title-meta={title}"],
+                    "--metadata", f"title-meta={title}", "--metadata", "author-meta=100x Legal Templates"],
                    input=markdown.encode("utf-8"), check=True)
+    recolour_highlights(out)
+
+
+def recolour_highlights(path):
+    """Pandoc always highlights [..]{.mark} in yellow; use the brand cyan instead."""
+    tmp = path.with_suffix(".tmp")
+    with zipfile.ZipFile(path) as src, zipfile.ZipFile(tmp, "w", zipfile.ZIP_DEFLATED) as dst:
+        for item in src.infolist():
+            data = src.read(item.filename)
+            if item.filename == "word/document.xml":
+                data = data.replace(b'w:highlight w:val="yellow"', b'w:highlight w:val="cyan"')
+            dst.writestr(item, data)
+    tmp.replace(path)
 
 
 def build(slug):

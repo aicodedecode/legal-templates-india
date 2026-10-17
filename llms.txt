@@ -1,4 +1,4 @@
-# Legal Templates — India
+# 100x Legal Templates
 
 > Open-source (CC0) Indian-law legal templates for startups and enterprises, in Markdown with YAML front matter. Not legal advice: every template is an AI-assisted draft pending advocate review unless its review_status says otherwise.
 

@@ -1,5 +1,5 @@
 """
-MCP server exposing the Indian legal templates library to AI agents.
+MCP server exposing 100x Legal Templates (Indian-law templates) to AI agents.
 
 Run over stdio:
     python3 mcp-server/server.py
@@ -31,7 +31,7 @@ DISCLAIMER = ("Not legal advice. This is an AI-assisted template pending advocat
               "(see review_status). Have an advocate qualified in India review the final "
               "document, and pay stamp duty under the applicable State Stamp Act before signing.")
 
-INSTRUCTIONS = f"""Indian-law legal templates for startups and enterprises (CC0).
+INSTRUCTIONS = f"""100x Legal Templates: Indian-law legal templates for startups and enterprises (CC0).
 Workflow: list_templates to choose, get_fields to see what to collect, ask the user for
 every required value you do not already know (never invent party names, amounts or
 dates), then fill_template. Resolve [OPTION A / OPTION B] choices with the user, keep
