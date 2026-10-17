@@ -32,4 +32,9 @@ jobs:
 
           **Not legal advice.** Templates marked Draft have not been reviewed by an advocate. Have an advocate qualified in India review the final document and pay stamp duty under the applicable State Stamp Act before signing.
           NOTES
-          gh release create "$GITHUB_REF_NAME" dist/*.docx dist/*.zip --title "$GITHUB_REF_NAME" --notes-file notes.md
+          # The release may already exist if it was drafted in the GitHub UI, which creates the tag.
+          if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
+            gh release upload "$GITHUB_REF_NAME" dist/*.docx dist/*.zip --clobber
+          else
+            gh release create "$GITHUB_REF_NAME" dist/*.docx dist/*.zip --title "$GITHUB_REF_NAME" --notes-file notes.md
+          fi
