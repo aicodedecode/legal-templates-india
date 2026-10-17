@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Legal Templates India</title>
+  <meta name="description" content="Free, open-source Indian-law legal templates for startups and enterprises. Fill a template in your browser and download a Word document. Nothing you type leaves your device.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <a href="#/" class="brand-link">Legal Templates <span>India</span></a>
+      <p class="tagline">Open-source Indian-law templates for startups and enterprises</p>
+    </div>
+    <nav class="header-links">
+      <a href="https://github.com/dharmabot-ai/legal-templates-india/blob/main/docs/USAGE.md">How to use</a>
+      <a href="https://github.com/dharmabot-ai/legal-templates-india/releases">Word downloads</a>
+      <a href="https://github.com/dharmabot-ai/legal-templates-india">GitHub</a>
+    </nav>
+  </header>
+
+  <div class="notice" role="note">
+    <strong>Not legal advice.</strong> These are AI-assisted drafts, most not yet reviewed by an advocate.
+    Have an advocate qualified in India review your document and pay stamp duty under your State's Stamp Act before anyone signs.
+    <span class="privacy">Your answers stay in this browser; nothing is uploaded.</span>
+  </div>
+
+  <main class="layout">
+    <aside class="sidebar" aria-label="Templates">
+      <label class="search">
+        <span class="visually-hidden">Search templates</span>
+        <input id="search" type="search" placeholder="Search: NDA, offer letter, privacy…" autocomplete="off">
+      </label>
+      <nav id="template-list" class="template-list"></nav>
+    </aside>
+
+    <section id="view" class="view" aria-live="polite">
+      <div class="loading">Loading templates…</div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    Templates released under <a href="https://github.com/dharmabot-ai/legal-templates-india/blob/main/LICENSE">CC0 1.0</a>.
+    Found an error? <a href="https://github.com/dharmabot-ai/legal-templates-india/issues/new/choose">Report it</a>.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docx@8.5.0/build/index.umd.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
