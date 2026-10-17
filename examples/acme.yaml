@@ -1,0 +1,19 @@
+# Example values file for scripts/fill.py. Keys follow the shared field names in
+# CONTRIBUTING.md, so one file can fill several templates. All details are fictitious.
+company_name: Acme Technologies Private Limited
+company_cin: U72900KA2024PTC000000
+company_address: 4th Floor, 12 Residency Road, Bengaluru, Karnataka 560025
+company_signatory_name: Priya Sharma
+company_signatory_title: Director
+company_email: legal@acme.example
+counterparty_name: Globex Solutions Private Limited
+counterparty_address: 7th Floor, Tower B, Cyber City, Gurugram, Haryana 122002
+counterparty_signatory_name: Arjun Mehta
+counterparty_signatory_title: Chief Executive Officer
+counterparty_email: contracts@globex.example
+effective_date: 1 November 2026
+governing_city: Bengaluru
+arbitration_seat: Bengaluru
+website_url: https://acme.example
+grievance_officer_name: Kavya Nair
+grievance_officer_email: grievance@acme.example

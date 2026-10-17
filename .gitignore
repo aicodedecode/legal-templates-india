@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+*.docx
+*.pdf
+!examples/**
+.DS_Store

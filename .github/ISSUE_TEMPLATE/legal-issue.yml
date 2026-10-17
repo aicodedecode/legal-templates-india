@@ -1,0 +1,23 @@
+name: Legal accuracy issue
+description: Report an outdated, incorrect or unenforceable provision
+labels: [legal-accuracy]
+body:
+  - type: input
+    id: template
+    attributes:
+      label: Template id
+      placeholder: e.g. employment-agreement
+    validations:
+      required: true
+  - type: textarea
+    id: clause
+    attributes:
+      label: Clause and problem
+      description: Quote the clause and explain what is wrong.
+    validations:
+      required: true
+  - type: textarea
+    id: authority
+    attributes:
+      label: Authority
+      description: Statute, rule, notification or judgment (with citation) supporting the change.

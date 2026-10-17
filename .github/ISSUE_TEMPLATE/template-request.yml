@@ -1,0 +1,25 @@
+name: Template request
+description: Ask for a new template to be added
+labels: [template-request]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Template name
+      placeholder: e.g. Leave and Licence Agreement (Office Space)
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options: [Startup Core, Commercial & Enterprise, Privacy & Web, Fundraising & Corporate, HR Policies, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case
+      description: Who signs or publishes it, and in what situation? Mention any statutes or states it must address.
+    validations:
+      required: true

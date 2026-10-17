@@ -1,0 +1,4924 @@
+{
+  "name": "legal-templates-india",
+  "license": "CC0-1.0",
+  "jurisdiction": "IN",
+  "categories": {
+    "startup-core": "Startup Core",
+    "commercial": "Commercial & Enterprise",
+    "privacy-web": "Privacy & Web",
+    "fundraising": "Fundraising & Corporate",
+    "hr-policies": "HR Policies"
+  },
+  "count": 26,
+  "templates": [
+    {
+      "id": "advisor-agreement",
+      "title": "Advisor Agreement",
+      "category": "startup-core",
+      "summary": "Agreement engaging a startup advisor in India, covering services, time commitment, equity or cash compensation with vesting, IP and confidentiality.",
+      "audience": [
+        "startup"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Indian Contract Act, 1872",
+        "Companies Act, 2013",
+        "Copyright Act, 1957",
+        "Patents Act, 1970",
+        "Arbitration and Conciliation Act, 1996",
+        "Foreign Exchange Management Act, 1999"
+      ],
+      "document_type": "agreement",
+      "parties": 2,
+      "stamp_duty": "required",
+      "e_signature": "permitted",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "esop-plan",
+        "board-resolutions",
+        "ip-assignment-agreement",
+        "consultancy-agreement",
+        "mutual-nda",
+        "shareholders-agreement"
+      ],
+      "fields": [
+        {
+          "key": "effective_date",
+          "label": "Effective date",
+          "example": "1 November 2026"
+        },
+        {
+          "key": "company_name",
+          "label": "Company's full legal name",
+          "example": "Acme Technologies Private Limited"
+        },
+        {
+          "key": "company_cin",
+          "label": "Company's Corporate Identity Number (CIN)",
+          "example": "U62099KA2024PTC123456"
+        },
+        {
+          "key": "company_address",
+          "label": "Company's registered office address",
+          "example": "No. 12, 4th Cross, Indiranagar, Bengaluru 560038, Karnataka"
+        },
+        {
+          "key": "advisor_name",
+          "label": "Advisor's full name",
+          "example": "Meera Iyer"
+        },
+        {
+          "key": "advisor_address",
+          "label": "Advisor's residential address",
+          "example": "Flat 4B, Sea View Apartments, Kochi 682020, Kerala"
+        },
+        {
+          "key": "company_business",
+          "label": "Short description of the Company's business",
+          "example": "developing and operating a cloud-based accounting platform for small businesses"
+        },
+        {
+          "key": "advisor_expertise",
+          "label": "Advisor's areas of expertise",
+          "example": "B2B SaaS go-to-market strategy and enterprise sales in South-East Asia"
+        },
+        {
+          "key": "advisor_reporting_to",
+          "label": "Person the Advisor reports to",
+          "example": "the Chief Executive Officer"
+        },
+        {
+          "key": "advisor_hours_per_month",
+          "label": "Expected advisory hours per month",
+          "example": "eight (8)"
+        },
+        {
+          "key": "expense_preapproval_limit",
+          "label": "Expense amount above which prior written approval is needed",
+          "example": "₹ 10,000"
+        },
+        {
+          "key": "advisor_equity_amount",
+          "label": "Number of options, shares or phantom units",
+          "example": "5,000"
+        },
+        {
+          "key": "advisor_cash_fee",
+          "label": "Monthly cash fee, if any (exclusive of GST)",
+          "example": "₹ 50,000"
+        },
+        {
+          "key": "confidentiality_period",
+          "label": "Period for which confidentiality obligations survive",
+          "example": "three (3) years"
+        },
+        {
+          "key": "advisor_term",
+          "label": "Term of the advisory engagement",
+          "example": "two (2) years"
+        },
+        {
+          "key": "arbitration_seat",
+          "label": "Seat (legal place) of arbitration and city whose courts have jurisdiction",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "arbitration_venue",
+          "label": "Venue for arbitration hearings (may differ from the seat)",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "stamp_duty_payer",
+          "label": "Party that bears stamp duty",
+          "example": "the Company"
+        },
+        {
+          "key": "company_email",
+          "label": "Company's email address for notices",
+          "example": "legal@acme.example"
+        },
+        {
+          "key": "company_signatory_name",
+          "label": "Name of the Company's authorised signatory",
+          "example": "Asha Rao"
+        },
+        {
+          "key": "company_signatory_title",
+          "label": "Title of the Company's authorised signatory",
+          "example": "Director"
+        },
+        {
+          "key": "advisor_email",
+          "label": "Advisor's email address for notices",
+          "example": "meera@advisor.example"
+        },
+        {
+          "key": "advisor_services",
+          "label": "Specific advisory responsibilities",
+          "example": "advising on pricing and packaging; reviewing the sales playbook quarterly; making up to five customer introductions per quarter"
+        },
+        {
+          "key": "advisor_vesting_period",
+          "label": "Vesting period",
+          "example": "twenty-four (24) months from the Effective Date"
+        },
+        {
+          "key": "phantom_base_price",
+          "label": "Base price per phantom unit",
+          "example": "₹ 250"
+        },
+        {
+          "key": "phantom_expiry_period",
+          "label": "Period after which phantom units lapse if no Liquidity Event occurs",
+          "example": "ten (10) years"
+        },
+        {
+          "key": "advisor_disclosed_interests",
+          "label": "Advisor's existing roles and interests",
+          "example": "Independent director, Gamma Logistics Limited; angel investor in Delta Foods Private Limited (less than 2%)"
+        }
+      ],
+      "path": "templates/advisor-agreement/template.md",
+      "word_count": 7730
+    },
+    {
+      "id": "ai-acceptable-use-policy",
+      "title": "Generative AI Acceptable Use Policy",
+      "category": "privacy-web",
+      "summary": "Internal policy governing employees' use of generative AI tools in India: approved tools, prohibited inputs, human review, IP, labelling, DPDP and security.",
+      "audience": [
+        "startup",
+        "sme",
+        "enterprise"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Information Technology Act, 2000",
+        "Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021",
+        "Digital Personal Data Protection Act, 2023",
+        "Copyright Act, 1957",
+        "CERT-In Directions under section 70B(6) of the Information Technology Act, 2000 (28 April 2022)"
+      ],
+      "document_type": "policy",
+      "parties": 0,
+      "stamp_duty": "not-applicable",
+      "e_signature": "permitted",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "employee-handbook",
+        "employment-agreement",
+        "consultancy-agreement",
+        "data-processing-agreement",
+        "privacy-policy",
+        "terms-of-use",
+        "vendor-agreement"
+      ],
+      "fields": [
+        {
+          "key": "company_name",
+          "label": "Company's full legal name",
+          "example": "Acme Technologies Private Limited"
+        },
+        {
+          "key": "effective_date",
+          "label": "Date the policy takes effect",
+          "example": "1 November 2026"
+        },
+        {
+          "key": "policy_owner_title",
+          "label": "Title of the person who owns this policy",
+          "example": "Chief Technology Officer"
+        },
+        {
+          "key": "ai_committee_name",
+          "label": "Name of the cross-functional body that approves AI tools and use cases",
+          "example": "AI Governance Committee"
+        },
+        {
+          "key": "approved_tools_location",
+          "label": "Where the AI Tools Register is published internally",
+          "example": "the \"AI Tools Register\" page on the company intranet"
+        },
+        {
+          "key": "ai_incident_email",
+          "label": "Email address for reporting AI incidents",
+          "example": "ai-incidents@acme.example"
+        },
+        {
+          "key": "dpo_email",
+          "label": "Email address of the DPO / privacy contact",
+          "example": "privacy@acme.example"
+        },
+        {
+          "key": "training_frequency",
+          "label": "How often AI training must be completed",
+          "example": "annually, and within 30 days of joining"
+        },
+        {
+          "key": "policy_review_months",
+          "label": "Interval in months between policy reviews",
+          "example": "6"
+        }
+      ],
+      "path": "templates/ai-acceptable-use-policy/template.md",
+      "word_count": 3874
+    },
+    {
+      "id": "board-resolutions",
+      "title": "Board Resolutions Pack for a Private Company",
+      "category": "fundraising",
+      "summary": "Ten commonly used board resolutions for an Indian private company in certified-true-copy format, with the enabling section, quorum and filing notes for each.",
+      "audience": [
+        "startup",
+        "sme"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Companies Act, 2013",
+        "Companies (Meetings of Board and its Powers) Rules, 2014",
+        "Secretarial Standard on Meetings of the Board of Directors (SS-1)",
+        "Foreign Exchange Management (Non-debt Instruments) Rules, 2019"
+      ],
+      "document_type": "resolution",
+      "parties": 0,
+      "stamp_duty": "not-applicable",
+      "e_signature": "permitted",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "term-sheet",
+        "isafe-note",
+        "shareholders-agreement",
+        "esop-plan",
+        "founders-agreement"
+      ],
+      "fields": [
+        {
+          "key": "company_name",
+          "label": "Company's full legal name",
+          "example": "Acme Technologies Private Limited"
+        },
+        {
+          "key": "company_cin",
+          "label": "Company's Corporate Identity Number",
+          "example": "U72900KA2023PTC000000"
+        },
+        {
+          "key": "meeting_date",
+          "label": "Date of the Board meeting",
+          "example": "20 November 2026"
+        },
+        {
+          "key": "meeting_time",
+          "label": "Time of the Board meeting",
+          "example": "11.00 a.m."
+        },
+        {
+          "key": "meeting_venue",
+          "label": "Place of the meeting (or 'through video-conferencing, deemed venue: registered office')",
+          "example": "the registered office of the Company"
+        },
+        {
+          "key": "company_address",
+          "label": "Company's registered office address",
+          "example": "4th Floor, 12 Residency Road, Bengaluru 560025, Karnataka"
+        },
+        {
+          "key": "directors_present",
+          "label": "Number and names of directors present",
+          "example": "3 (Founder A, Founder B and Director C)"
+        },
+        {
+          "key": "chairperson_name",
+          "label": "Name of the director who chaired the meeting",
+          "example": "Founder A"
+        },
+        {
+          "key": "certifying_director_name",
+          "label": "Name of the director or company secretary certifying the copy",
+          "example": "Founder A"
+        },
+        {
+          "key": "certifying_director_din",
+          "label": "DIN of the certifying director",
+          "example": "00000001"
+        },
+        {
+          "key": "certification_place",
+          "label": "Place of certification",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "certification_date",
+          "label": "Date of certification",
+          "example": "21 November 2026"
+        },
+        {
+          "key": "bank_account_type",
+          "label": "Type of bank account",
+          "example": "current account"
+        },
+        {
+          "key": "bank_name",
+          "label": "Name of the bank",
+          "example": "Example Bank Limited"
+        },
+        {
+          "key": "bank_branch",
+          "label": "Branch of the bank",
+          "example": "MG Road branch, Bengaluru"
+        },
+        {
+          "key": "bank_signatories",
+          "label": "Names and designations of the bank authorised signatories",
+          "example": "Founder A (Director), Founder B (Director) and Person C (Chief Financial Officer)"
+        },
+        {
+          "key": "bank_single_limit",
+          "label": "Limit for single-signatory transactions",
+          "example": "INR 5,00,000"
+        },
+        {
+          "key": "authorised_person_name",
+          "label": "Name of the person authorised to sign and file",
+          "example": "Founder A"
+        },
+        {
+          "key": "authorised_person_designation",
+          "label": "Designation of the authorised person",
+          "example": "Director"
+        },
+        {
+          "key": "new_director_name",
+          "label": "Name of the director being appointed",
+          "example": "Director D"
+        },
+        {
+          "key": "new_director_din",
+          "label": "DIN of the director being appointed",
+          "example": "00000004"
+        },
+        {
+          "key": "new_director_category",
+          "label": "Category of directorship",
+          "example": "Non-Executive Nominee Director"
+        },
+        {
+          "key": "appointment_date",
+          "label": "Effective date of appointment",
+          "example": "20 November 2026"
+        },
+        {
+          "key": "shareholder_resolution_date",
+          "label": "Date of the shareholders' special resolution",
+          "example": "10 November 2026"
+        },
+        {
+          "key": "offer_letter_date",
+          "label": "Date of issue of the PAS-4 offer letters",
+          "example": "11 November 2026"
+        },
+        {
+          "key": "subscription_amount",
+          "label": "Total consideration / application money",
+          "example": "INR 40,00,00,000 (INR 40 crore)"
+        },
+        {
+          "key": "securities_description",
+          "label": "Description of the securities",
+          "example": "Series A compulsorily convertible preference shares of face value ₹ 10 each"
+        },
+        {
+          "key": "allottee_name",
+          "label": "Name of the allottee",
+          "example": "Example Ventures Fund I"
+        },
+        {
+          "key": "allottee_residential_status",
+          "label": "Residential status of the allottee under FEMA",
+          "example": "Resident outside India"
+        },
+        {
+          "key": "securities_number",
+          "label": "Number of securities",
+          "example": "4,00,000"
+        },
+        {
+          "key": "issue_price",
+          "label": "Issue price per security including premium",
+          "example": "₹ 1,000"
+        },
+        {
+          "key": "esop_plan_name",
+          "label": "Name of the ESOP plan",
+          "example": "Acme Employee Stock Option Plan 2026"
+        },
+        {
+          "key": "esop_pool_size",
+          "label": "Number of equity shares in the option pool",
+          "example": "1,50,000"
+        },
+        {
+          "key": "egm_date",
+          "label": "Date of the general meeting",
+          "example": "10 November 2026"
+        },
+        {
+          "key": "grantee_name",
+          "label": "Name of the option grantee",
+          "example": "Employee E"
+        },
+        {
+          "key": "grantee_designation",
+          "label": "Designation of the grantee",
+          "example": "Head of Engineering"
+        },
+        {
+          "key": "options_number",
+          "label": "Number of options granted",
+          "example": "5,000"
+        },
+        {
+          "key": "exercise_price",
+          "label": "Exercise price per option",
+          "example": "₹ 10"
+        },
+        {
+          "key": "vesting_schedule",
+          "label": "Vesting schedule",
+          "example": "25% after 12 months, then monthly over 36 months"
+        },
+        {
+          "key": "valuation_report_date",
+          "label": "Date of the registered valuer's report",
+          "example": "1 November 2026"
+        },
+        {
+          "key": "valuer_name",
+          "label": "Name and registration number of the registered valuer",
+          "example": "Valuer V (IBBI Registration No. IBBI/RV/00/0000/00000)"
+        },
+        {
+          "key": "contract_signatory_names",
+          "label": "Names and designations of persons authorised to sign contracts",
+          "example": "Founder A (Chief Executive Officer) and Founder B (Chief Technology Officer)"
+        },
+        {
+          "key": "contract_value_limit",
+          "label": "Maximum contract value for delegated authority",
+          "example": "INR 50,00,000 (INR 50 lakh)"
+        },
+        {
+          "key": "new_registered_office_address",
+          "label": "New registered office address",
+          "example": "7th Floor, 45 Brigade Road, Bengaluru 560025, Karnataka"
+        },
+        {
+          "key": "office_change_date",
+          "label": "Effective date of the change of registered office",
+          "example": "1 December 2026"
+        },
+        {
+          "key": "financial_year_end",
+          "label": "Financial year end date",
+          "example": "31 March 2026"
+        },
+        {
+          "key": "fs_signatory_names",
+          "label": "Persons signing the financial statements under section 134(1)",
+          "example": "Founder A (Director) and Founder B (Director)"
+        },
+        {
+          "key": "agm_date",
+          "label": "Date and time of the annual general meeting",
+          "example": "30 September 2026 at 11.00 a.m."
+        },
+        {
+          "key": "agm_venue",
+          "label": "Venue of the annual general meeting",
+          "example": "the registered office of the Company"
+        },
+        {
+          "key": "auditor_firm_name",
+          "label": "Name of the audit firm",
+          "example": "Example & Associates"
+        },
+        {
+          "key": "auditor_frn",
+          "label": "Firm registration number of the auditor",
+          "example": "000000S"
+        },
+        {
+          "key": "incorporation_date",
+          "label": "Date of incorporation of the Company",
+          "example": "1 April 2026"
+        },
+        {
+          "key": "circulation_resolution_date",
+          "label": "Date on which the circular resolution was passed",
+          "example": "25 November 2026"
+        },
+        {
+          "key": "circulation_date",
+          "label": "Date of circulation of the draft resolution",
+          "example": "20 November 2026"
+        },
+        {
+          "key": "total_directors",
+          "label": "Total number of directors",
+          "example": "3"
+        },
+        {
+          "key": "circulation_response_date",
+          "label": "Last date for directors to respond",
+          "example": "27 November 2026"
+        },
+        {
+          "key": "assenting_directors",
+          "label": "Number of directors who assented",
+          "example": "3"
+        },
+        {
+          "key": "circular_resolution_text",
+          "label": "Operative text of the resolution passed by circulation",
+          "example": "the consent of the Board be and is hereby accorded to open a current account in the name of the Company with Example Bank Limited"
+        }
+      ],
+      "path": "templates/board-resolutions/template.md",
+      "word_count": 4913
+    },
+    {
+      "id": "consultancy-agreement",
+      "title": "Consultancy Agreement",
+      "category": "startup-core",
+      "summary": "Agreement engaging an independent consultant or contractor in India, with fees, GST and TDS, s.19-compliant IP assignment, confidentiality and arbitration.",
+      "audience": [
+        "startup",
+        "sme",
+        "enterprise"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Indian Contract Act, 1872",
+        "Copyright Act, 1957",
+        "Patents Act, 1970",
+        "Micro, Small and Medium Enterprises Development Act, 2006",
+        "Central Goods and Services Tax Act, 2017",
+        "Code on Social Security, 2020",
+        "Digital Personal Data Protection Act, 2023",
+        "Arbitration and Conciliation Act, 1996"
+      ],
+      "document_type": "agreement",
+      "parties": 2,
+      "stamp_duty": "required",
+      "e_signature": "permitted",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "statement-of-work",
+        "ip-assignment-agreement",
+        "master-services-agreement",
+        "mutual-nda",
+        "data-processing-agreement",
+        "advisor-agreement",
+        "employment-agreement"
+      ],
+      "fields": [
+        {
+          "key": "effective_date",
+          "label": "Effective date",
+          "example": "1 November 2026"
+        },
+        {
+          "key": "company_name",
+          "label": "Company's full legal name",
+          "example": "Acme Technologies Private Limited"
+        },
+        {
+          "key": "company_cin",
+          "label": "Company's Corporate Identity Number (CIN)",
+          "example": "U62099KA2024PTC123456"
+        },
+        {
+          "key": "company_address",
+          "label": "Company's registered office address",
+          "example": "No. 12, 4th Cross, Indiranagar, Bengaluru 560038, Karnataka"
+        },
+        {
+          "key": "counterparty_name",
+          "label": "Counterparty's full legal name",
+          "example": "Beta Analytics LLP"
+        },
+        {
+          "key": "counterparty_description",
+          "label": "Counterparty's constitution and registration details",
+          "example": "a limited liability partnership registered under the Limited Liability Partnership Act, 2008 with LLPIN AAB-1234"
+        },
+        {
+          "key": "counterparty_address",
+          "label": "Counterparty's registered office or principal place of business",
+          "example": "Unit 5, Andheri East, Mumbai 400069, Maharashtra"
+        },
+        {
+          "key": "counterparty_pan",
+          "label": "Consultant's Permanent Account Number (PAN)",
+          "example": "AAAFB1234C"
+        },
+        {
+          "key": "company_business",
+          "label": "Short description of the Company's business",
+          "example": "developing and operating a cloud-based accounting platform for small businesses"
+        },
+        {
+          "key": "arbitration_seat",
+          "label": "Seat (legal place) of arbitration and city whose courts have jurisdiction",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "company_email",
+          "label": "Company's email address for notices",
+          "example": "legal@acme.example"
+        },
+        {
+          "key": "payment_days",
+          "label": "Days within which invoices are paid",
+          "example": "thirty (30)"
+        },
+        {
+          "key": "expense_preapproval_limit",
+          "label": "Expense amount above which prior written approval is needed",
+          "example": "₹ 10,000"
+        },
+        {
+          "key": "late_payment_interest",
+          "label": "Annual simple interest rate on late payments (non-MSE consultants)",
+          "example": "twelve per cent (12%)"
+        },
+        {
+          "key": "confidentiality_period",
+          "label": "Period for which confidentiality obligations survive",
+          "example": "three (3) years"
+        },
+        {
+          "key": "non_solicit_months",
+          "label": "Post-term non-solicitation period in months",
+          "example": "twelve (12)"
+        },
+        {
+          "key": "liability_cap_amount",
+          "label": "Liability cap",
+          "example": "the total Fees paid and payable under this Agreement"
+        },
+        {
+          "key": "consultancy_term",
+          "label": "Term of the consultancy",
+          "example": "twelve (12) months"
+        },
+        {
+          "key": "termination_notice_days",
+          "label": "Notice period for the Company's termination for convenience",
+          "example": "thirty (30)"
+        },
+        {
+          "key": "arbitration_venue",
+          "label": "Venue for arbitration hearings (may differ from the seat)",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "stamp_duty_payer",
+          "label": "Party that bears stamp duty",
+          "example": "the Company"
+        },
+        {
+          "key": "company_signatory_name",
+          "label": "Name of the Company's authorised signatory",
+          "example": "Asha Rao"
+        },
+        {
+          "key": "company_signatory_title",
+          "label": "Title of the Company's authorised signatory",
+          "example": "Director"
+        },
+        {
+          "key": "counterparty_email",
+          "label": "Counterparty's email address for notices",
+          "example": "contracts@beta.example"
+        },
+        {
+          "key": "counterparty_signatory_name",
+          "label": "Name of the counterparty's authorised signatory",
+          "example": "Rohan Mehta"
+        },
+        {
+          "key": "counterparty_signatory_title",
+          "label": "Title of the counterparty's authorised signatory",
+          "example": "Designated Partner"
+        },
+        {
+          "key": "services_description",
+          "label": "Description of the Services",
+          "example": "Design and development of the Company's Android and iOS mobile applications in accordance with the product requirements document dated 1 October 2026"
+        },
+        {
+          "key": "deliverables_description",
+          "label": "Deliverables, specifications and format",
+          "example": "Source code in the Company's Git repository; build and deployment documentation; test reports"
+        },
+        {
+          "key": "milestones",
+          "label": "Timelines and critical milestones",
+          "example": "Milestone 1 (beta build): 15 December 2026 (critical milestone); Milestone 2 (production release): 31 January 2027"
+        },
+        {
+          "key": "restricted_competitors",
+          "label": "Competitors the Consultant may not serve during the Term",
+          "example": "Epsilon Ledger Private Limited; Zeta Books Private Limited"
+        },
+        {
+          "key": "fee_details",
+          "label": "Fee structure and amounts",
+          "example": "₹ 6,00,000 in aggregate, payable in two equal instalments on Acceptance of Milestone 1 and Milestone 2, exclusive of GST"
+        },
+        {
+          "key": "key_personnel",
+          "label": "Key Personnel and their roles",
+          "example": "Rohan Mehta, lead developer, minimum 30 hours per week"
+        },
+        {
+          "key": "consultant_background_ip",
+          "label": "Consultant's Background IP that may be incorporated",
+          "example": "Consultant's proprietary UI component library (version 2.3), licensed under Clause 7.7"
+        }
+      ],
+      "path": "templates/consultancy-agreement/template.md",
+      "word_count": 12205
+    },
+    {
+      "id": "cookie-notice",
+      "title": "Cookie and Tracking Technologies Notice",
+      "category": "privacy-web",
+      "summary": "Notice explaining cookies, SDKs and similar technologies on an Indian website or app, with consent and withdrawal under the DPDP Act, 2023.",
+      "audience": [
+        "startup",
+        "sme",
+        "enterprise"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Digital Personal Data Protection Act, 2023",
+        "Digital Personal Data Protection Rules, 2025",
+        "Information Technology Act, 2000"
+      ],
+      "document_type": "notice",
+      "parties": 0,
+      "stamp_duty": "not-applicable",
+      "e_signature": "permitted",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "privacy-policy",
+        "terms-of-use"
+      ],
+      "fields": [
+        {
+          "key": "brand_name",
+          "label": "Brand, website or app name used publicly",
+          "example": "Acme"
+        },
+        {
+          "key": "effective_date",
+          "label": "Date this version of the notice takes effect",
+          "example": "1 November 2026"
+        },
+        {
+          "key": "company_name",
+          "label": "Company's full legal name",
+          "example": "Acme Technologies Private Limited"
+        },
+        {
+          "key": "website_url",
+          "label": "Website address(es) covered",
+          "example": "www.acme.example"
+        },
+        {
+          "key": "app_name",
+          "label": "Name of the mobile application(s) covered",
+          "example": "Acme for Android and iOS"
+        },
+        {
+          "key": "cookie_settings_location",
+          "label": "Where users can open cookie settings",
+          "example": "the \"Cookie settings\" link in the footer of every page, or Settings > Privacy in the app"
+        },
+        {
+          "key": "consent_record_period",
+          "label": "How long consent records are retained",
+          "example": "the life of your account plus 3 years"
+        },
+        {
+          "key": "consent_refresh_months",
+          "label": "Interval (in months) after which consent is sought again",
+          "example": 12
+        },
+        {
+          "key": "dpo_email",
+          "label": "Email address of the DPO / contact person",
+          "example": "privacy@acme.example"
+        },
+        {
+          "key": "grievance_officer_name",
+          "label": "Name of the Grievance Officer",
+          "example": "Priya Sharma (illustrative)"
+        },
+        {
+          "key": "grievance_officer_email",
+          "label": "Email address of the Grievance Officer",
+          "example": "grievance@acme.example"
+        }
+      ],
+      "path": "templates/cookie-notice/template.md",
+      "word_count": 1914
+    },
+    {
+      "id": "data-processing-agreement",
+      "title": "Data Processing Agreement (DPDP Act, 2023)",
+      "category": "privacy-web",
+      "summary": "Data Fiduciary to Data Processor agreement under section 8(2) of the DPDP Act, 2023, covering security, breach, CERT-In, transfers, audit and liability.",
+      "audience": [
+        "startup",
+        "sme",
+        "enterprise"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Digital Personal Data Protection Act, 2023",
+        "Digital Personal Data Protection Rules, 2025",
+        "Information Technology Act, 2000",
+        "CERT-In Directions under section 70B(6) of the Information Technology Act, 2000 (28 April 2022)",
+        "Indian Contract Act, 1872",
+        "Arbitration and Conciliation Act, 1996"
+      ],
+      "document_type": "agreement",
+      "parties": 2,
+      "stamp_duty": "required",
+      "e_signature": "permitted",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "master-services-agreement",
+        "saas-subscription-agreement",
+        "vendor-agreement",
+        "service-level-agreement",
+        "privacy-policy"
+      ],
+      "fields": [
+        {
+          "key": "effective_date",
+          "label": "Date on which this Agreement takes effect",
+          "example": "1 November 2026"
+        },
+        {
+          "key": "company_name",
+          "label": "Data Fiduciary's full legal name",
+          "example": "Acme Technologies Private Limited"
+        },
+        {
+          "key": "company_cin",
+          "label": "Data Fiduciary's CIN or LLPIN",
+          "example": "U72900KA2024PTC123456"
+        },
+        {
+          "key": "company_address",
+          "label": "Data Fiduciary's registered office address",
+          "example": "4th Floor, 12 MG Road, Bengaluru, Karnataka 560001"
+        },
+        {
+          "key": "counterparty_name",
+          "label": "Data Processor's full legal name",
+          "example": "Cloudline Services Private Limited"
+        },
+        {
+          "key": "counterparty_cin",
+          "label": "Data Processor's CIN or LLPIN (or foreign registration number)",
+          "example": "U74999MH2019PTC654321"
+        },
+        {
+          "key": "counterparty_address",
+          "label": "Data Processor's registered office address",
+          "example": "7th Floor, Tower B, Lower Parel, Mumbai, Maharashtra 400013"
+        },
+        {
+          "key": "principal_agreement_name",
+          "label": "Title of the underlying services agreement",
+          "example": "Master Services Agreement"
+        },
+        {
+          "key": "principal_agreement_date",
+          "label": "Date of the underlying services agreement",
+          "example": "15 October 2026"
+        },
+        {
+          "key": "breach_notice_hours",
+          "label": "Hours within which the Processor must notify the Fiduciary of a Personal Data Breach",
+          "example": "12"
+        },
+        {
+          "key": "cert_in_notice_hours",
+          "label": "Hours within which the Processor must notify the Fiduciary of a Cyber Security Incident",
+          "example": "2"
+        },
+        {
+          "key": "rights_assistance_days",
+          "label": "Business days within which the Processor must assist with a Data Principal request",
+          "example": "5"
+        },
+        {
+          "key": "subprocessor_notice_days",
+          "label": "Days' prior notice of a new Sub-processor",
+          "example": "30"
+        },
+        {
+          "key": "audit_notice_days",
+          "label": "Business days' notice before an audit",
+          "example": "15"
+        },
+        {
+          "key": "deletion_days",
+          "label": "Days after termination within which data must be returned and erased",
+          "example": "30"
+        },
+        {
+          "key": "liability_cap_amount",
+          "label": "General liability cap (or reference to the Principal Agreement cap)",
+          "example": "the total fees paid or payable under the Principal Agreement in the 12 months preceding the event giving rise to the claim"
+        },
+        {
+          "key": "super_cap_multiple",
+          "label": "Multiple of annual fees for the data-protection super-cap",
+          "example": "three (3)"
+        },
+        {
+          "key": "insurance_amount",
+          "label": "Minimum cyber and professional indemnity insurance cover",
+          "example": "₹ 5,00,00,000 (INR 5 crore)"
+        },
+        {
+          "key": "company_email",
+          "label": "Data Fiduciary's email for notices",
+          "example": "legal@acme.example"
+        },
+        {
+          "key": "counterparty_email",
+          "label": "Data Processor's email for notices",
+          "example": "legal@cloudline.example"
+        },
+        {
+          "key": "arbitration_seat",
+          "label": "Seat of arbitration",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "arbitration_venue",
+          "label": "Venue of hearings (if different from the seat)",
+          "example": "Bengaluru, or by video conference"
+        },
+        {
+          "key": "stamp_duty_payer",
+          "label": "Party bearing stamp duty",
+          "example": "the Data Fiduciary"
+        },
+        {
+          "key": "company_signatory_name",
+          "label": "Name of Data Fiduciary's authorised signatory",
+          "example": "Ananya Rao (illustrative)"
+        },
+        {
+          "key": "company_signatory_title",
+          "label": "Title of Data Fiduciary's authorised signatory",
+          "example": "Director"
+        },
+        {
+          "key": "counterparty_signatory_name",
+          "label": "Name of Data Processor's authorised signatory",
+          "example": "Vikram Mehta (illustrative)"
+        },
+        {
+          "key": "counterparty_signatory_title",
+          "label": "Title of Data Processor's authorised signatory",
+          "example": "Chief Executive Officer"
+        },
+        {
+          "key": "services_description",
+          "label": "Short description of the services involving processing",
+          "example": "cloud hosting, managed database and customer-support ticketing services"
+        },
+        {
+          "key": "processing_locations",
+          "label": "Countries and facilities where Personal Data will be processed or stored",
+          "example": "India (Mumbai and Hyderabad data centres); support access from Singapore"
+        }
+      ],
+      "path": "templates/data-processing-agreement/template.md",
+      "word_count": 8006
+    },
+    {
+      "id": "distribution-agreement",
+      "title": "Distribution Agreement",
+      "category": "commercial",
+      "summary": "Appointment of a buy-sell distributor for products in a defined Indian territory, with exclusivity options, targets, competition-law and consumer-law safeguards.",
+      "audience": [
+        "startup",
+        "sme",
+        "enterprise"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Indian Contract Act, 1872",
+        "Sale of Goods Act, 1930",
+        "Competition Act, 2002",
+        "Consumer Protection Act, 2019",
+        "Legal Metrology Act, 2009",
+        "Trade Marks Act, 1999",
+        "Central Goods and Services Tax Act, 2017",
+        "Arbitration and Conciliation Act, 1996"
+      ],
+      "document_type": "agreement",
+      "parties": 2,
+      "stamp_duty": "required",
+      "e_signature": "permitted",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "vendor-agreement",
+        "mutual-nda",
+        "data-processing-agreement",
+        "terms-of-use"
+      ],
+      "fields": [
+        {
+          "key": "effective_date",
+          "label": "Effective date of this Agreement",
+          "example": "1 November 2026"
+        },
+        {
+          "key": "company_name",
+          "label": "Supplier's full legal name",
+          "example": "Acme Home Appliances Private Limited"
+        },
+        {
+          "key": "company_cin",
+          "label": "Supplier's Corporate Identity Number (CIN) or LLPIN",
+          "example": "U29300MH2018PTC309876"
+        },
+        {
+          "key": "company_address",
+          "label": "Supplier's registered office address",
+          "example": "Unit 5, Andheri Industrial Estate, Andheri East, Mumbai 400093, Maharashtra"
+        },
+        {
+          "key": "counterparty_name",
+          "label": "Distributor's full legal name",
+          "example": "Dakshin Trade Links Private Limited"
+        },
+        {
+          "key": "counterparty_address",
+          "label": "Distributor's registered office or principal place of business",
+          "example": "45 Anna Salai, Teynampet, Chennai 600018, Tamil Nadu"
+        },
+        {
+          "key": "counterparty_gstin",
+          "label": "Distributor's GSTIN",
+          "example": "33AABCD1234E1Z7"
+        },
+        {
+          "key": "territory",
+          "label": "Territory",
+          "example": "The States of Tamil Nadu and Kerala and the Union Territory of Puducherry"
+        },
+        {
+          "key": "target_shortfall_percent",
+          "label": "Percentage of Minimum Purchase Target below which Supplier's remedies apply",
+          "example": "80"
+        },
+        {
+          "key": "order_acceptance_days",
+          "label": "Business days for Supplier to accept or reject an order",
+          "example": "3"
+        },
+        {
+          "key": "delivery_terms",
+          "label": "Default delivery terms",
+          "example": "Delivered to the Distributor's warehouse in Chennai, freight paid by the Supplier (FOR destination)"
+        },
+        {
+          "key": "inspection_days",
+          "label": "Days after delivery for Distributor to notify shortages or visible defects",
+          "example": "7"
+        },
+        {
+          "key": "credit_limit",
+          "label": "Maximum outstanding credit allowed to Distributor",
+          "example": "₹ 50,00,000 (INR 50 lakh)"
+        },
+        {
+          "key": "payment_days",
+          "label": "Days from invoice date within which Distributor pays",
+          "example": "30"
+        },
+        {
+          "key": "late_interest_rate",
+          "label": "Simple interest rate per annum on overdue amounts (percentage)",
+          "example": "15"
+        },
+        {
+          "key": "security_amount",
+          "label": "Amount of bank guarantee or security deposit",
+          "example": "₹ 25,00,000 (INR 25 lakh)"
+        },
+        {
+          "key": "warranty_months",
+          "label": "Supplier's warranty period to end customers (months)",
+          "example": "12"
+        },
+        {
+          "key": "report_days",
+          "label": "Business days after month-end for monthly sales and inventory report",
+          "example": "7"
+        },
+        {
+          "key": "confidentiality_years",
+          "label": "Years for which confidentiality survives termination",
+          "example": "3"
+        },
+        {
+          "key": "initial_term_years",
+          "label": "Initial term in years",
+          "example": "3"
+        },
+        {
+          "key": "renewal_notice_days",
+          "label": "Days' notice of non-renewal",
+          "example": "90"
+        },
+        {
+          "key": "convenience_notice_days",
+          "label": "Days' notice for termination for convenience",
+          "example": "180"
+        },
+        {
+          "key": "cure_period_days",
+          "label": "Days allowed to cure a material breach",
+          "example": "30"
+        },
+        {
+          "key": "sell_off_days",
+          "label": "Days after termination during which Distributor may sell remaining stock",
+          "example": "90"
+        },
+        {
+          "key": "escalation_days",
+          "label": "Days for senior-executive negotiation before arbitration",
+          "example": "30"
+        },
+        {
+          "key": "arbitration_seat",
+          "label": "Seat of arbitration (city)",
+          "example": "Mumbai"
+        },
+        {
+          "key": "arbitration_venue",
+          "label": "Venue for hearings",
+          "example": "Mumbai"
+        },
+        {
+          "key": "governing_city",
+          "label": "City whose courts have jurisdiction for non-arbitrable matters",
+          "example": "Mumbai"
+        },
+        {
+          "key": "company_email",
+          "label": "Supplier's email for notices",
+          "example": "legal@acmehome.example"
+        },
+        {
+          "key": "counterparty_email",
+          "label": "Distributor's email for notices",
+          "example": "md@dakshintrade.example"
+        },
+        {
+          "key": "stamp_duty_payer",
+          "label": "Party bearing stamp duty",
+          "example": "the Distributor"
+        },
+        {
+          "key": "company_signatory_name",
+          "label": "Name of Supplier's authorised signatory",
+          "example": "Rajesh Nair"
+        },
+        {
+          "key": "company_signatory_title",
+          "label": "Designation of Supplier's authorised signatory",
+          "example": "Chief Commercial Officer"
+        },
+        {
+          "key": "counterparty_signatory_name",
+          "label": "Name of Distributor's authorised signatory",
+          "example": "Lakshmi Subramanian"
+        },
+        {
+          "key": "counterparty_signatory_title",
+          "label": "Designation of Distributor's authorised signatory",
+          "example": "Managing Director"
+        }
+      ],
+      "path": "templates/distribution-agreement/template.md",
+      "word_count": 10390
+    },
+    {
+      "id": "employee-handbook",
+      "title": "Employee Handbook",
+      "category": "hr-policies",
+      "summary": "Concise but complete employee handbook for an Indian company covering conduct, leave, remote work, IT, data protection, anti-bribery, POSH, grievances, discipline and exit.",
+      "audience": [
+        "startup",
+        "sme",
+        "enterprise"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Code on Wages, 2019",
+        "Industrial Relations Code, 2020",
+        "Code on Social Security, 2020",
+        "Occupational Safety, Health and Working Conditions Code, 2020",
+        "State Shops and Establishments Act (as applicable)",
+        "Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013",
+        "Prevention of Corruption Act, 1988",
+        "Digital Personal Data Protection Act, 2023",
+        "Information Technology Act, 2000",
+        "Rights of Persons with Disabilities Act, 2016",
+        "Companies Act, 2013"
+      ],
+      "document_type": "policy",
+      "parties": 0,
+      "stamp_duty": "not-applicable",
+      "e_signature": "permitted",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "posh-policy",
+        "ai-acceptable-use-policy",
+        "employment-agreement",
+        "offer-letter",
+        "privacy-policy"
+      ],
+      "fields": [
+        {
+          "key": "company_name",
+          "label": "Company's full legal name",
+          "example": "Acme Technologies Private Limited"
+        },
+        {
+          "key": "effective_date",
+          "label": "Date from which the Handbook is effective",
+          "example": "1 December 2026"
+        },
+        {
+          "key": "handbook_owner",
+          "label": "Function responsible for the Handbook",
+          "example": "People and Culture team"
+        },
+        {
+          "key": "company_email",
+          "label": "HR email address for queries",
+          "example": "people@example.in"
+        },
+        {
+          "key": "compliance_officer_email",
+          "label": "Email of the ethics and compliance officer",
+          "example": "ethics@example.in"
+        },
+        {
+          "key": "shops_establishments_act",
+          "label": "Applicable State Shops and Establishments Act",
+          "example": "Karnataka Shops and Commercial Establishments Act, 1961"
+        },
+        {
+          "key": "working_hours_per_day",
+          "label": "Normal working hours per day",
+          "example": "9"
+        },
+        {
+          "key": "working_days",
+          "label": "Normal working days",
+          "example": "Monday to Friday"
+        },
+        {
+          "key": "core_hours",
+          "label": "Core collaboration hours",
+          "example": "11:00 a.m. to 4:00 p.m. IST"
+        },
+        {
+          "key": "earned_leave_days",
+          "label": "Annual earned or privilege leave (days)",
+          "example": "18"
+        },
+        {
+          "key": "leave_carry_forward_cap",
+          "label": "Maximum earned leave that may be carried forward (days)",
+          "example": "45"
+        },
+        {
+          "key": "casual_leave_days",
+          "label": "Annual casual leave (days)",
+          "example": "8"
+        },
+        {
+          "key": "sick_leave_days",
+          "label": "Annual sick leave (days)",
+          "example": "8"
+        },
+        {
+          "key": "holidays_count",
+          "label": "Number of paid public and festival holidays per year",
+          "example": "12"
+        },
+        {
+          "key": "paternity_leave_days",
+          "label": "Paternity leave (days)",
+          "example": "10"
+        },
+        {
+          "key": "bereavement_leave_days",
+          "label": "Bereavement leave (days)",
+          "example": "5"
+        },
+        {
+          "key": "remote_days_per_week",
+          "label": "Maximum remote working days per week (hybrid)",
+          "example": "2"
+        },
+        {
+          "key": "grievance_officer_email",
+          "label": "Email of the data protection grievance officer",
+          "example": "privacy@example.in"
+        },
+        {
+          "key": "grievance_officer_name",
+          "label": "Name or title of the data protection grievance officer",
+          "example": "Data Protection Officer"
+        },
+        {
+          "key": "gift_value_limit",
+          "label": "Maximum value of a permissible gift",
+          "example": "₹ 2,500"
+        },
+        {
+          "key": "ic_email",
+          "label": "Email of the Internal Committee under the POSH Act",
+          "example": "ic@example.in"
+        },
+        {
+          "key": "whistleblower_email",
+          "label": "Email or channel for whistleblower reports",
+          "example": "speakup@example.in"
+        },
+        {
+          "key": "audit_committee_chair_email",
+          "label": "Email of the Audit Committee chair or designated director",
+          "example": "auditchair@example.in"
+        },
+        {
+          "key": "notice_period_days",
+          "label": "Standard notice period after confirmation (days)",
+          "example": "60"
+        }
+      ],
+      "path": "templates/employee-handbook/template.md",
+      "word_count": 5666
+    },
+    {
+      "id": "employment-agreement",
+      "title": "Employment Agreement",
+      "category": "startup-core",
+      "summary": "Full employment agreement for a managerial or professional employee in India, aligned with the Labour Codes, State Shops and Establishments Acts, DPDP Act and s.27 ICA.",
+      "audience": [
+        "startup",
+        "sme",
+        "enterprise"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Indian Contract Act, 1872",
+        "Code on Wages, 2019",
+        "Industrial Relations Code, 2020",
+        "Code on Social Security, 2020",
+        "Occupational Safety, Health and Working Conditions Code, 2020",
+        "State Shops and Establishments Act (as applicable)",
+        "Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013",
+        "Copyright Act, 1957",
+        "Digital Personal Data Protection Act, 2023",
+        "Arbitration and Conciliation Act, 1996",
+        "Information Technology Act, 2000"
+      ],
+      "document_type": "agreement",
+      "parties": 2,
+      "stamp_duty": "required",
+      "e_signature": "permitted",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "offer-letter",
+        "employee-handbook",
+        "posh-policy",
+        "esop-plan",
+        "ip-assignment-agreement",
+        "mutual-nda"
+      ],
+      "fields": [
+        {
+          "key": "effective_date",
+          "label": "Date of execution of this Agreement",
+          "example": "25 November 2026"
+        },
+        {
+          "key": "execution_place",
+          "label": "City where the Agreement is executed",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "company_name",
+          "label": "Company's full legal name",
+          "example": "Acme Technologies Private Limited"
+        },
+        {
+          "key": "company_cin",
+          "label": "Company's Corporate Identity Number (CIN)",
+          "example": "U62099KA2026PTC123456"
+        },
+        {
+          "key": "company_address",
+          "label": "Company's registered office address",
+          "example": "12, 4th Cross, Indiranagar, Bengaluru 560038, Karnataka"
+        },
+        {
+          "key": "employee_name",
+          "label": "Employee's full name",
+          "example": "Priya Nair"
+        },
+        {
+          "key": "employee_address",
+          "label": "Employee's residential address",
+          "example": "22, Lake View Road, Kochi 682016, Kerala"
+        },
+        {
+          "key": "offer_date",
+          "label": "Date of the offer letter",
+          "example": "1 November 2026"
+        },
+        {
+          "key": "shops_establishments_act",
+          "label": "Applicable State Shops and Establishments Act",
+          "example": "Karnataka Shops and Commercial Establishments Act, 1961"
+        },
+        {
+          "key": "joining_date",
+          "label": "Date of joining",
+          "example": "1 December 2026"
+        },
+        {
+          "key": "job_title",
+          "label": "Job title",
+          "example": "Senior Software Engineer"
+        },
+        {
+          "key": "reporting_manager",
+          "label": "Title of the reporting manager",
+          "example": "Head of Engineering"
+        },
+        {
+          "key": "work_location",
+          "label": "Principal place of work",
+          "example": "Bengaluru (hybrid, three days a week in office)"
+        },
+        {
+          "key": "working_hours_per_day",
+          "label": "Normal working hours per day",
+          "example": "9"
+        },
+        {
+          "key": "working_days",
+          "label": "Normal working days",
+          "example": "Monday to Friday"
+        },
+        {
+          "key": "annual_ctc",
+          "label": "Total annual cost to company (CTC)",
+          "example": "₹ 24,00,000"
+        },
+        {
+          "key": "salary_payment_day",
+          "label": "Day of the month by which salary is paid",
+          "example": "the last working day of the month"
+        },
+        {
+          "key": "earned_leave_days",
+          "label": "Annual earned or privilege leave (days)",
+          "example": "18"
+        },
+        {
+          "key": "casual_leave_days",
+          "label": "Annual casual leave (days)",
+          "example": "8"
+        },
+        {
+          "key": "sick_leave_days",
+          "label": "Annual sick leave (days)",
+          "example": "8"
+        },
+        {
+          "key": "leave_carry_forward_cap",
+          "label": "Maximum earned leave that may be carried forward (days)",
+          "example": "45"
+        },
+        {
+          "key": "probation_months",
+          "label": "Probation period in months",
+          "example": "6"
+        },
+        {
+          "key": "probation_notice_days",
+          "label": "Notice period during probation (days)",
+          "example": "15"
+        },
+        {
+          "key": "non_solicit_months",
+          "label": "Post-employment non-solicitation period (months)",
+          "example": "12"
+        },
+        {
+          "key": "notice_period_days",
+          "label": "Notice period after confirmation (days)",
+          "example": "60"
+        },
+        {
+          "key": "retirement_age",
+          "label": "Retirement age",
+          "example": "60"
+        },
+        {
+          "key": "training_bond_amount",
+          "label": "Maximum training cost recoverable (if applicable)",
+          "example": "₹ 2,00,000"
+        },
+        {
+          "key": "company_email",
+          "label": "Company's email address for notices",
+          "example": "people@example.in"
+        },
+        {
+          "key": "employee_email",
+          "label": "Employee's personal email address for notices",
+          "example": "priya.personal@example.com"
+        },
+        {
+          "key": "arbitration_seat",
+          "label": "Seat of arbitration",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "arbitration_venue",
+          "label": "Venue of arbitration hearings",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "governing_city",
+          "label": "City whose courts have jurisdiction (courts option)",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "stamp_duty_payer",
+          "label": "Party bearing stamp duty",
+          "example": "the Company"
+        },
+        {
+          "key": "company_signatory_name",
+          "label": "Name of the Company's authorised signatory",
+          "example": "Meera Iyer"
+        },
+        {
+          "key": "company_signatory_title",
+          "label": "Title of the Company's authorised signatory",
+          "example": "Head of People"
+        },
+        {
+          "key": "basic_monthly",
+          "label": "Monthly basic pay",
+          "example": "₹ 1,00,000"
+        },
+        {
+          "key": "basic_annual",
+          "label": "Annual basic pay",
+          "example": "₹ 12,00,000"
+        },
+        {
+          "key": "hra_monthly",
+          "label": "Monthly house rent allowance",
+          "example": "₹ 40,000"
+        },
+        {
+          "key": "hra_annual",
+          "label": "Annual house rent allowance",
+          "example": "₹ 4,80,000"
+        },
+        {
+          "key": "special_allowance_monthly",
+          "label": "Monthly special allowance",
+          "example": "₹ 29,200"
+        },
+        {
+          "key": "special_allowance_annual",
+          "label": "Annual special allowance",
+          "example": "₹ 3,50,400"
+        },
+        {
+          "key": "fixed_gross_monthly",
+          "label": "Monthly gross fixed pay (A)",
+          "example": "₹ 1,69,200"
+        },
+        {
+          "key": "fixed_gross_annual",
+          "label": "Annual gross fixed pay (A)",
+          "example": "₹ 20,30,400"
+        },
+        {
+          "key": "employer_pf_monthly",
+          "label": "Monthly employer provident fund contribution",
+          "example": "₹ 1,800"
+        },
+        {
+          "key": "employer_pf_annual",
+          "label": "Annual employer provident fund contribution",
+          "example": "₹ 21,600"
+        },
+        {
+          "key": "gratuity_annual",
+          "label": "Annual gratuity provision",
+          "example": "₹ 57,720"
+        },
+        {
+          "key": "insurance_annual",
+          "label": "Annual group health insurance premium",
+          "example": "₹ 20,000"
+        },
+        {
+          "key": "variable_pay_annual",
+          "label": "Annual target variable pay",
+          "example": "₹ 2,70,280"
+        },
+        {
+          "key": "role_description",
+          "label": "Key responsibilities of the role",
+          "example": "Design, build and maintain backend services; review code; mentor two junior engineers; participate in on-call rotation"
+        },
+        {
+          "key": "employee_excluded_ip",
+          "label": "Employee's prior inventions or excluded IP (or \"None\")",
+          "example": "None"
+        }
+      ],
+      "path": "templates/employment-agreement/template.md",
+      "word_count": 8093
+    },
+    {
+      "id": "esop-plan",
+      "title": "Employee Stock Option Plan",
+      "category": "fundraising",
+      "summary": "Employee Stock Option Plan for an unlisted Indian company under s.62(1)(b) Companies Act and Rule 12, with grant letter, exercise notice and shareholder resolution.",
+      "audience": [
+        "startup",
+        "sme",
+        "investor"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Companies Act, 2013",
+        "Companies (Share Capital and Debentures) Rules, 2014",
+        "Income-tax Act, 2025",
+        "Foreign Exchange Management Act, 1999",
+        "Foreign Exchange Management (Non-debt Instruments) Rules, 2019",
+        "Indian Contract Act, 1872",
+        "Arbitration and Conciliation Act, 1996",
+        "Digital Personal Data Protection Act, 2023"
+      ],
+      "document_type": "plan",
+      "parties": 0,
+      "stamp_duty": "check",
+      "e_signature": "permitted",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "board-resolutions",
+        "shareholders-agreement",
+        "offer-letter",
+        "employment-agreement",
+        "founders-agreement",
+        "term-sheet"
+      ],
+      "fields": [
+        {
+          "key": "company_name",
+          "label": "Company's full legal name",
+          "example": "Acme Technologies Private Limited"
+        },
+        {
+          "key": "plan_year",
+          "label": "Year in the name of the Plan",
+          "example": "2026"
+        },
+        {
+          "key": "company_cin",
+          "label": "Company's Corporate Identity Number (CIN)",
+          "example": "U62099KA2026PTC123456"
+        },
+        {
+          "key": "company_address",
+          "label": "Company's registered office address",
+          "example": "12, 4th Cross, Indiranagar, Bengaluru 560038, Karnataka"
+        },
+        {
+          "key": "board_approval_date",
+          "label": "Date of Board meeting approving the Plan",
+          "example": "15 November 2026"
+        },
+        {
+          "key": "shareholder_approval_date",
+          "label": "Date of general meeting approving the Plan",
+          "example": "10 December 2026"
+        },
+        {
+          "key": "effective_date",
+          "label": "Date from which the Plan is effective",
+          "example": "10 December 2026"
+        },
+        {
+          "key": "plan_term_years",
+          "label": "Term of the Plan in years",
+          "example": "10"
+        },
+        {
+          "key": "administrator_name",
+          "label": "Body administering the Plan",
+          "example": "Nomination and Remuneration Committee of the Board"
+        },
+        {
+          "key": "share_face_value",
+          "label": "Face value per equity share",
+          "example": "₹ 10"
+        },
+        {
+          "key": "pool_size",
+          "label": "Maximum number of Options under the Plan",
+          "example": "1,500"
+        },
+        {
+          "key": "pool_percentage",
+          "label": "Pool as a percentage of fully diluted share capital at adoption",
+          "example": "10%"
+        },
+        {
+          "key": "max_options_per_employee",
+          "label": "Maximum Options grantable to any one Employee in a year",
+          "example": "500"
+        },
+        {
+          "key": "grant_acceptance_days",
+          "label": "Days within which a grant must be accepted",
+          "example": "30"
+        },
+        {
+          "key": "vesting_period_months",
+          "label": "Default total vesting period in months",
+          "example": "48"
+        },
+        {
+          "key": "cliff_months",
+          "label": "Default cliff period in months (not less than 12)",
+          "example": "12"
+        },
+        {
+          "key": "exercise_period_years",
+          "label": "Exercise period in years from the date of vesting",
+          "example": "10"
+        },
+        {
+          "key": "esop_lock_in_months",
+          "label": "Lock-in period for Shares issued on exercise (months, or 0)",
+          "example": "0"
+        },
+        {
+          "key": "leaver_exercise_days",
+          "label": "Days a good leaver has to exercise vested Options",
+          "example": "180"
+        },
+        {
+          "key": "arbitration_seat",
+          "label": "Seat of arbitration",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "arbitration_venue",
+          "label": "Venue of arbitration hearings",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "company_email",
+          "label": "Company's email address for Plan communications",
+          "example": "esop@example.in"
+        },
+        {
+          "key": "grant_date",
+          "label": "Date of grant in the Grant Letter",
+          "example": "1 January 2027"
+        },
+        {
+          "key": "grantee_name",
+          "label": "Name of the Grantee",
+          "example": "Priya Nair"
+        },
+        {
+          "key": "grantee_address",
+          "label": "Address of the Grantee",
+          "example": "22, Lake View Road, Kochi 682016, Kerala"
+        },
+        {
+          "key": "options_granted",
+          "label": "Number of Options granted",
+          "example": "200"
+        },
+        {
+          "key": "exercise_price",
+          "label": "Exercise price per Option",
+          "example": "₹ 10"
+        },
+        {
+          "key": "vesting_commencement_date",
+          "label": "Vesting commencement date for the grant",
+          "example": "1 December 2026"
+        },
+        {
+          "key": "company_signatory_name",
+          "label": "Name of the Company's authorised signatory",
+          "example": "Meera Iyer"
+        },
+        {
+          "key": "company_signatory_title",
+          "label": "Title of the Company's authorised signatory",
+          "example": "Director"
+        }
+      ],
+      "path": "templates/esop-plan/template.md",
+      "word_count": 7432
+    },
+    {
+      "id": "founders-agreement",
+      "title": "Founders' Agreement",
+      "category": "startup-core",
+      "summary": "Agreement among the co-founders of an Indian private limited company covering roles, shareholding, reverse vesting, leaver terms, IP, decision-making and exit.",
+      "audience": [
+        "startup"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Indian Contract Act, 1872",
+        "Companies Act, 2013",
+        "Copyright Act, 1957",
+        "Specific Relief Act, 1963",
+        "Arbitration and Conciliation Act, 1996",
+        "Information Technology Act, 2000"
+      ],
+      "document_type": "agreement",
+      "parties": 3,
+      "stamp_duty": "required",
+      "e_signature": "permitted",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "shareholders-agreement",
+        "ip-assignment-agreement",
+        "esop-plan",
+        "board-resolutions",
+        "mutual-nda",
+        "term-sheet"
+      ],
+      "fields": [
+        {
+          "key": "effective_date",
+          "label": "Date of execution of this Agreement",
+          "example": "1 November 2026"
+        },
+        {
+          "key": "execution_place",
+          "label": "City where the Agreement is executed",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "company_name",
+          "label": "Company's full legal name",
+          "example": "Acme Technologies Private Limited"
+        },
+        {
+          "key": "company_cin",
+          "label": "Company's Corporate Identity Number (CIN)",
+          "example": "U62099KA2026PTC123456"
+        },
+        {
+          "key": "company_address",
+          "label": "Company's registered office address",
+          "example": "12, 4th Cross, Indiranagar, Bengaluru 560038, Karnataka"
+        },
+        {
+          "key": "founder_1_name",
+          "label": "First founder's full name",
+          "example": "Asha Rao"
+        },
+        {
+          "key": "founder_1_address",
+          "label": "First founder's residential address",
+          "example": "45, MG Road, Bengaluru 560001, Karnataka"
+        },
+        {
+          "key": "founder_2_name",
+          "label": "Second founder's full name",
+          "example": "Vikram Singh"
+        },
+        {
+          "key": "founder_2_address",
+          "label": "Second founder's residential address",
+          "example": "7, Park Street, Kolkata 700016, West Bengal"
+        },
+        {
+          "key": "business_description",
+          "label": "Short description of the Company's business",
+          "example": "a software-as-a-service platform for logistics planning"
+        },
+        {
+          "key": "share_face_value",
+          "label": "Face value per equity share",
+          "example": "₹ 10"
+        },
+        {
+          "key": "vesting_commencement_date",
+          "label": "Date from which founder vesting is counted",
+          "example": "1 July 2026"
+        },
+        {
+          "key": "aoa_amendment_days",
+          "label": "Days within which the Articles must be amended",
+          "example": "30"
+        },
+        {
+          "key": "minimum_hours_per_week",
+          "label": "Minimum hours per week each founder will devote",
+          "example": "40"
+        },
+        {
+          "key": "vesting_period_months",
+          "label": "Total vesting period in months",
+          "example": "48"
+        },
+        {
+          "key": "cliff_months",
+          "label": "Cliff period in months",
+          "example": "12"
+        },
+        {
+          "key": "call_option_period_days",
+          "label": "Days within which the call option may be exercised after a Leaving Date",
+          "example": "90"
+        },
+        {
+          "key": "completion_days",
+          "label": "Days within which a transfer must complete after a Call Notice",
+          "example": "30"
+        },
+        {
+          "key": "acceleration_percentage",
+          "label": "Percentage of Unvested Shares that accelerate on a Change of Control",
+          "example": "50"
+        },
+        {
+          "key": "non_solicit_months",
+          "label": "Post-exit non-solicitation period in months",
+          "example": "12"
+        },
+        {
+          "key": "deadlock_cooling_days",
+          "label": "Days of negotiation before a deadlock escalates",
+          "example": "15"
+        },
+        {
+          "key": "lock_in_months",
+          "label": "Founder lock-in period in months",
+          "example": "36"
+        },
+        {
+          "key": "rofr_offer_period_days",
+          "label": "Days the other founders have to accept a ROFR offer",
+          "example": "30"
+        },
+        {
+          "key": "drag_threshold_percentage",
+          "label": "Shareholding percentage needed to trigger drag-along",
+          "example": "75"
+        },
+        {
+          "key": "founder_salary_approval",
+          "label": "Body that approves founder remuneration",
+          "example": "the Board, with the consent of all Founders then in office"
+        },
+        {
+          "key": "arbitration_seat",
+          "label": "Seat of arbitration",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "arbitration_venue",
+          "label": "Venue of arbitration hearings",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "company_email",
+          "label": "Company's email address for notices",
+          "example": "legal@example.in"
+        },
+        {
+          "key": "founder_1_email",
+          "label": "First founder's email address for notices",
+          "example": "asha@example.in"
+        },
+        {
+          "key": "founder_2_email",
+          "label": "Second founder's email address for notices",
+          "example": "vikram@example.in"
+        },
+        {
+          "key": "stamp_duty_payer",
+          "label": "Party bearing stamp duty",
+          "example": "the Company"
+        },
+        {
+          "key": "company_signatory_name",
+          "label": "Name of the Company's authorised signatory",
+          "example": "Meera Iyer"
+        },
+        {
+          "key": "company_signatory_title",
+          "label": "Title of the Company's authorised signatory",
+          "example": "Director"
+        },
+        {
+          "key": "founder_1_role",
+          "label": "First founder's title and role",
+          "example": "Chief Executive Officer – strategy, fundraising, sales and hiring"
+        },
+        {
+          "key": "founder_2_role",
+          "label": "Second founder's title and role",
+          "example": "Chief Technology Officer – product, engineering and security"
+        },
+        {
+          "key": "founder_1_shares",
+          "label": "Number of equity shares held by the first founder",
+          "example": "6,000"
+        },
+        {
+          "key": "founder_1_percentage",
+          "label": "First founder's percentage shareholding",
+          "example": "60%"
+        },
+        {
+          "key": "founder_2_shares",
+          "label": "Number of equity shares held by the second founder",
+          "example": "4,000"
+        },
+        {
+          "key": "founder_2_percentage",
+          "label": "Second founder's percentage shareholding",
+          "example": "40%"
+        },
+        {
+          "key": "total_shares",
+          "label": "Total issued equity shares of the Company",
+          "example": "10,000"
+        },
+        {
+          "key": "reserved_matter_spend_threshold",
+          "label": "Spending threshold above which founder consent is required",
+          "example": "₹ 10,00,000"
+        },
+        {
+          "key": "founder_1_excluded_ip",
+          "label": "First founder's prior or excluded IP (or \"None\")",
+          "example": "None"
+        },
+        {
+          "key": "founder_2_excluded_ip",
+          "label": "Second founder's prior or excluded IP (or \"None\")",
+          "example": "An open-source routing library published before the Vesting Commencement Date under the MIT licence"
+        }
+      ],
+      "path": "templates/founders-agreement/template.md",
+      "word_count": 9030
+    },
+    {
+      "id": "ip-assignment-agreement",
+      "title": "Intellectual Property Assignment Agreement",
+      "category": "startup-core",
+      "summary": "Confirmatory and prior-inventions IP assignment by a founder, employee or contractor to an Indian company, compliant with s.19 Copyright Act and s.68 Patents Act.",
+      "audience": [
+        "startup",
+        "sme",
+        "enterprise",
+        "investor"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Copyright Act, 1957",
+        "Patents Act, 1970",
+        "Designs Act, 2000",
+        "Trade Marks Act, 1999",
+        "Indian Contract Act, 1872",
+        "Companies Act, 2013",
+        "Information Technology Act, 2000",
+        "Arbitration and Conciliation Act, 1996"
+      ],
+      "document_type": "agreement",
+      "parties": 2,
+      "stamp_duty": "required",
+      "e_signature": "check",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "founders-agreement",
+        "employment-agreement",
+        "consultancy-agreement",
+        "advisor-agreement",
+        "shareholders-agreement",
+        "term-sheet"
+      ],
+      "fields": [
+        {
+          "key": "effective_date",
+          "label": "Effective date",
+          "example": "1 November 2026"
+        },
+        {
+          "key": "assignor_name",
+          "label": "Assignor's full name",
+          "example": "Vikram Nair"
+        },
+        {
+          "key": "assignor_address",
+          "label": "Assignor's residential address",
+          "example": "House No. 21, Sector 15, Gurugram 122001, Haryana"
+        },
+        {
+          "key": "company_name",
+          "label": "Company's full legal name",
+          "example": "Acme Technologies Private Limited"
+        },
+        {
+          "key": "company_cin",
+          "label": "Company's Corporate Identity Number (CIN)",
+          "example": "U62099KA2024PTC123456"
+        },
+        {
+          "key": "company_address",
+          "label": "Company's registered office address",
+          "example": "No. 12, 4th Cross, Indiranagar, Bengaluru 560038, Karnataka"
+        },
+        {
+          "key": "company_business",
+          "label": "Short description of the Company's business",
+          "example": "developing and operating a cloud-based accounting platform for small businesses"
+        },
+        {
+          "key": "assignor_relationship",
+          "label": "Assignor's relationship with the Company",
+          "example": "a co-founder, director and shareholder"
+        },
+        {
+          "key": "engagement_start_date",
+          "label": "Date the Assignor's involvement with the Business began",
+          "example": "1 March 2024"
+        },
+        {
+          "key": "arbitration_seat",
+          "label": "Seat (legal place) of arbitration and city whose courts have jurisdiction",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "assignment_consideration",
+          "label": "Consideration for the assignment",
+          "example": "a sum of ₹ 1,000 (Rupees one thousand only), paid on the Effective Date"
+        },
+        {
+          "key": "assignor_liability_cap",
+          "label": "Cap on the Assignor's indemnity liability",
+          "example": "₹ 5,00,000 (Rupees five lakh only)"
+        },
+        {
+          "key": "arbitration_venue",
+          "label": "Venue for arbitration hearings (may differ from the seat)",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "stamp_duty_payer",
+          "label": "Party that bears stamp duty",
+          "example": "the Company"
+        },
+        {
+          "key": "assignor_email",
+          "label": "Assignor's email address for notices",
+          "example": "vikram@assignor.example"
+        },
+        {
+          "key": "company_email",
+          "label": "Company's email address for notices",
+          "example": "legal@acme.example"
+        },
+        {
+          "key": "company_signatory_name",
+          "label": "Name of the Company's authorised signatory",
+          "example": "Asha Rao"
+        },
+        {
+          "key": "company_signatory_title",
+          "label": "Title of the Company's authorised signatory",
+          "example": "Director"
+        },
+        {
+          "key": "assigned_ip_description",
+          "label": "Description of the known Assigned IP",
+          "example": "The source code of the Company's invoicing application developed between March 2024 and the date of incorporation, held in the repository named 'invoicer-core'"
+        },
+        {
+          "key": "excluded_inventions",
+          "label": "Assignor's Excluded Inventions",
+          "example": "None"
+        }
+      ],
+      "path": "templates/ip-assignment-agreement/template.md",
+      "word_count": 8724
+    },
+    {
+      "id": "isafe-note",
+      "title": "iSAFE Note – CCPS Subscription Agreement with Valuation Cap and Discount",
+      "category": "fundraising",
+      "summary": "India-adapted SAFE: early-stage investment through CCPS that convert at the next qualified financing at a valuation cap and/or discount.",
+      "audience": [
+        "startup",
+        "investor"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Companies Act, 2013",
+        "Companies (Prospectus and Allotment of Securities) Rules, 2014",
+        "Companies (Share Capital and Debentures) Rules, 2014",
+        "Foreign Exchange Management Act, 1999",
+        "Foreign Exchange Management (Non-debt Instruments) Rules, 2019",
+        "Indian Contract Act, 1872",
+        "Arbitration and Conciliation Act, 1996"
+      ],
+      "document_type": "agreement",
+      "parties": 2,
+      "stamp_duty": "required",
+      "e_signature": "permitted",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "term-sheet",
+        "shareholders-agreement",
+        "board-resolutions",
+        "founders-agreement",
+        "esop-plan"
+      ],
+      "fields": [
+        {
+          "key": "effective_date",
+          "label": "Date of execution of this Agreement",
+          "example": "1 November 2026"
+        },
+        {
+          "key": "company_name",
+          "label": "Company's full legal name",
+          "example": "Acme Technologies Private Limited"
+        },
+        {
+          "key": "company_cin",
+          "label": "Company's Corporate Identity Number",
+          "example": "U72900KA2023PTC000000"
+        },
+        {
+          "key": "company_address",
+          "label": "Company's registered office address",
+          "example": "4th Floor, 12 Residency Road, Bengaluru 560025, Karnataka"
+        },
+        {
+          "key": "investor_name",
+          "label": "Investor's full legal name",
+          "example": "Angel Investor A"
+        },
+        {
+          "key": "investor_description",
+          "label": "Description of the Investor (status and identity details)",
+          "example": "an individual resident in India holding PAN AAAAA0000A"
+        },
+        {
+          "key": "investor_address",
+          "label": "Investor's address",
+          "example": "22 Lake View Road, Pune 411001, Maharashtra"
+        },
+        {
+          "key": "ccps_number",
+          "label": "Number of iSAFE CCPS to be issued",
+          "example": "5,000"
+        },
+        {
+          "key": "ccps_face_value",
+          "label": "Face value per CCPS",
+          "example": "₹ 10"
+        },
+        {
+          "key": "issue_price",
+          "label": "Issue price per CCPS (face value plus premium)",
+          "example": "₹ 1,000"
+        },
+        {
+          "key": "equity_face_value",
+          "label": "Face value per Equity Share",
+          "example": "₹ 1"
+        },
+        {
+          "key": "investment_amount",
+          "label": "Subscription Amount (issue price × number of CCPS)",
+          "example": "INR 50,00,000 (INR 50 lakh)"
+        },
+        {
+          "key": "company_bank_details",
+          "label": "Separate private placement bank account (bank, branch, account number, IFSC)",
+          "example": "Example Bank, MG Road branch, A/c 000000000000, IFSC EXMP0000000"
+        },
+        {
+          "key": "long_stop_date",
+          "label": "Long-Stop Date for Closing",
+          "example": "15 January 2027"
+        },
+        {
+          "key": "information_threshold",
+          "label": "Minimum Subscription Amount for information rights",
+          "example": "INR 25,00,000"
+        },
+        {
+          "key": "stamp_duty_payer",
+          "label": "Party bearing stamp duty on this Agreement and on the issue of the CCPS",
+          "example": "the Company"
+        },
+        {
+          "key": "company_email",
+          "label": "Company's email for notices",
+          "example": "legal@example.in"
+        },
+        {
+          "key": "investor_email",
+          "label": "Investor's email for notices",
+          "example": "investor@example.in"
+        },
+        {
+          "key": "arbitral_institution",
+          "label": "Arbitral institution (only if Option B is chosen)",
+          "example": "Mumbai Centre for International Arbitration"
+        },
+        {
+          "key": "arbitration_seat",
+          "label": "Seat of arbitration",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "arbitration_venue",
+          "label": "Venue of arbitration hearings",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "company_signatory_name",
+          "label": "Name of the person signing for the Company",
+          "example": "Founder A"
+        },
+        {
+          "key": "investor_signatory_name",
+          "label": "Name of the person signing for the Investor",
+          "example": "Angel Investor A"
+        },
+        {
+          "key": "company_signatory_title",
+          "label": "Designation of the Company signatory",
+          "example": "Director"
+        },
+        {
+          "key": "investor_signatory_title",
+          "label": "Capacity of the Investor's signatory",
+          "example": "Self"
+        },
+        {
+          "key": "ccps_dividend_rate",
+          "label": "Preferential non-cumulative dividend rate per annum",
+          "example": "0.0001%"
+        },
+        {
+          "key": "qualified_financing_amount",
+          "label": "Minimum new money for a Qualified Financing",
+          "example": "INR 5,00,00,000 (INR 5 crore)"
+        },
+        {
+          "key": "valuation_cap",
+          "label": "Post-money valuation cap",
+          "example": "INR 25,00,00,000 (INR 25 crore)"
+        },
+        {
+          "key": "discount_rate",
+          "label": "Discount to the Qualified Financing Price",
+          "example": "20%"
+        },
+        {
+          "key": "conversion_long_stop_years",
+          "label": "Outer limit for mandatory conversion (years from allotment)",
+          "example": "19"
+        }
+      ],
+      "path": "templates/isafe-note/template.md",
+      "word_count": 7074
+    },
+    {
+      "id": "master-services-agreement",
+      "title": "Master Services Agreement",
+      "category": "commercial",
+      "summary": "Provider-leaning but balanced framework agreement for technology and IT services delivered under individual Statements of Work.",
+      "audience": [
+        "startup",
+        "sme",
+        "enterprise"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Indian Contract Act, 1872",
+        "Copyright Act, 1957",
+        "Information Technology Act, 2000",
+        "Digital Personal Data Protection Act, 2023",
+        "Micro, Small and Medium Enterprises Development Act, 2006",
+        "Central Goods and Services Tax Act, 2017",
+        "Prevention of Corruption Act, 1988",
+        "Arbitration and Conciliation Act, 1996"
+      ],
+      "document_type": "agreement",
+      "parties": 2,
+      "stamp_duty": "required",
+      "e_signature": "permitted",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "statement-of-work",
+        "service-level-agreement",
+        "data-processing-agreement",
+        "mutual-nda",
+        "saas-subscription-agreement",
+        "consultancy-agreement",
+        "ip-assignment-agreement"
+      ],
+      "fields": [
+        {
+          "key": "effective_date",
+          "label": "Effective date of this Agreement",
+          "example": "1 November 2026"
+        },
+        {
+          "key": "company_name",
+          "label": "Provider's full legal name",
+          "example": "Acme Technologies Private Limited"
+        },
+        {
+          "key": "company_cin",
+          "label": "Provider's Corporate Identity Number (CIN) or LLPIN",
+          "example": "U72900KA2020PTC123456"
+        },
+        {
+          "key": "company_address",
+          "label": "Provider's registered office address",
+          "example": "4th Floor, 12 Residency Road, Bengaluru 560025, Karnataka"
+        },
+        {
+          "key": "counterparty_name",
+          "label": "Customer's full legal name",
+          "example": "Bharat Retail Solutions Limited"
+        },
+        {
+          "key": "counterparty_cin",
+          "label": "Customer's Corporate Identity Number (CIN) or LLPIN",
+          "example": "L52100MH2005PLC654321"
+        },
+        {
+          "key": "counterparty_address",
+          "label": "Customer's registered office address",
+          "example": "7th Floor, Tower B, Lower Parel, Mumbai 400013, Maharashtra"
+        },
+        {
+          "key": "change_response_days",
+          "label": "Business days for Provider to respond to a Change Request",
+          "example": "5"
+        },
+        {
+          "key": "acceptance_period_days",
+          "label": "Business days for Customer to test and accept a Deliverable",
+          "example": "10"
+        },
+        {
+          "key": "expense_preapproval_threshold",
+          "label": "Single expense amount above which Customer's prior written approval is needed",
+          "example": "₹ 25,000"
+        },
+        {
+          "key": "payment_days",
+          "label": "Days from receipt of a valid invoice within which Customer must pay",
+          "example": "30"
+        },
+        {
+          "key": "dispute_notice_days",
+          "label": "Days from receipt of invoice within which Customer may dispute it",
+          "example": "15"
+        },
+        {
+          "key": "late_interest_rate",
+          "label": "Simple interest rate per annum on overdue amounts (percentage)",
+          "example": "12"
+        },
+        {
+          "key": "suspension_notice_days",
+          "label": "Days' notice before Provider may suspend Services for non-payment",
+          "example": "15"
+        },
+        {
+          "key": "personnel_replacement_days",
+          "label": "Business days within which Provider replaces removed personnel",
+          "example": "15"
+        },
+        {
+          "key": "confidentiality_years",
+          "label": "Years for which confidentiality survives termination",
+          "example": "3"
+        },
+        {
+          "key": "breach_notice_hours",
+          "label": "Hours within which Provider notifies Customer of a personal data breach",
+          "example": "24"
+        },
+        {
+          "key": "warranty_period_days",
+          "label": "Warranty period in days following acceptance of a Deliverable",
+          "example": "90"
+        },
+        {
+          "key": "super_cap_multiple",
+          "label": "Multiple of Annual Contract Value for the super-cap (market range 2x to 5x)",
+          "example": "three (3)"
+        },
+        {
+          "key": "pi_insurance_amount",
+          "label": "Minimum professional indemnity / errors and omissions cover",
+          "example": "₹ 5,00,00,000 (INR 5 crore)"
+        },
+        {
+          "key": "cyber_insurance_amount",
+          "label": "Minimum cyber liability cover",
+          "example": "₹ 5,00,00,000 (INR 5 crore)"
+        },
+        {
+          "key": "cgl_insurance_amount",
+          "label": "Minimum commercial general / public liability cover",
+          "example": "₹ 2,00,00,000 (INR 2 crore)"
+        },
+        {
+          "key": "initial_term_years",
+          "label": "Initial term of this Agreement in years",
+          "example": "3"
+        },
+        {
+          "key": "convenience_notice_days",
+          "label": "Days' notice for termination of an SOW for convenience by Customer",
+          "example": "60"
+        },
+        {
+          "key": "cure_period_days",
+          "label": "Days allowed to cure a material breach",
+          "example": "30"
+        },
+        {
+          "key": "non_solicit_months",
+          "label": "Months after termination for which non-solicitation applies",
+          "example": "12"
+        },
+        {
+          "key": "escalation_days",
+          "label": "Days for escalation discussions before arbitration may begin",
+          "example": "30"
+        },
+        {
+          "key": "arbitration_seat",
+          "label": "Seat of arbitration (city)",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "arbitration_venue",
+          "label": "Venue for hearings (may differ from seat; usually same city)",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "governing_city",
+          "label": "City whose courts have jurisdiction for non-arbitrable matters and interim relief",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "company_email",
+          "label": "Provider's email address for notices",
+          "example": "legal@acmetech.example"
+        },
+        {
+          "key": "counterparty_email",
+          "label": "Customer's email address for notices",
+          "example": "contracts@bharatretail.example"
+        },
+        {
+          "key": "stamp_duty_payer",
+          "label": "Party bearing stamp duty on this Agreement",
+          "example": "the Provider"
+        },
+        {
+          "key": "company_signatory_name",
+          "label": "Name of Provider's authorised signatory",
+          "example": "Asha Menon"
+        },
+        {
+          "key": "company_signatory_title",
+          "label": "Designation of Provider's authorised signatory",
+          "example": "Director"
+        },
+        {
+          "key": "counterparty_signatory_name",
+          "label": "Name of Customer's authorised signatory",
+          "example": "Rohan Desai"
+        },
+        {
+          "key": "counterparty_signatory_title",
+          "label": "Designation of Customer's authorised signatory",
+          "example": "Chief Technology Officer"
+        }
+      ],
+      "path": "templates/master-services-agreement/template.md",
+      "word_count": 13749
+    },
+    {
+      "id": "mutual-nda",
+      "title": "Mutual Non-Disclosure Agreement",
+      "category": "startup-core",
+      "summary": "Two-way confidentiality agreement for Indian parties exploring a business relationship, with AI-training restrictions and arbitration.",
+      "audience": [
+        "startup",
+        "sme",
+        "enterprise"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Indian Contract Act, 1872",
+        "Specific Relief Act, 1963",
+        "Arbitration and Conciliation Act, 1996",
+        "Information Technology Act, 2000",
+        "Digital Personal Data Protection Act, 2023"
+      ],
+      "document_type": "agreement",
+      "parties": 2,
+      "stamp_duty": "required",
+      "e_signature": "permitted",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "one-way-nda",
+        "consultancy-agreement",
+        "master-services-agreement",
+        "data-processing-agreement",
+        "term-sheet"
+      ],
+      "fields": [
+        {
+          "key": "effective_date",
+          "label": "Effective date",
+          "example": "1 November 2026"
+        },
+        {
+          "key": "company_name",
+          "label": "Company's full legal name",
+          "example": "Acme Technologies Private Limited"
+        },
+        {
+          "key": "company_cin",
+          "label": "Company's Corporate Identity Number (CIN)",
+          "example": "U62099KA2024PTC123456"
+        },
+        {
+          "key": "company_address",
+          "label": "Company's registered office address",
+          "example": "No. 12, 4th Cross, Indiranagar, Bengaluru 560038, Karnataka"
+        },
+        {
+          "key": "counterparty_name",
+          "label": "Counterparty's full legal name",
+          "example": "Beta Analytics LLP"
+        },
+        {
+          "key": "counterparty_description",
+          "label": "Counterparty's constitution and registration details",
+          "example": "a limited liability partnership registered under the Limited Liability Partnership Act, 2008 with LLPIN AAB-1234"
+        },
+        {
+          "key": "counterparty_address",
+          "label": "Counterparty's registered office or principal place of business",
+          "example": "Unit 5, Andheri East, Mumbai 400069, Maharashtra"
+        },
+        {
+          "key": "purpose",
+          "label": "Purpose for which Confidential Information is shared",
+          "example": "evaluating a potential integration of the parties' software products and negotiating a commercial agreement for it"
+        },
+        {
+          "key": "arbitration_seat",
+          "label": "Seat (legal place) of arbitration and city whose courts have jurisdiction",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "disclosure_period",
+          "label": "Period during which disclosures are covered",
+          "example": "two (2) years"
+        },
+        {
+          "key": "confidentiality_period",
+          "label": "Period for which confidentiality obligations survive",
+          "example": "three (3) years"
+        },
+        {
+          "key": "arbitration_venue",
+          "label": "Venue for arbitration hearings (may differ from the seat)",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "stamp_duty_payer",
+          "label": "Party that bears stamp duty",
+          "example": "the Company"
+        },
+        {
+          "key": "company_email",
+          "label": "Company's email address for notices",
+          "example": "legal@acme.example"
+        },
+        {
+          "key": "company_signatory_name",
+          "label": "Name of the Company's authorised signatory",
+          "example": "Asha Rao"
+        },
+        {
+          "key": "company_signatory_title",
+          "label": "Title of the Company's authorised signatory",
+          "example": "Director"
+        },
+        {
+          "key": "counterparty_email",
+          "label": "Counterparty's email address for notices",
+          "example": "contracts@beta.example"
+        },
+        {
+          "key": "counterparty_signatory_name",
+          "label": "Name of the counterparty's authorised signatory",
+          "example": "Rohan Mehta"
+        },
+        {
+          "key": "counterparty_signatory_title",
+          "label": "Title of the counterparty's authorised signatory",
+          "example": "Designated Partner"
+        }
+      ],
+      "path": "templates/mutual-nda/template.md",
+      "word_count": 6396
+    },
+    {
+      "id": "offer-letter",
+      "title": "Offer Letter",
+      "category": "startup-core",
+      "summary": "Offer of employment for an Indian company setting out role, CTC breakdown, joining date, probation and conditions precedent, to be followed by a full employment agreement.",
+      "audience": [
+        "startup",
+        "sme",
+        "enterprise"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Indian Contract Act, 1872",
+        "Code on Wages, 2019",
+        "Code on Social Security, 2020",
+        "Industrial Relations Code, 2020",
+        "Digital Personal Data Protection Act, 2023",
+        "Information Technology Act, 2000"
+      ],
+      "document_type": "letter",
+      "parties": 2,
+      "stamp_duty": "check",
+      "e_signature": "permitted",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "employment-agreement",
+        "esop-plan",
+        "employee-handbook",
+        "posh-policy",
+        "ip-assignment-agreement"
+      ],
+      "fields": [
+        {
+          "key": "company_name",
+          "label": "Company's full legal name",
+          "example": "Acme Technologies Private Limited"
+        },
+        {
+          "key": "company_cin",
+          "label": "Company's Corporate Identity Number (CIN)",
+          "example": "U62099KA2026PTC123456"
+        },
+        {
+          "key": "company_address",
+          "label": "Company's registered office address",
+          "example": "12, 4th Cross, Indiranagar, Bengaluru 560038, Karnataka"
+        },
+        {
+          "key": "offer_date",
+          "label": "Date of the offer letter",
+          "example": "1 November 2026"
+        },
+        {
+          "key": "candidate_name",
+          "label": "Candidate's full name",
+          "example": "Priya Nair"
+        },
+        {
+          "key": "candidate_address",
+          "label": "Candidate's address",
+          "example": "22, Lake View Road, Kochi 682016, Kerala"
+        },
+        {
+          "key": "job_title",
+          "label": "Job title",
+          "example": "Senior Software Engineer"
+        },
+        {
+          "key": "department",
+          "label": "Department or team",
+          "example": "Engineering"
+        },
+        {
+          "key": "reporting_manager",
+          "label": "Title of the reporting manager",
+          "example": "Head of Engineering"
+        },
+        {
+          "key": "work_location",
+          "label": "Principal place of work",
+          "example": "Bengaluru (hybrid, three days a week in office)"
+        },
+        {
+          "key": "joining_date",
+          "label": "Proposed joining date",
+          "example": "1 December 2026"
+        },
+        {
+          "key": "annual_ctc",
+          "label": "Total annual cost to company (CTC)",
+          "example": "₹ 24,00,000"
+        },
+        {
+          "key": "basic_monthly",
+          "label": "Monthly basic pay",
+          "example": "₹ 1,00,000"
+        },
+        {
+          "key": "basic_annual",
+          "label": "Annual basic pay",
+          "example": "₹ 12,00,000"
+        },
+        {
+          "key": "hra_monthly",
+          "label": "Monthly house rent allowance",
+          "example": "₹ 40,000"
+        },
+        {
+          "key": "hra_annual",
+          "label": "Annual house rent allowance",
+          "example": "₹ 4,80,000"
+        },
+        {
+          "key": "special_allowance_monthly",
+          "label": "Monthly special allowance",
+          "example": "₹ 29,200"
+        },
+        {
+          "key": "special_allowance_annual",
+          "label": "Annual special allowance",
+          "example": "₹ 3,50,400"
+        },
+        {
+          "key": "fixed_gross_monthly",
+          "label": "Monthly gross fixed pay (A)",
+          "example": "₹ 1,69,200"
+        },
+        {
+          "key": "fixed_gross_annual",
+          "label": "Annual gross fixed pay (A)",
+          "example": "₹ 20,30,400"
+        },
+        {
+          "key": "employer_pf_monthly",
+          "label": "Monthly employer provident fund contribution",
+          "example": "₹ 1,800"
+        },
+        {
+          "key": "employer_pf_annual",
+          "label": "Annual employer provident fund contribution",
+          "example": "₹ 21,600"
+        },
+        {
+          "key": "gratuity_annual",
+          "label": "Annual gratuity provision",
+          "example": "₹ 57,720"
+        },
+        {
+          "key": "insurance_annual",
+          "label": "Annual group health insurance premium",
+          "example": "₹ 20,000"
+        },
+        {
+          "key": "variable_pay_annual",
+          "label": "Annual target variable pay",
+          "example": "₹ 2,70,280"
+        },
+        {
+          "key": "probation_months",
+          "label": "Probation period in months",
+          "example": "6"
+        },
+        {
+          "key": "probation_notice_days",
+          "label": "Notice period during probation (days)",
+          "example": "15"
+        },
+        {
+          "key": "notice_period_days",
+          "label": "Notice period after confirmation (days)",
+          "example": "60"
+        },
+        {
+          "key": "esop_indicative_options",
+          "label": "Indicative number of options to be recommended",
+          "example": "2,000"
+        },
+        {
+          "key": "company_email",
+          "label": "Company HR email for acceptance and queries",
+          "example": "people@example.in"
+        },
+        {
+          "key": "acceptance_deadline",
+          "label": "Date by which the offer must be accepted",
+          "example": "10 November 2026"
+        },
+        {
+          "key": "company_signatory_name",
+          "label": "Name of the Company's authorised signatory",
+          "example": "Meera Iyer"
+        },
+        {
+          "key": "company_signatory_title",
+          "label": "Title of the Company's authorised signatory",
+          "example": "Head of People"
+        }
+      ],
+      "path": "templates/offer-letter/template.md",
+      "word_count": 2141
+    },
+    {
+      "id": "one-way-nda",
+      "title": "One-Way Non-Disclosure Agreement",
+      "category": "startup-core",
+      "summary": "Disclosing-party-friendly confidentiality agreement for sharing a company's information with a vendor, partner, investor or candidate in India.",
+      "audience": [
+        "startup",
+        "sme",
+        "enterprise"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Indian Contract Act, 1872",
+        "Specific Relief Act, 1963",
+        "Arbitration and Conciliation Act, 1996",
+        "Information Technology Act, 2000",
+        "Digital Personal Data Protection Act, 2023"
+      ],
+      "document_type": "agreement",
+      "parties": 2,
+      "stamp_duty": "required",
+      "e_signature": "permitted",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "mutual-nda",
+        "consultancy-agreement",
+        "vendor-agreement",
+        "data-processing-agreement",
+        "ip-assignment-agreement"
+      ],
+      "fields": [
+        {
+          "key": "effective_date",
+          "label": "Effective date",
+          "example": "1 November 2026"
+        },
+        {
+          "key": "company_name",
+          "label": "Company's full legal name",
+          "example": "Acme Technologies Private Limited"
+        },
+        {
+          "key": "company_cin",
+          "label": "Company's Corporate Identity Number (CIN)",
+          "example": "U62099KA2024PTC123456"
+        },
+        {
+          "key": "company_address",
+          "label": "Company's registered office address",
+          "example": "No. 12, 4th Cross, Indiranagar, Bengaluru 560038, Karnataka"
+        },
+        {
+          "key": "counterparty_name",
+          "label": "Counterparty's full legal name",
+          "example": "Beta Analytics LLP"
+        },
+        {
+          "key": "counterparty_description",
+          "label": "Counterparty's constitution and registration details",
+          "example": "a limited liability partnership registered under the Limited Liability Partnership Act, 2008 with LLPIN AAB-1234"
+        },
+        {
+          "key": "counterparty_address",
+          "label": "Counterparty's registered office or principal place of business",
+          "example": "Unit 5, Andheri East, Mumbai 400069, Maharashtra"
+        },
+        {
+          "key": "purpose",
+          "label": "Purpose for which Confidential Information is shared",
+          "example": "evaluating a potential integration of the parties' software products and negotiating a commercial agreement for it"
+        },
+        {
+          "key": "arbitration_seat",
+          "label": "Seat (legal place) of arbitration and city whose courts have jurisdiction",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "disclosure_period",
+          "label": "Period during which disclosures are covered",
+          "example": "two (2) years"
+        },
+        {
+          "key": "confidentiality_period",
+          "label": "Period for which confidentiality obligations survive",
+          "example": "three (3) years"
+        },
+        {
+          "key": "arbitration_venue",
+          "label": "Venue for arbitration hearings (may differ from the seat)",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "stamp_duty_payer",
+          "label": "Party that bears stamp duty",
+          "example": "the Company"
+        },
+        {
+          "key": "company_email",
+          "label": "Company's email address for notices",
+          "example": "legal@acme.example"
+        },
+        {
+          "key": "company_signatory_name",
+          "label": "Name of the Company's authorised signatory",
+          "example": "Asha Rao"
+        },
+        {
+          "key": "company_signatory_title",
+          "label": "Title of the Company's authorised signatory",
+          "example": "Director"
+        },
+        {
+          "key": "counterparty_email",
+          "label": "Counterparty's email address for notices",
+          "example": "contracts@beta.example"
+        },
+        {
+          "key": "counterparty_signatory_name",
+          "label": "Name of the counterparty's authorised signatory",
+          "example": "Rohan Mehta"
+        },
+        {
+          "key": "counterparty_signatory_title",
+          "label": "Title of the counterparty's authorised signatory",
+          "example": "Designated Partner"
+        }
+      ],
+      "path": "templates/one-way-nda/template.md",
+      "word_count": 6541
+    },
+    {
+      "id": "posh-policy",
+      "title": "Prevention of Sexual Harassment (POSH) Policy",
+      "category": "hr-policies",
+      "summary": "Workplace sexual harassment policy under the POSH Act, 2013 and Rules: Internal Committee, complaint, conciliation, inquiry, interim relief, appeal and complaint form.",
+      "audience": [
+        "startup",
+        "sme",
+        "enterprise"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013",
+        "Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Rules, 2013",
+        "Bharatiya Nyaya Sanhita, 2023",
+        "Digital Personal Data Protection Act, 2023"
+      ],
+      "document_type": "policy",
+      "parties": 0,
+      "stamp_duty": "not-applicable",
+      "e_signature": "permitted",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "employee-handbook",
+        "employment-agreement",
+        "offer-letter",
+        "ai-acceptable-use-policy"
+      ],
+      "fields": [
+        {
+          "key": "company_name",
+          "label": "Company's full legal name",
+          "example": "Acme Technologies Private Limited"
+        },
+        {
+          "key": "approving_authority",
+          "label": "Body or person approving the Policy",
+          "example": "the Board of Directors"
+        },
+        {
+          "key": "effective_date",
+          "label": "Date of approval and effect of the Policy",
+          "example": "1 November 2026"
+        },
+        {
+          "key": "appellate_authority",
+          "label": "Appellate / internal review authority under the service rules",
+          "example": "the Chief Executive Officer (or, where the CEO is involved, the Chairperson of the Board)"
+        },
+        {
+          "key": "ic_locations",
+          "label": "Offices or administrative units covered by the Internal Committee",
+          "example": "all offices of the Company in India, including remote employees"
+        },
+        {
+          "key": "ic_email",
+          "label": "Dedicated confidential email address of the Internal Committee",
+          "example": "ic@example.in"
+        },
+        {
+          "key": "local_committee_details",
+          "label": "District Officer / Local Committee contact details for the registered office district",
+          "example": "District Officer, Bengaluru Urban District, [address and phone]"
+        },
+        {
+          "key": "policy_owner",
+          "label": "Role responsible for maintaining the Policy",
+          "example": "the Head of People"
+        },
+        {
+          "key": "ic_order_date",
+          "label": "Date of the order constituting the Internal Committee",
+          "example": "1 November 2026"
+        },
+        {
+          "key": "ic_presiding_officer",
+          "label": "Name of the Presiding Officer",
+          "example": "Employee P"
+        },
+        {
+          "key": "ic_external_member",
+          "label": "Name and organisation of the external member",
+          "example": "Person X, Example Foundation"
+        }
+      ],
+      "path": "templates/posh-policy/template.md",
+      "word_count": 6035
+    },
+    {
+      "id": "privacy-policy",
+      "title": "Privacy Notice (DPDP Act, 2023)",
+      "category": "privacy-web",
+      "summary": "Standalone, itemised privacy notice for an Indian website or app acting as a Data Fiduciary under the DPDP Act, 2023 and DPDP Rules, 2025.",
+      "audience": [
+        "startup",
+        "sme",
+        "enterprise"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Digital Personal Data Protection Act, 2023",
+        "Digital Personal Data Protection Rules, 2025",
+        "Information Technology Act, 2000",
+        "Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021",
+        "CERT-In Directions under section 70B(6) of the Information Technology Act, 2000 (28 April 2022)"
+      ],
+      "document_type": "notice",
+      "parties": 0,
+      "stamp_duty": "not-applicable",
+      "e_signature": "permitted",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "cookie-notice",
+        "terms-of-use",
+        "data-processing-agreement"
+      ],
+      "fields": [
+        {
+          "key": "company_name",
+          "label": "Company's full legal name",
+          "example": "Acme Technologies Private Limited"
+        },
+        {
+          "key": "brand_name",
+          "label": "Brand, website or app name used publicly",
+          "example": "Acme"
+        },
+        {
+          "key": "company_cin",
+          "label": "Corporate Identity Number (CIN)",
+          "example": "U72900KA2024PTC123456"
+        },
+        {
+          "key": "company_address",
+          "label": "Registered office address",
+          "example": "4th Floor, 12 MG Road, Bengaluru, Karnataka 560001"
+        },
+        {
+          "key": "website_url",
+          "label": "Website address(es) covered by this notice",
+          "example": "www.acme.example"
+        },
+        {
+          "key": "app_name",
+          "label": "Name of the mobile application(s) covered",
+          "example": "Acme for Android and iOS"
+        },
+        {
+          "key": "effective_date",
+          "label": "Date this version of the notice takes effect",
+          "example": "1 November 2026"
+        },
+        {
+          "key": "notice_version",
+          "label": "Version number of this notice",
+          "example": 2.0
+        },
+        {
+          "key": "privacy_centre_location",
+          "label": "Where in the product users can manage consents and exercise rights",
+          "example": "Settings > Privacy Centre in the app, or the Privacy Centre link in the website footer"
+        },
+        {
+          "key": "consent_manager_name",
+          "label": "Name of any registered Consent Manager the company integrates with (or \"not applicable\")",
+          "example": "not applicable"
+        },
+        {
+          "key": "payment_aggregator_name",
+          "label": "Payment aggregator or gateway used",
+          "example": "a payment aggregator authorised by the Reserve Bank of India"
+        },
+        {
+          "key": "transfer_countries",
+          "label": "Countries or regions to which personal data may be transferred",
+          "example": "Singapore, the United States of America and the European Union"
+        },
+        {
+          "key": "account_retention_period",
+          "label": "How long account data is kept after account closure or inactivity",
+          "example": "3 years after your last interaction with us"
+        },
+        {
+          "key": "transaction_retention_period",
+          "label": "How long transaction and invoice records are kept",
+          "example": "8 years from the end of the financial year to which they relate"
+        },
+        {
+          "key": "support_retention_period",
+          "label": "How long support tickets and call recordings are kept",
+          "example": "2 years from closure of the ticket"
+        },
+        {
+          "key": "marketing_retention_period",
+          "label": "How long marketing preferences and data are kept",
+          "example": "until you withdraw consent, and in any case no longer than 2 years after your last interaction"
+        },
+        {
+          "key": "log_retention_period",
+          "label": "How long security and traffic logs are kept",
+          "example": "at least 1 year (and 180 days within India for logs covered by the CERT-In Directions)"
+        },
+        {
+          "key": "dpo_name",
+          "label": "Name or designation of the Data Protection Officer / person who can answer questions",
+          "example": "Data Protection Officer"
+        },
+        {
+          "key": "dpo_email",
+          "label": "Email address of the DPO / contact person",
+          "example": "privacy@acme.example"
+        },
+        {
+          "key": "dpo_phone",
+          "label": "Telephone number of the DPO / contact person",
+          "example": "+91 80 4000 0000"
+        },
+        {
+          "key": "grievance_officer_name",
+          "label": "Name of the Grievance Officer",
+          "example": "Priya Sharma (illustrative)"
+        },
+        {
+          "key": "grievance_officer_email",
+          "label": "Email address of the Grievance Officer",
+          "example": "grievance@acme.example"
+        },
+        {
+          "key": "grievance_officer_address",
+          "label": "Postal address of the Grievance Officer",
+          "example": "4th Floor, 12 MG Road, Bengaluru, Karnataka 560001"
+        },
+        {
+          "key": "grievance_response_days",
+          "label": "Number of days within which the company commits to resolve privacy grievances",
+          "example": 30
+        },
+        {
+          "key": "rights_response_days",
+          "label": "Number of days within which the company commits to respond to rights requests",
+          "example": 30
+        },
+        {
+          "key": "company_email",
+          "label": "General contact email",
+          "example": "hello@acme.example"
+        }
+      ],
+      "path": "templates/privacy-policy/template.md",
+      "word_count": 6488
+    },
+    {
+      "id": "saas-subscription-agreement",
+      "title": "SaaS Subscription Agreement",
+      "category": "commercial",
+      "summary": "B2B software-as-a-service terms between a provider and an enterprise customer, with order forms, AI-feature, DPDP and exit provisions.",
+      "audience": [
+        "startup",
+        "sme",
+        "enterprise"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Indian Contract Act, 1872",
+        "Information Technology Act, 2000",
+        "Digital Personal Data Protection Act, 2023",
+        "Copyright Act, 1957",
+        "Central Goods and Services Tax Act, 2017",
+        "Micro, Small and Medium Enterprises Development Act, 2006",
+        "Arbitration and Conciliation Act, 1996"
+      ],
+      "document_type": "agreement",
+      "parties": 2,
+      "stamp_duty": "required",
+      "e_signature": "permitted",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "service-level-agreement",
+        "data-processing-agreement",
+        "master-services-agreement",
+        "statement-of-work",
+        "ai-acceptable-use-policy",
+        "mutual-nda",
+        "terms-of-use"
+      ],
+      "fields": [
+        {
+          "key": "effective_date",
+          "label": "Effective date of this Agreement",
+          "example": "1 November 2026"
+        },
+        {
+          "key": "company_name",
+          "label": "Provider's full legal name",
+          "example": "Acme Cloud Software Private Limited"
+        },
+        {
+          "key": "company_cin",
+          "label": "Provider's Corporate Identity Number (CIN) or LLPIN",
+          "example": "U72900KA2021PTC145678"
+        },
+        {
+          "key": "company_address",
+          "label": "Provider's registered office address",
+          "example": "3rd Floor, 21 Koramangala Industrial Layout, Bengaluru 560095, Karnataka"
+        },
+        {
+          "key": "counterparty_name",
+          "label": "Customer's full legal name",
+          "example": "Bharat Logistics Limited"
+        },
+        {
+          "key": "counterparty_cin",
+          "label": "Customer's Corporate Identity Number (CIN) or LLPIN",
+          "example": "L63000MH2008PLC187654"
+        },
+        {
+          "key": "counterparty_address",
+          "label": "Customer's registered office address",
+          "example": "5th Floor, One Business Bay, Andheri East, Mumbai 400069, Maharashtra"
+        },
+        {
+          "key": "hosting_location",
+          "label": "Primary hosting location of Customer Data",
+          "example": "India (Mumbai and Hyderabad cloud regions)"
+        },
+        {
+          "key": "breach_notice_hours",
+          "label": "Hours within which Provider notifies Customer of a personal data breach",
+          "example": "24"
+        },
+        {
+          "key": "security_incident_hours",
+          "label": "Hours within which Provider notifies Customer of a Security Incident affecting Customer Data (other than a personal data breach)",
+          "example": "48"
+        },
+        {
+          "key": "payment_days",
+          "label": "Days from invoice date within which Customer must pay",
+          "example": "30"
+        },
+        {
+          "key": "dispute_notice_days",
+          "label": "Days from receipt of invoice within which Customer may dispute it",
+          "example": "15"
+        },
+        {
+          "key": "late_interest_rate",
+          "label": "Simple interest rate per annum on overdue amounts (percentage)",
+          "example": "12"
+        },
+        {
+          "key": "renewal_notice_days",
+          "label": "Days before end of a Subscription Term by which non-renewal notice must be given",
+          "example": "60"
+        },
+        {
+          "key": "price_notice_days",
+          "label": "Days' notice of a price increase on renewal",
+          "example": "90"
+        },
+        {
+          "key": "price_increase_cap_percent",
+          "label": "Maximum percentage increase in Subscription Fees on any renewal",
+          "example": "7"
+        },
+        {
+          "key": "suspension_notice_days",
+          "label": "Days' notice before suspension for non-payment",
+          "example": "15"
+        },
+        {
+          "key": "warranty_cure_days",
+          "label": "Days for Provider to cure a breach of the functionality warranty",
+          "example": "30"
+        },
+        {
+          "key": "super_cap_multiple",
+          "label": "Multiple of Annual Contract Value for the super-cap (market range 2x to 5x)",
+          "example": "two (2)"
+        },
+        {
+          "key": "cure_period_days",
+          "label": "Days allowed to cure a material breach",
+          "example": "30"
+        },
+        {
+          "key": "data_export_days",
+          "label": "Days after termination during which Customer may export its data",
+          "example": "30"
+        },
+        {
+          "key": "deletion_days",
+          "label": "Days after the export window within which Provider deletes Customer Data",
+          "example": "60"
+        },
+        {
+          "key": "confidentiality_years",
+          "label": "Years for which confidentiality survives termination",
+          "example": "5"
+        },
+        {
+          "key": "escalation_days",
+          "label": "Days for senior-executive negotiation before arbitration may begin",
+          "example": "30"
+        },
+        {
+          "key": "arbitration_seat",
+          "label": "Seat of arbitration (city)",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "arbitration_venue",
+          "label": "Venue for hearings",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "governing_city",
+          "label": "City whose courts have jurisdiction for non-arbitrable matters",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "company_email",
+          "label": "Provider's email address for legal notices",
+          "example": "legal@acmecloud.example"
+        },
+        {
+          "key": "counterparty_email",
+          "label": "Customer's email address for legal notices",
+          "example": "legal@bharatlogistics.example"
+        },
+        {
+          "key": "stamp_duty_payer",
+          "label": "Party bearing stamp duty on this Agreement",
+          "example": "the Customer"
+        },
+        {
+          "key": "company_signatory_name",
+          "label": "Name of Provider's authorised signatory",
+          "example": "Kavya Rao"
+        },
+        {
+          "key": "company_signatory_title",
+          "label": "Designation of Provider's authorised signatory",
+          "example": "Chief Executive Officer"
+        },
+        {
+          "key": "counterparty_signatory_name",
+          "label": "Name of Customer's authorised signatory",
+          "example": "Vikram Shah"
+        },
+        {
+          "key": "counterparty_signatory_title",
+          "label": "Designation of Customer's authorised signatory",
+          "example": "Chief Information Officer"
+        }
+      ],
+      "path": "templates/saas-subscription-agreement/template.md",
+      "word_count": 14950
+    },
+    {
+      "id": "service-level-agreement",
+      "title": "Service Level Agreement",
+      "category": "commercial",
+      "summary": "Service level schedule for SaaS or managed services: availability, maintenance, support severity matrix, service credits and chronic-failure exit.",
+      "audience": [
+        "startup",
+        "sme",
+        "enterprise"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Indian Contract Act, 1872",
+        "Information Technology Act, 2000",
+        "Arbitration and Conciliation Act, 1996"
+      ],
+      "document_type": "agreement",
+      "parties": 2,
+      "stamp_duty": "check",
+      "e_signature": "permitted",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "saas-subscription-agreement",
+        "master-services-agreement",
+        "statement-of-work",
+        "data-processing-agreement"
+      ],
+      "fields": [
+        {
+          "key": "company_name",
+          "label": "Provider's full legal name",
+          "example": "Acme Cloud Software Private Limited"
+        },
+        {
+          "key": "counterparty_name",
+          "label": "Customer's full legal name",
+          "example": "Bharat Logistics Limited"
+        },
+        {
+          "key": "principal_agreement_title",
+          "label": "Title of the agreement to which this SLA is a schedule",
+          "example": "Software-as-a-Service Subscription Agreement"
+        },
+        {
+          "key": "principal_agreement_date",
+          "label": "Date of the principal agreement",
+          "example": "1 November 2026"
+        },
+        {
+          "key": "effective_date",
+          "label": "Date this SLA takes effect",
+          "example": "1 November 2026"
+        },
+        {
+          "key": "covered_services",
+          "label": "Services covered by this SLA",
+          "example": "The production instance of the Provider's logistics management platform, including its web application and public APIs"
+        },
+        {
+          "key": "availability_commitment",
+          "label": "Monthly availability commitment (percentage)",
+          "example": "99.9"
+        },
+        {
+          "key": "maintenance_window",
+          "label": "Standard scheduled maintenance window (IST)",
+          "example": "Sundays, 1:00 a.m. to 5:00 a.m. IST"
+        },
+        {
+          "key": "maintenance_cap_hours",
+          "label": "Maximum scheduled maintenance hours per calendar month",
+          "example": "8"
+        },
+        {
+          "key": "maintenance_notice_hours",
+          "label": "Hours of advance notice for scheduled maintenance outside the standard window",
+          "example": "72"
+        },
+        {
+          "key": "tier_1_floor",
+          "label": "Lower bound of credit tier 1 (percentage availability)",
+          "example": "99.5"
+        },
+        {
+          "key": "tier_2_floor",
+          "label": "Lower bound of credit tier 2 (percentage availability)",
+          "example": "99.0"
+        },
+        {
+          "key": "tier_3_floor",
+          "label": "Lower bound of credit tier 3 (percentage availability)",
+          "example": "97.0"
+        },
+        {
+          "key": "credit_cap_percent",
+          "label": "Maximum total service credits in a month as a percentage of the Monthly Fees",
+          "example": "30"
+        },
+        {
+          "key": "business_hours",
+          "label": "Support business hours",
+          "example": "9:00 a.m. to 7:00 p.m. IST, Monday to Saturday, excluding national holidays"
+        },
+        {
+          "key": "support_email",
+          "label": "Support email address",
+          "example": "support@acmecloud.example"
+        },
+        {
+          "key": "support_phone",
+          "label": "Support phone number for Severity 1 incidents",
+          "example": "+91 80 4000 0000"
+        },
+        {
+          "key": "rpo_hours",
+          "label": "Recovery point objective (hours)",
+          "example": "4"
+        },
+        {
+          "key": "rto_hours",
+          "label": "Recovery time objective (hours)",
+          "example": "8"
+        },
+        {
+          "key": "claim_days",
+          "label": "Days after month-end within which credits must be claimed",
+          "example": "30"
+        },
+        {
+          "key": "report_days",
+          "label": "Business days after month-end for delivery of the monthly service report",
+          "example": "10"
+        },
+        {
+          "key": "company_signatory_name",
+          "label": "Name of Provider's authorised signatory",
+          "example": "Kavya Rao"
+        },
+        {
+          "key": "company_signatory_title",
+          "label": "Designation of Provider's authorised signatory",
+          "example": "Chief Executive Officer"
+        },
+        {
+          "key": "counterparty_signatory_name",
+          "label": "Name of Customer's authorised signatory",
+          "example": "Vikram Shah"
+        },
+        {
+          "key": "counterparty_signatory_title",
+          "label": "Designation of Customer's authorised signatory",
+          "example": "Chief Information Officer"
+        }
+      ],
+      "path": "templates/service-level-agreement/template.md",
+      "word_count": 3746
+    },
+    {
+      "id": "shareholders-agreement",
+      "title": "Shareholders' Agreement (Post Priced Round)",
+      "category": "fundraising",
+      "summary": "Shareholders' agreement among an Indian private company, its founders and investors after a priced CCPS round, with governance, transfer, exit and FEMA provisions.",
+      "audience": [
+        "startup",
+        "investor"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Companies Act, 2013",
+        "Foreign Exchange Management Act, 1999",
+        "Foreign Exchange Management (Non-debt Instruments) Rules, 2019",
+        "Indian Contract Act, 1872",
+        "Specific Relief Act, 1963",
+        "Arbitration and Conciliation Act, 1996"
+      ],
+      "document_type": "agreement",
+      "parties": 3,
+      "stamp_duty": "required",
+      "e_signature": "permitted",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "term-sheet",
+        "isafe-note",
+        "board-resolutions",
+        "esop-plan",
+        "founders-agreement",
+        "ip-assignment-agreement",
+        "employment-agreement"
+      ],
+      "fields": [
+        {
+          "key": "effective_date",
+          "label": "Date of execution of this Agreement",
+          "example": "15 December 2026"
+        },
+        {
+          "key": "company_name",
+          "label": "Company's full legal name",
+          "example": "Acme Technologies Private Limited"
+        },
+        {
+          "key": "company_cin",
+          "label": "Company's Corporate Identity Number",
+          "example": "U72900KA2023PTC000000"
+        },
+        {
+          "key": "company_address",
+          "label": "Company's registered office address",
+          "example": "4th Floor, 12 Residency Road, Bengaluru 560025, Karnataka"
+        },
+        {
+          "key": "founder_1_name",
+          "label": "Full name of Founder 1",
+          "example": "Founder A"
+        },
+        {
+          "key": "founder_1_details",
+          "label": "Description of Founder 1 (parentage, age, PAN/identity, residential address)",
+          "example": "son of Parent A, aged 32 years, holding PAN AAAAA0000A, residing at 10 Park Street, Bengaluru 560001"
+        },
+        {
+          "key": "founder_2_name",
+          "label": "Full name of Founder 2",
+          "example": "Founder B"
+        },
+        {
+          "key": "founder_2_details",
+          "label": "Description of Founder 2 (parentage, age, PAN/identity, residential address)",
+          "example": "daughter of Parent B, aged 30 years, holding PAN BBBBB0000B, residing at 5 Hill Road, Bengaluru 560002"
+        },
+        {
+          "key": "lead_investor_name",
+          "label": "Lead investor's full legal name",
+          "example": "Example Ventures Fund I"
+        },
+        {
+          "key": "lead_investor_details",
+          "label": "Description of the lead investor (constitution, registration, address)",
+          "example": "a scheme of Example Trust, a Category I AIF registered with SEBI, acting through its investment manager, with its office at 1 Marine Drive, Mumbai 400020"
+        },
+        {
+          "key": "business_description",
+          "label": "Short description of the Company's business",
+          "example": "developing and providing software-as-a-service solutions for logistics companies"
+        },
+        {
+          "key": "ssa_date",
+          "label": "Date of the share subscription agreement",
+          "example": "15 December 2026"
+        },
+        {
+          "key": "ccps_series_name",
+          "label": "Name of the CCPS series",
+          "example": "Series A CCPS"
+        },
+        {
+          "key": "ccps_face_value",
+          "label": "Face value per CCPS",
+          "example": "₹ 10"
+        },
+        {
+          "key": "equity_face_value",
+          "label": "Face value per Equity Share",
+          "example": "₹ 1"
+        },
+        {
+          "key": "exit_years",
+          "label": "Exit Period in years from Closing",
+          "example": "6"
+        },
+        {
+          "key": "investor_rights_threshold",
+          "label": "Minimum fully diluted shareholding for the lead investor's / an investor's special rights",
+          "example": "5%"
+        },
+        {
+          "key": "founder_lockin_months",
+          "label": "Founder lock-in period in months",
+          "example": "48"
+        },
+        {
+          "key": "board_size",
+          "label": "Maximum number of directors",
+          "example": "5"
+        },
+        {
+          "key": "founder_director_count",
+          "label": "Number of directors nominated by the Founders",
+          "example": "2"
+        },
+        {
+          "key": "founder_rights_threshold",
+          "label": "Minimum aggregate Founder shareholding to keep Founder board rights",
+          "example": "20%"
+        },
+        {
+          "key": "investor_director_count",
+          "label": "Number of directors nominated by the lead investor",
+          "example": "1"
+        },
+        {
+          "key": "mis_days",
+          "label": "Days after month end for monthly MIS",
+          "example": "21"
+        },
+        {
+          "key": "quarterly_days",
+          "label": "Days after quarter end for quarterly financials",
+          "example": "45"
+        },
+        {
+          "key": "audited_days",
+          "label": "Days after financial year end for audited financial statements",
+          "example": "180"
+        },
+        {
+          "key": "budget_days",
+          "label": "Days before the financial year for the draft Business Plan",
+          "example": "30"
+        },
+        {
+          "key": "drag_years",
+          "label": "Years from Closing after which the drag-along becomes exercisable",
+          "example": "7"
+        },
+        {
+          "key": "drag_valuation_floor",
+          "label": "Minimum implied equity value for a drag without Founder consent",
+          "example": "INR 500,00,00,000 (INR 500 crore)"
+        },
+        {
+          "key": "non_solicit_months",
+          "label": "Post-employment non-solicitation period in months",
+          "example": "12"
+        },
+        {
+          "key": "founder_vesting_percentage",
+          "label": "Percentage of Founder Securities subject to reverse vesting",
+          "example": "50%"
+        },
+        {
+          "key": "founder_vesting_months",
+          "label": "Reverse vesting period in months",
+          "example": "36"
+        },
+        {
+          "key": "esop_pool_percentage",
+          "label": "ESOP Pool as a percentage of fully diluted capital at Closing",
+          "example": "10"
+        },
+        {
+          "key": "arbitral_institution",
+          "label": "Arbitral institution (only if Option B is chosen)",
+          "example": "Mumbai Centre for International Arbitration"
+        },
+        {
+          "key": "arbitration_seat",
+          "label": "Seat of arbitration",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "arbitration_venue",
+          "label": "Venue of arbitration hearings",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "stamp_duty_payer",
+          "label": "Party bearing stamp duty on this Agreement",
+          "example": "the Company"
+        },
+        {
+          "key": "company_signatory_name",
+          "label": "Name of the person signing for the Company",
+          "example": "Founder A"
+        },
+        {
+          "key": "company_signatory_title",
+          "label": "Designation of the Company signatory",
+          "example": "Director"
+        },
+        {
+          "key": "investor_signatory_name",
+          "label": "Name of the person signing for the lead investor",
+          "example": "Partner A"
+        },
+        {
+          "key": "investor_signatory_title",
+          "label": "Designation of the lead investor's signatory",
+          "example": "Authorised Signatory"
+        },
+        {
+          "key": "other_investors_details",
+          "label": "Name, description, address and email of each other Investor",
+          "example": "Angel Investor A, an individual resident in India holding PAN CCCCC0000C, of 22 Lake View Road, Pune 411001 (angel@example.in)"
+        },
+        {
+          "key": "debt_threshold",
+          "label": "Annual borrowing/encumbrance threshold",
+          "example": "INR 1,00,00,000 (INR 1 crore)"
+        },
+        {
+          "key": "capex_threshold",
+          "label": "Unbudgeted capital expenditure threshold",
+          "example": "INR 50,00,000 (INR 50 lakh)"
+        },
+        {
+          "key": "litigation_threshold",
+          "label": "Litigation value threshold",
+          "example": "INR 25,00,000 (INR 25 lakh)"
+        },
+        {
+          "key": "contract_threshold",
+          "label": "Contract value threshold outside the ordinary course",
+          "example": "INR 1,00,00,000 (INR 1 crore)"
+        },
+        {
+          "key": "company_email",
+          "label": "Company's email for notices",
+          "example": "legal@example.in"
+        },
+        {
+          "key": "investor_email",
+          "label": "Lead investor's email for notices",
+          "example": "notices@example.in"
+        }
+      ],
+      "path": "templates/shareholders-agreement/template.md",
+      "word_count": 12574
+    },
+    {
+      "id": "statement-of-work",
+      "title": "Statement of Work",
+      "category": "commercial",
+      "summary": "Project-level Statement of Work issued under a Master Services Agreement, covering scope, deliverables, milestones, fees, acceptance and change control.",
+      "audience": [
+        "startup",
+        "sme",
+        "enterprise"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Indian Contract Act, 1872",
+        "Copyright Act, 1957",
+        "Central Goods and Services Tax Act, 2017",
+        "Digital Personal Data Protection Act, 2023",
+        "Arbitration and Conciliation Act, 1996"
+      ],
+      "document_type": "agreement",
+      "parties": 2,
+      "stamp_duty": "check",
+      "e_signature": "permitted",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "master-services-agreement",
+        "service-level-agreement",
+        "data-processing-agreement",
+        "saas-subscription-agreement"
+      ],
+      "fields": [
+        {
+          "key": "sow_number",
+          "label": "Statement of Work reference number",
+          "example": "SOW-2026-003"
+        },
+        {
+          "key": "effective_date",
+          "label": "Date this SOW is signed / takes effect",
+          "example": "1 December 2026"
+        },
+        {
+          "key": "company_name",
+          "label": "Provider's full legal name",
+          "example": "Acme Technologies Private Limited"
+        },
+        {
+          "key": "counterparty_name",
+          "label": "Customer's full legal name",
+          "example": "Bharat Retail Solutions Limited"
+        },
+        {
+          "key": "msa_date",
+          "label": "Date of the Master Services Agreement",
+          "example": "1 November 2026"
+        },
+        {
+          "key": "project_name",
+          "label": "Project name",
+          "example": "Omnichannel Order Management Platform – Phase 1"
+        },
+        {
+          "key": "project_start_date",
+          "label": "Project start date",
+          "example": "8 December 2026"
+        },
+        {
+          "key": "project_end_date",
+          "label": "Target completion date",
+          "example": "31 May 2027"
+        },
+        {
+          "key": "project_background",
+          "label": "Short description of the Customer's business need",
+          "example": "The Customer wishes to replace its legacy order management system with a cloud-native platform integrated with its e-commerce storefront and ERP."
+        },
+        {
+          "key": "project_objectives",
+          "label": "Measurable project objectives",
+          "example": "Go-live of order capture, inventory sync and returns modules for 120 stores by 31 May 2027."
+        },
+        {
+          "key": "in_scope_services",
+          "label": "Description of in-scope Services",
+          "example": "Requirements validation, solution design, development of three modules, integration with the Customer's ERP via documented APIs, testing support, deployment and 30 days of hypercare."
+        },
+        {
+          "key": "out_of_scope_items",
+          "label": "Items expressly out of scope",
+          "example": "Data cleansing of legacy records; hardware procurement; changes to the ERP itself; end-user training beyond two train-the-trainer sessions."
+        },
+        {
+          "key": "deliverable_1",
+          "label": "Deliverable 1 – name and description",
+          "example": "Solution Design Document"
+        },
+        {
+          "key": "deliverable_1_date",
+          "label": "Deliverable 1 – due date",
+          "example": "15 January 2027"
+        },
+        {
+          "key": "deliverable_2",
+          "label": "Deliverable 2 – name and description",
+          "example": "Order Capture and Inventory Sync modules (source code and configuration)"
+        },
+        {
+          "key": "deliverable_2_date",
+          "label": "Deliverable 2 – due date",
+          "example": "31 March 2027"
+        },
+        {
+          "key": "deliverable_3",
+          "label": "Deliverable 3 – name and description",
+          "example": "Returns module, deployment runbook and production go-live"
+        },
+        {
+          "key": "deliverable_3_date",
+          "label": "Deliverable 3 – due date",
+          "example": "15 May 2027"
+        },
+        {
+          "key": "pricing_model",
+          "label": "Pricing model",
+          "example": "Fixed price"
+        },
+        {
+          "key": "total_fees",
+          "label": "Total Fees for this SOW (excluding GST)",
+          "example": "₹ 85,00,000 (INR 85 lakh)"
+        },
+        {
+          "key": "milestone_1_amount",
+          "label": "Milestone 1 payment amount",
+          "example": "₹ 17,00,000"
+        },
+        {
+          "key": "milestone_2_amount",
+          "label": "Milestone 2 payment amount",
+          "example": "₹ 34,00,000"
+        },
+        {
+          "key": "milestone_3_amount",
+          "label": "Milestone 3 payment amount",
+          "example": "₹ 25,50,000"
+        },
+        {
+          "key": "milestone_4_amount",
+          "label": "Milestone 4 (hypercare completion) payment amount",
+          "example": "₹ 8,50,000"
+        },
+        {
+          "key": "rate_card",
+          "label": "Time-and-materials rates for change requests and additional work",
+          "example": "Architect ₹ 12,000 per day; Senior Developer ₹ 8,000 per day; QA Engineer ₹ 6,000 per day"
+        },
+        {
+          "key": "acceptance_period_days",
+          "label": "Business days for acceptance testing of each Deliverable",
+          "example": "10"
+        },
+        {
+          "key": "hypercare_days",
+          "label": "Days of post-go-live hypercare support",
+          "example": "30"
+        },
+        {
+          "key": "work_location",
+          "label": "Location(s) from which Services will be performed",
+          "example": "Provider's offices in Bengaluru, with on-site presence at the Customer's Mumbai office as required"
+        },
+        {
+          "key": "company_project_manager",
+          "label": "Provider's project manager (name and email)",
+          "example": "Neha Kulkarni, neha.k@acmetech.example"
+        },
+        {
+          "key": "counterparty_project_manager",
+          "label": "Customer's project manager (name and email)",
+          "example": "Arjun Iyer, arjun.iyer@bharatretail.example"
+        },
+        {
+          "key": "personal_data_description",
+          "label": "Categories of personal data and Data Principals to be processed (or \"None\")",
+          "example": "Names, phone numbers, email and delivery addresses of the Customer's retail customers; names and work emails of Customer employees"
+        },
+        {
+          "key": "stamp_duty_payer",
+          "label": "Party bearing stamp duty on this SOW (if separately chargeable)",
+          "example": "the Customer"
+        },
+        {
+          "key": "company_signatory_name",
+          "label": "Name of Provider's authorised signatory",
+          "example": "Asha Menon"
+        },
+        {
+          "key": "company_signatory_title",
+          "label": "Designation of Provider's authorised signatory",
+          "example": "Director"
+        },
+        {
+          "key": "counterparty_signatory_name",
+          "label": "Name of Customer's authorised signatory",
+          "example": "Rohan Desai"
+        },
+        {
+          "key": "counterparty_signatory_title",
+          "label": "Designation of Customer's authorised signatory",
+          "example": "Chief Technology Officer"
+        }
+      ],
+      "path": "templates/statement-of-work/template.md",
+      "word_count": 3050
+    },
+    {
+      "id": "term-sheet",
+      "title": "Term Sheet for Seed / Series A Investment (CCPS)",
+      "category": "fundraising",
+      "summary": "Term sheet for a priced seed or Series A round in an Indian private company issuing CCPS; binding only on confidentiality, exclusivity, costs and governing law.",
+      "audience": [
+        "startup",
+        "investor"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Companies Act, 2013",
+        "Foreign Exchange Management Act, 1999",
+        "Foreign Exchange Management (Non-debt Instruments) Rules, 2019",
+        "Indian Contract Act, 1872",
+        "Arbitration and Conciliation Act, 1996"
+      ],
+      "document_type": "term-sheet",
+      "parties": 3,
+      "stamp_duty": "check",
+      "e_signature": "permitted",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "shareholders-agreement",
+        "isafe-note",
+        "board-resolutions",
+        "esop-plan",
+        "founders-agreement",
+        "mutual-nda"
+      ],
+      "fields": [
+        {
+          "key": "round_name",
+          "label": "Name of the financing round",
+          "example": "Series A"
+        },
+        {
+          "key": "company_name",
+          "label": "Company's full legal name",
+          "example": "Acme Technologies Private Limited"
+        },
+        {
+          "key": "effective_date",
+          "label": "Date of this term sheet",
+          "example": "1 November 2026"
+        },
+        {
+          "key": "company_cin",
+          "label": "Company's Corporate Identity Number",
+          "example": "U72900KA2023PTC000000"
+        },
+        {
+          "key": "company_address",
+          "label": "Company's registered office address",
+          "example": "4th Floor, 12 Residency Road, Bengaluru 560025, Karnataka"
+        },
+        {
+          "key": "ccps_series_name",
+          "label": "Name of the CCPS series",
+          "example": "Series A CCPS"
+        },
+        {
+          "key": "ccps_face_value",
+          "label": "Face value per CCPS",
+          "example": "₹ 10"
+        },
+        {
+          "key": "equity_face_value",
+          "label": "Face value per Equity Share",
+          "example": "₹ 1"
+        },
+        {
+          "key": "founder_names",
+          "label": "Full names of the founders",
+          "example": "Founder A and Founder B"
+        },
+        {
+          "key": "lead_investor_name",
+          "label": "Lead investor's full legal name",
+          "example": "Example Ventures Fund I"
+        },
+        {
+          "key": "other_investor_names",
+          "label": "Other investors participating in the round (or \"None\")",
+          "example": "Angel Investor A and Angel Investor B"
+        },
+        {
+          "key": "round_size",
+          "label": "Aggregate Subscription Amount for the round",
+          "example": "INR 40,00,00,000 (INR 40 crore)"
+        },
+        {
+          "key": "lead_investor_commitment",
+          "label": "Amount committed by the lead investor",
+          "example": "INR 30,00,00,000 (INR 30 crore)"
+        },
+        {
+          "key": "pre_money_valuation",
+          "label": "Pre-money valuation on a Fully Diluted Basis",
+          "example": "INR 160,00,00,000 (INR 160 crore)"
+        },
+        {
+          "key": "esop_pool_percentage",
+          "label": "Ungranted ESOP Pool as a percentage of post-Closing fully diluted capital",
+          "example": "10"
+        },
+        {
+          "key": "ccps_dividend_rate",
+          "label": "Preferential non-cumulative dividend rate on the CCPS (per annum)",
+          "example": "0.001%"
+        },
+        {
+          "key": "conversion_long_stop_years",
+          "label": "Outer limit for mandatory conversion of the CCPS (years from allotment)",
+          "example": "19"
+        },
+        {
+          "key": "board_size",
+          "label": "Maximum number of directors after Closing",
+          "example": "5"
+        },
+        {
+          "key": "founder_director_count",
+          "label": "Number of directors nominated by the founders",
+          "example": "2"
+        },
+        {
+          "key": "investor_director_count",
+          "label": "Number of directors nominated by the lead investor",
+          "example": "1"
+        },
+        {
+          "key": "investor_rights_threshold",
+          "label": "Minimum fully diluted shareholding for an investor to keep its special rights",
+          "example": "5%"
+        },
+        {
+          "key": "mis_days",
+          "label": "Days after month end for monthly MIS",
+          "example": "21"
+        },
+        {
+          "key": "quarterly_days",
+          "label": "Days after quarter end for quarterly unaudited financials",
+          "example": "45"
+        },
+        {
+          "key": "audited_days",
+          "label": "Days after financial year end for audited financial statements",
+          "example": "180"
+        },
+        {
+          "key": "budget_days",
+          "label": "Days before start of the financial year for the annual budget",
+          "example": "30"
+        },
+        {
+          "key": "founder_lockin_months",
+          "label": "Founder lock-in period in months",
+          "example": "48"
+        },
+        {
+          "key": "founder_vesting_percentage",
+          "label": "Percentage of each founder's Securities subject to reverse vesting",
+          "example": "50%"
+        },
+        {
+          "key": "founder_vesting_months",
+          "label": "Reverse vesting period in months",
+          "example": "36"
+        },
+        {
+          "key": "exit_years",
+          "label": "Exit Period in years from Closing",
+          "example": "6"
+        },
+        {
+          "key": "drag_years",
+          "label": "Years from Closing after which the drag-along becomes exercisable",
+          "example": "7"
+        },
+        {
+          "key": "drag_valuation_floor",
+          "label": "Minimum implied equity value for a drag sale without founder consent",
+          "example": "INR 500,00,00,000 (INR 500 crore)"
+        },
+        {
+          "key": "long_stop_date",
+          "label": "Long-Stop Date for Closing",
+          "example": "31 January 2027"
+        },
+        {
+          "key": "investor_costs_cap",
+          "label": "Cap on the lead investor's costs reimbursed by the Company",
+          "example": "INR 15,00,000"
+        },
+        {
+          "key": "exclusivity_days",
+          "label": "Exclusivity Period in days",
+          "example": "60"
+        },
+        {
+          "key": "arbitral_institution",
+          "label": "Arbitral institution (only if Option B is chosen)",
+          "example": "Mumbai Centre for International Arbitration"
+        },
+        {
+          "key": "arbitration_seat",
+          "label": "Seat of arbitration",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "arbitration_venue",
+          "label": "Venue of arbitration hearings",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "company_signatory_name",
+          "label": "Name of the person signing for the Company",
+          "example": "Founder A"
+        },
+        {
+          "key": "investor_signatory_name",
+          "label": "Name of the person signing for the lead investor",
+          "example": "Partner A"
+        },
+        {
+          "key": "company_signatory_title",
+          "label": "Designation of the Company signatory",
+          "example": "Director"
+        },
+        {
+          "key": "investor_signatory_title",
+          "label": "Designation of the lead investor's signatory",
+          "example": "Authorised Signatory"
+        },
+        {
+          "key": "company_email",
+          "label": "Company's email for notices",
+          "example": "legal@example.in"
+        },
+        {
+          "key": "investor_email",
+          "label": "Lead investor's email for notices",
+          "example": "notices@example.in"
+        },
+        {
+          "key": "debt_threshold",
+          "label": "Annual borrowing/encumbrance threshold requiring investor consent",
+          "example": "INR 1,00,00,000 (INR 1 crore)"
+        }
+      ],
+      "path": "templates/term-sheet/template.md",
+      "word_count": 8130
+    },
+    {
+      "id": "terms-of-use",
+      "title": "Terms of Use (Website and App)",
+      "category": "privacy-web",
+      "summary": "Website and app terms for an Indian platform, with IT Rules, 2021 content and grievance provisions and consumer-law safeguards.",
+      "audience": [
+        "startup",
+        "sme",
+        "enterprise"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Indian Contract Act, 1872",
+        "Information Technology Act, 2000",
+        "Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021",
+        "Consumer Protection Act, 2019",
+        "Consumer Protection (E-Commerce) Rules, 2020",
+        "Digital Personal Data Protection Act, 2023",
+        "Copyright Act, 1957",
+        "Arbitration and Conciliation Act, 1996"
+      ],
+      "document_type": "agreement",
+      "parties": 2,
+      "stamp_duty": "not-applicable",
+      "e_signature": "permitted",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "privacy-policy",
+        "cookie-notice",
+        "saas-subscription-agreement",
+        "ai-acceptable-use-policy"
+      ],
+      "fields": [
+        {
+          "key": "brand_name",
+          "label": "Brand, website or app name used publicly",
+          "example": "Acme"
+        },
+        {
+          "key": "effective_date",
+          "label": "Date this version of the terms takes effect",
+          "example": "1 November 2026"
+        },
+        {
+          "key": "company_name",
+          "label": "Company's full legal name",
+          "example": "Acme Technologies Private Limited"
+        },
+        {
+          "key": "company_cin",
+          "label": "Corporate Identity Number (CIN)",
+          "example": "U72900KA2024PTC123456"
+        },
+        {
+          "key": "company_address",
+          "label": "Registered office address",
+          "example": "4th Floor, 12 MG Road, Bengaluru, Karnataka 560001"
+        },
+        {
+          "key": "website_url",
+          "label": "Website address(es) covered",
+          "example": "www.acme.example"
+        },
+        {
+          "key": "app_name",
+          "label": "Name of the mobile application(s) covered",
+          "example": "Acme for Android and iOS"
+        },
+        {
+          "key": "service_description",
+          "label": "One-line description of what the platform does",
+          "example": "an online marketplace connecting home-cooks with customers"
+        },
+        {
+          "key": "subscription_terms_location",
+          "label": "Where pricing and plan details are displayed",
+          "example": "the Pricing page on our website"
+        },
+        {
+          "key": "refund_policy_location",
+          "label": "Where the refund and cancellation policy is published",
+          "example": "the Refunds page linked in the website footer"
+        },
+        {
+          "key": "liability_cap_amount",
+          "label": "Aggregate liability cap for free users (in INR)",
+          "example": "₹ 10,000"
+        },
+        {
+          "key": "notice_period_days",
+          "label": "Days of advance notice given for material changes to these terms",
+          "example": 15
+        },
+        {
+          "key": "grievance_officer_name",
+          "label": "Name of the Grievance Officer",
+          "example": "Priya Sharma (illustrative)"
+        },
+        {
+          "key": "grievance_officer_email",
+          "label": "Email address of the Grievance Officer",
+          "example": "grievance@acme.example"
+        },
+        {
+          "key": "grievance_officer_address",
+          "label": "Postal address of the Grievance Officer",
+          "example": "4th Floor, 12 MG Road, Bengaluru, Karnataka 560001"
+        },
+        {
+          "key": "grievance_officer_phone",
+          "label": "Telephone number of the Grievance Officer",
+          "example": "+91 80 4000 0000"
+        },
+        {
+          "key": "governing_city",
+          "label": "City whose courts have jurisdiction",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "arbitration_seat",
+          "label": "Seat of arbitration",
+          "example": "Bengaluru"
+        },
+        {
+          "key": "company_email",
+          "label": "General contact email",
+          "example": "hello@acme.example"
+        }
+      ],
+      "path": "templates/terms-of-use/template.md",
+      "word_count": 5755
+    },
+    {
+      "id": "vendor-agreement",
+      "title": "Vendor Agreement",
+      "category": "commercial",
+      "summary": "Customer-leaning procurement framework for buying goods and/or services from a supplier through purchase orders, with MSMED, Labour Code and DPDP terms.",
+      "audience": [
+        "startup",
+        "sme",
+        "enterprise"
+      ],
+      "jurisdiction": "IN",
+      "governing_laws": [
+        "Indian Contract Act, 1872",
+        "Sale of Goods Act, 1930",
+        "Micro, Small and Medium Enterprises Development Act, 2006",
+        "Central Goods and Services Tax Act, 2017",
+        "Code on Wages, 2019",
+        "Code on Social Security, 2020",
+        "Occupational Safety, Health and Working Conditions Code, 2020",
+        "Digital Personal Data Protection Act, 2023",
+        "Prevention of Corruption Act, 1988",
+        "Arbitration and Conciliation Act, 1996"
+      ],
+      "document_type": "agreement",
+      "parties": 2,
+      "stamp_duty": "required",
+      "e_signature": "permitted",
+      "version": "0.1.0",
+      "last_updated": "2026-10-16",
+      "review_status": "draft",
+      "related": [
+        "master-services-agreement",
+        "data-processing-agreement",
+        "mutual-nda",
+        "service-level-agreement",
+        "statement-of-work"
+      ],
+      "fields": [
+        {
+          "key": "effective_date",
+          "label": "Effective date of this Agreement",
+          "example": "1 November 2026"
+        },
+        {
+          "key": "company_name",
+          "label": "Customer's (buyer's) full legal name",
+          "example": "Acme Retail Private Limited"
+        },
+        {
+          "key": "company_cin",
+          "label": "Customer's Corporate Identity Number (CIN) or LLPIN",
+          "example": "U52100DL2019PTC345678"
+        },
+        {
+          "key": "company_address",
+          "label": "Customer's registered office address",
+          "example": "Plot 14, Okhla Industrial Area Phase II, New Delhi 110020"
+        },
+        {
+          "key": "counterparty_name",
+          "label": "Supplier's full legal name",
+          "example": "Shree Packaging Industries Private Limited"
+        },
+        {
+          "key": "counterparty_address",
+          "label": "Supplier's registered office or principal place of business",
+          "example": "Plot 22, MIDC Bhosari, Pune 411026, Maharashtra"
+        },
+        {
+          "key": "counterparty_gstin",
+          "label": "Supplier's GSTIN",
+          "example": "27AAACS1234F1Z5"
+        },
+        {
+          "key": "po_acceptance_days",
+          "label": "Business days within which Supplier must accept or reject a Purchase Order",
+          "example": "2"
+        },
+        {
+          "key": "delay_ld_percent",
+          "label": "Liquidated damages for late delivery, per week (percentage of value of delayed item)",
+          "example": "0.5"
+        },
+        {
+          "key": "delay_ld_cap_percent",
+          "label": "Maximum liquidated damages for delay (percentage of value of the relevant Purchase Order)",
+          "example": "10"
+        },
+        {
+          "key": "inspection_days",
+          "label": "Days after delivery within which Customer may inspect and reject Goods",
+          "example": "15"
+        },
+        {
+          "key": "warranty_months",
+          "label": "Warranty period for Goods (months from acceptance)",
+          "example": "12"
+        },
+        {
+          "key": "payment_days",
+          "label": "Days from receipt of valid invoice (or acceptance, if later) within which Customer pays",
+          "example": "45"
+        },
+        {
+          "key": "audit_notice_days",
+          "label": "Business days' notice for an audit",
+          "example": "10"
+        },
+        {
+          "key": "confidentiality_years",
+          "label": "Years for which confidentiality survives termination",
+          "example": "5"
+        },
+        {
+          "key": "breach_notice_hours",
+          "label": "Hours within which Supplier notifies Customer of a personal data breach",
+          "example": "24"
+        },
+        {
+          "key": "supplier_cap",
+          "label": "Supplier's general liability cap",
+          "example": "the greater of (a) ₹ 1,00,00,000 (INR 1 crore) and (b) two (2) times the total Charges paid and payable in the twelve (12) months preceding the claim"
+        },
+        {
+          "key": "super_cap_multiple",
+          "label": "Multiple of annual Charges for the Supplier's super-cap on data, confidentiality and IP",
+          "example": "three (3)"
+        },
+        {
+          "key": "insurance_amount",
+          "label": "Minimum public/product liability insurance cover",
+          "example": "₹ 5,00,00,000 (INR 5 crore)"
+        },
+        {
+          "key": "initial_term_years",
+          "label": "Initial term in years",
+          "example": "3"
+        },
+        {
+          "key": "convenience_notice_days",
+          "label": "Days' notice for Customer's termination for convenience",
+          "example": "30"
+        },
+        {
+          "key": "cure_period_days",
+          "label": "Days allowed to cure a material breach",
+          "example": "30"
+        },
+        {
+          "key": "escalation_days",
+          "label": "Days for senior-executive negotiation before arbitration",
+          "example": "30"
+        },
+        {
+          "key": "arbitration_seat",
+          "label": "Seat of arbitration (city)",
+          "example": "New Delhi"
+        },
+        {
+          "key": "arbitration_venue",
+          "label": "Venue for hearings",
+          "example": "New Delhi"
+        },
+        {
+          "key": "governing_city",
+          "label": "City whose courts have jurisdiction for non-arbitrable matters",
+          "example": "New Delhi"
+        },
+        {
+          "key": "company_email",
+          "label": "Customer's email address for notices",
+          "example": "procurement.legal@acmeretail.example"
+        },
+        {
+          "key": "counterparty_email",
+          "label": "Supplier's email address for notices",
+          "example": "contracts@shreepackaging.example"
+        },
+        {
+          "key": "stamp_duty_payer",
+          "label": "Party bearing stamp duty",
+          "example": "the Supplier"
+        },
+        {
+          "key": "company_signatory_name",
+          "label": "Name of Customer's authorised signatory",
+          "example": "Meera Kapoor"
+        },
+        {
+          "key": "company_signatory_title",
+          "label": "Designation of Customer's authorised signatory",
+          "example": "Head of Procurement"
+        },
+        {
+          "key": "counterparty_signatory_name",
+          "label": "Name of Supplier's authorised signatory",
+          "example": "Sunil Joshi"
+        },
+        {
+          "key": "counterparty_signatory_title",
+          "label": "Designation of Supplier's authorised signatory",
+          "example": "Managing Director"
+        }
+      ],
+      "path": "templates/vendor-agreement/template.md",
+      "word_count": 11406
+    }
+  ]
+}
