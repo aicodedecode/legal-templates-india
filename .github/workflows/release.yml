@@ -1,0 +1,35 @@
+name: Release Word files
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update && sudo apt-get install -y pandoc
+      - run: pip install -r scripts/requirements.txt
+      - run: python3 scripts/validate.py
+      - run: python3 scripts/build_docx.py
+      - name: Create release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cat > notes.md <<NOTES
+          Word versions of all templates in this release.
+
+          - \`<template>.docx\`: clean copy; blanks are highlighted as [Field label] and drafting notes are removed.
+          - \`<template>-annotated.docx\`: drafting notes kept as shaded paragraphs, for review and markup.
+          - \`legal-templates-india-docx.zip\`: everything in one download.
+
+          **Not legal advice.** Templates marked Draft have not been reviewed by an advocate. Have an advocate qualified in India review the final document and pay stamp duty under the applicable State Stamp Act before signing.
+          NOTES
+          gh release create "$GITHUB_REF_NAME" dist/*.docx dist/*.zip --title "$GITHUB_REF_NAME" --notes-file notes.md
