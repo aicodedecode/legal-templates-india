@@ -1,8 +1,5 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/logo-dark.svg">
-    <img src="docs/assets/logo-light.svg" width="88" height="88" alt="100x Legal Templates logo">
-  </picture>
+  <img src="docs/assets/logo.png" width="88" height="88" alt="100x Legal Templates logo">
 </p>
 
 <h1 align="center">100x Legal Templates</h1>

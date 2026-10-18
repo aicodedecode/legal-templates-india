@@ -94,7 +94,7 @@ a:hover { text-decoration-color: var(--cyan); }
   gap: 10px 24px; padding: 14px 24px; border-bottom: 1px solid var(--border);
 }
 .brand { display: inline-flex; align-items: center; gap: 12px; color: var(--text); text-decoration: none; }
-.logo { width: 40px; height: 40px; flex: none; }
+.logo { width: 40px; height: 40px; flex: none; object-fit: contain; }
 .wordmark { font: 600 23px/1.1 var(--display); letter-spacing: -0.01em; }
 /* Playfair defaults to old-style figures, which make "100x" read as "1oox". */
 .wordmark, .home h1, .cards h2, .card strong, .doc-head h1, .form h2 { font-variant-numeric: lining-nums; }
