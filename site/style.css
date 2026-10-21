@@ -12,6 +12,8 @@
   --accent: #111111;          /* buttons on light: ink, with cyan details */
   --accent-text: #ffffff;
   --link-line: #00b8cc;
+  --scroll-thumb: #c9c4c9;
+  --scroll-thumb-hover: #00b8cc;
   --selected: #e9fbfd;
   --aurora: linear-gradient(transparent, transparent);
   --display: "Playfair Display", Georgia, "Times New Roman", serif;
@@ -35,6 +37,8 @@
     --accent: #00e5ff;
     --accent-text: #050505;
     --link-line: #00e5ff;
+    --scroll-thumb: #2a2f37;
+    --scroll-thumb-hover: #00e5ff;
     --selected: #0b2328;
     --aurora: radial-gradient(60vw 40vw at 85% -10%, rgba(0, 229, 255, 0.10), transparent 60%),
               radial-gradient(50vw 40vw at -10% 30%, rgba(0, 150, 255, 0.07), transparent 60%),
@@ -55,6 +59,8 @@
   --accent: #00e5ff;
   --accent-text: #050505;
   --link-line: #00e5ff;
+  --scroll-thumb: #2a2f37;
+  --scroll-thumb-hover: #00e5ff;
   --selected: #0b2328;
   --aurora: radial-gradient(60vw 40vw at 85% -10%, rgba(0, 229, 255, 0.10), transparent 60%),
             radial-gradient(50vw 40vw at -10% 30%, rgba(0, 150, 255, 0.07), transparent 60%),
@@ -82,6 +88,23 @@ a { color: var(--text); text-decoration-color: var(--link-line); text-decoration
 a:hover { text-decoration-color: var(--cyan); }
 
 :focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
+
+/* Scrollbars: thin brand-coloured pill on a transparent track, cyan on hover. */
+html, .sidebar, .form, .template-list, .preview table {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scroll-thumb) transparent;
+}
+:is(.sidebar, .form, .template-list, .preview table):hover { scrollbar-color: var(--scroll-thumb-hover) transparent; }
+.sidebar, .form { scrollbar-gutter: stable; }
+/* WebKit fallback (Safari); browsers with scrollbar-color support use the rules above. */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: var(--scroll-thumb); border-radius: 999px;
+  border: 3px solid transparent; background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:hover { background-color: var(--scroll-thumb-hover); }
+::-webkit-scrollbar-corner { background: transparent; }
 
 .visually-hidden {
   position: absolute; width: 1px; height: 1px; overflow: hidden;
@@ -218,7 +241,8 @@ a.btn { display: inline-block; text-decoration: none; }
 .preview h3 { font-size: 15.5px; margin: 18px 0 6px; }
 .preview p { margin: 0 0 10px; text-align: justify; }
 .preview a { color: #111111; }
-.preview table { border-collapse: collapse; width: 100%; margin: 10px 0 16px; font-size: 14px; display: block; overflow-x: auto; }
+/* The preview is a white page in both themes, so its tables keep the light thumb. */
+.preview table { --scroll-thumb: #c9c4c9; border-collapse: collapse; width: 100%; margin: 10px 0 16px; font-size: 14px; display: block; overflow-x: auto; }
 .preview th, .preview td { border: 1px solid #d9d9de; padding: 6px 8px; vertical-align: top; text-align: left; }
 .preview blockquote {
   margin: 10px 0; padding: 10px 14px; background: #f2f5f6; border-left: 3px solid var(--cyan);
