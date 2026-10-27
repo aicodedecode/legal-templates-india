@@ -24,11 +24,8 @@ Income-tax Act 2025). **No template has been advocate-reviewed yet.** A template
 3. **Repealed-law hygiene** BNS/BSA/BNSS-era references only
 4. **Advocate review gate** the human layer, currently pending
 
-## License and credit
-CC0 1.0. This library was forked from
-[dharmabot-ai/legal-templates-india](https://github.com/dharmabot-ai/legal-templates-india),
-which follows the model of [General-Legal/legal-templates](https://github.com/General-Legal/legal-templates).
-Credit is not required by CC0 and is given in good faith.
+## License
+CC0 1.0.
 
 **Not legal advice.** These are starting points. Have an advocate qualified in India review any
 document before you rely on it, and pay the applicable state stamp duty.

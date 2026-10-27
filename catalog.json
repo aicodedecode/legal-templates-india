@@ -3,7 +3,6 @@
  "version": "0.1.0",
  "updated": "2026-10-28",
  "note": "Statute citations verified 2026-10-28. All templates are drafts pending advocate review; see REVIEW-CHECKLIST.md.",
- "adapted_from": "https://github.com/dharmabot-ai/legal-templates-india (CC0 1.0)",
  "templates": [
   {"id":"mutual-nda","title":"Mutual Non-Disclosure Agreement","category":"startup-core","summary":"Two-way confidentiality agreement for Indian parties exploring a business relationship, with AI-training restrictions and arbitration.","stamp_duty":"required","e_signature":"permitted","fill_fields":19,"review_status":"draft","verification":"deep_statute_check","last_updated":"2026-10-16"},
   {"id":"one-way-nda","title":"One-Way Non-Disclosure Agreement","category":"startup-core","summary":"Disclosing-party-friendly confidentiality agreement for sharing a company's information with a single recipient.","stamp_duty":"required","e_signature":"permitted","fill_fields":19,"review_status":"draft","verification":"deep_statute_check","last_updated":"2026-10-16"},
