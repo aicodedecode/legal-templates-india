@@ -1,16 +1,16 @@
 ---
 name: indian-legal-templates
-description: Draft Indian-law contracts, policies and corporate documents (NDAs, consultancy, employment, ESOP, founders' agreement, MSA, SaaS, SOW, SLA, vendor, distribution, privacy policy, terms of use, DPA, AI policy, term sheet, iSAFE, SHA, board resolutions, POSH, handbook) from the open-source 100x Legal Templates library (legal-templates-india). Use when a user asks for one of these documents for an Indian company or under Indian law.
+description: Draft Indian-law contracts, policies and corporate documents (NDAs, consultancy, employment, ESOP, founders' agreement, MSA, SaaS, SOW, SLA, vendor, distribution, privacy policy, terms of use, DPA, AI policy, term sheet, iSAFE, SHA, board resolutions, POSH, handbook) from the open-source India Legal Templates library (legal-templates-india). Use when a user asks for one of these documents for an Indian company or under Indian law.
 ---
 
 # Indian legal templates
 
-Fill templates from the 100x Legal Templates library (repo `legal-templates-india`) with the user's facts. The templates are AI-assisted drafts pending advocate review, so your output is a starting draft and you must say so.
+Fill templates from the India Legal Templates library (repo `legal-templates-india`) with the user's facts. The templates are AI-assisted drafts pending advocate review, so your output is a starting draft and you must say so.
 
 ## Where the files are
 
 - Inside a clone of the repo, read `catalog.json` and `templates/<id>/template.md` directly.
-- Otherwise fetch from `https://raw.githubusercontent.com/dharmabot-ai/legal-templates-india/main/` (start with `catalog.json`).
+- Otherwise fetch from `https://raw.githubusercontent.com/aicodedecode/legal-templates-india/main/` (start with `catalog.json`).
 - If the `legal-templates-india` MCP server is connected, use its `list_templates`, `get_fields` and `fill_template` tools instead.
 
 ## Workflow

@@ -15,9 +15,9 @@ from common import CATEGORIES, ROOT, iter_slugs, load_template
 CATALOG_PATH = ROOT / "catalog.json"
 README_PATH = ROOT / "README.md"
 LLMS_PATH = ROOT / "llms.txt"
-REPO = "dharmabot-ai/legal-templates-india"
+REPO = "aicodedecode/legal-templates-india"
 RAW_BASE = f"https://raw.githubusercontent.com/{REPO}/main"
-SITE_URL = "https://dharmabot-ai.github.io/legal-templates-india/"
+SITE_URL = "https://aicodedecode.github.io/legal-templates-india/"
 START, END = "<!-- catalog:start -->", "<!-- catalog:end -->"
 STATUS_BADGE = {"draft": "Draft", "community-reviewed": "Community reviewed",
                 "advocate-reviewed": "Advocate reviewed"}
@@ -46,7 +46,7 @@ def build_entries():
 
 def render_catalog(entries):
     catalog = {
-        "name": "100x Legal Templates",
+        "name": "India Legal Templates",
         "repository": f"https://github.com/{REPO}",
         "license": "CC0-1.0",
         "jurisdiction": "IN",
@@ -73,7 +73,7 @@ def render_table(entries):
 
 def render_llms(entries):
     lines = [
-        "# 100x Legal Templates",
+        "# India Legal Templates",
         "",
         "> Open-source (CC0) Indian-law legal templates for startups and enterprises, in Markdown with "
         "YAML front matter. Not legal advice: every template is an AI-assisted draft pending advocate "
